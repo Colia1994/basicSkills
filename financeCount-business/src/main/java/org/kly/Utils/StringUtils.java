@@ -23,6 +23,11 @@ public class StringUtils {
         return true;
     }
 
+    public static boolean isNotBlack(final CharSequence cs){
+        return !isBlack(cs);
+    }
+
+
 
 
 }
