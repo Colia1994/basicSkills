@@ -1,4 +1,4 @@
-package org.kly.validation;
+package org.kly.BasicSkills.Validation;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

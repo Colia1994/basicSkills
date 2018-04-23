@@ -1,8 +1,7 @@
-package org.kly.tableCommit;
+package org.kly.BasicSkills.TableCommit;
 
 
-import org.kly.validation.CustomerValidatorFactory;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.kly.BasicSkills.Validation.CustomerValidatorFactory;
 import org.springframework.validation.BindException;
 
 /**

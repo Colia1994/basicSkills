@@ -1,4 +1,4 @@
-package org.kly.basicSkills.postUrl;
+package org.kly.Tools.PostUrl;
 
 import java.util.Date;
 import java.util.Random;

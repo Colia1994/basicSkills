@@ -1,4 +1,4 @@
-package org.kly.validation;
+package org.kly.BasicSkills.Validation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

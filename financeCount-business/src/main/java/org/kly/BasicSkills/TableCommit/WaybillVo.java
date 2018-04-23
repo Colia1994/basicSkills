@@ -1,4 +1,4 @@
-package org.kly.tableCommit;
+package org.kly.BasicSkills.TableCommit;
 
 /**
  * 自定义校验-testvo

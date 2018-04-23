@@ -1,9 +1,8 @@
-package org.kly.Concurrent;
+package org.kly.BasicSkills.Concurrent;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -20,7 +19,7 @@ public class MonkeyStealsPeach {
 
     private List<String> monkeys = Arrays.asList("姜晨","大刀切鸭梨");
 
-    private final byte[] bytes = new byte[0];
+    private byte[] bytes = new byte[0];
 
     private void stealPeach(String monkeyName){
         if(numOfPeach>2) {
@@ -31,16 +30,17 @@ public class MonkeyStealsPeach {
             synchronized (bytes) {
                 System.out.println(monkeyName + "开始偷桃子,此时桃子还剩" + numOfPeach + "个");
                 if (numOfPeach > 2) {
-                    try{
-                        Thread.sleep(200);
-                    }catch(InterruptedException e){
-                        e.printStackTrace();
-                    }
                     numOfPeach = numOfPeach - 2;
                     System.out.println(monkeyName + "偷完了,此时桃子还剩" + numOfPeach + "个");
                 } else {
                     System.out.println(monkeyName + "生气的跑了,此时桃子还剩" + numOfPeach + "个");
                 }
+            }
+            try{
+                //每一次偷桃子拿走需要耗费200ms
+                Thread.sleep(200);
+            }catch(InterruptedException e){
+                e.printStackTrace();
             }
             if(numOfPeach >2) {
                 stealPeach(monkeyName);
