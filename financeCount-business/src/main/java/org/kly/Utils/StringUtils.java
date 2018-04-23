@@ -27,7 +27,4 @@ public class StringUtils {
         return !isBlack(cs);
     }
 
-
-
-
 }
