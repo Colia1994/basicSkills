@@ -19,6 +19,7 @@ public class BeanUtils {
 
     /**
      * 比较POJO对象 生成固定的（可优化）差异list
+     *
      * @param befObject 修改前pojo
      * @param aftObject 修改后pojo
      * @return 差异化list
@@ -34,16 +35,16 @@ public class BeanUtils {
 
             for (PropertyDescriptor befPd : befPDs) {
                 String befKey = befPd.getName();
-                for (PropertyDescriptor aftPd:aftPDs) {
+                for (PropertyDescriptor aftPd : aftPDs) {
                     String aftKey = aftPd.getName();
-                    if(StringUtils.equals(befKey,aftKey)){
+                    if (StringUtils.equals(befKey, aftKey)) {
                         Method befMethod = befPd.getReadMethod();
                         Method aftMethod = aftPd.getReadMethod();
-                        if(null != befMethod && null != aftMethod){
+                        if (null != befMethod && null != aftMethod) {
                             Object befValue = befMethod.invoke(befBeanInfo);
                             Object aftValue = aftMethod.invoke(aftBeanInfo);
-                            if(ObjectUtils.compare(befKey,aftKey) != 0){
-                                resultList.add(befKey+" " + befValue + "->" +aftValue + ";" );
+                            if (ObjectUtils.compare(befKey, aftKey) != 0) {
+                                resultList.add(befKey + " " + befValue + "->" + aftValue + ";");
                             }
                         }
                     }

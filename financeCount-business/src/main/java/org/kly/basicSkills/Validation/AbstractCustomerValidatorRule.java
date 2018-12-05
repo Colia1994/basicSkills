@@ -1,4 +1,4 @@
-package org.kly.basicSkills.validation;
+package org.kly.basicSkills.Validation;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.util.Assert;

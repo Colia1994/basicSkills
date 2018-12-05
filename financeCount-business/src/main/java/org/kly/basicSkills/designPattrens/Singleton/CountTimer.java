@@ -1,4 +1,4 @@
-package org.kly.basicSkills.designPattrens.singleton;
+package org.kly.basicSkills.designPattrens.Singleton;
 
 /**
  *   计时计数类

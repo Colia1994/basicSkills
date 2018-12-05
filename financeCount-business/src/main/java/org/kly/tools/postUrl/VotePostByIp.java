@@ -20,7 +20,7 @@ import java.util.Random;
  * @date 2017-08-08
  */
 public class VotePostByIp {
-    public static void main( String[] args ) {
+    public static void main(String[] args) {
         voteForMyFather();
     }
 
@@ -30,14 +30,15 @@ public class VotePostByIp {
     private static void voteForMyFather() {
         String url = "http://zxb.525j.com.cn/activity/api/votehandler.ashx";
         String prams = "type=voting&foremanid=58";
-        new RequestUrlThread(url,prams).start();
+        new RequestUrlThread(url, prams).start();
     }
 
     /**
      * 构建get请求
-     * @param url 地址
+     *
+     * @param url   地址
      * @param param 参数
-     * @param ip ip
+     * @param ip    ip
      * @return 服务器响应参数
      */
     static String sendGetToUrl(String url, String param, String ip) {
@@ -45,11 +46,11 @@ public class VotePostByIp {
         BufferedReader bufferedReader = null;
         String result = "";
         try {
-            URL realUrl = new URL(url+"?"+param);
+            URL realUrl = new URL(url + "?" + param);
             //构建模拟请求
             URLConnection urlConnection = realUrl.openConnection();
             //制定发送ip
-            if(!StringUtils.isBlack(ip)) {
+            if (!StringUtils.isBlack(ip)) {
                 urlConnection.setRequestProperty("X-Forwarded-For", ip);
                 urlConnection.setRequestProperty("HTTP_X_FORWARDED_FOR", ip);
                 urlConnection.setRequestProperty("HTTP_CLIENT_IP", ip);
@@ -82,12 +83,13 @@ public class VotePostByIp {
 
     /**
      * 构建post请求
-     * @param url 地址
-     * @param param  参数
-     * @param ip ip
+     *
+     * @param url   地址
+     * @param param 参数
+     * @param ip    ip
      * @return 服务器返回结果
      */
-    public String sendPostToUrl(String url, String param,String ip) {
+    public String sendPostToUrl(String url, String param, String ip) {
         PrintWriter printWriter = null;
         BufferedReader bufferedReader = null;
         String result = "";
@@ -96,7 +98,7 @@ public class VotePostByIp {
             //构建模拟请求
             URLConnection urlConnection = realUrl.openConnection();
             //制定发送ip
-            if(!StringUtils.isBlack(ip)) {
+            if (!StringUtils.isBlack(ip)) {
                 urlConnection.setRequestProperty("X-Forwarded-For", ip);
                 urlConnection.setRequestProperty("HTTP_X_FORWARDED_FOR", ip);
                 urlConnection.setRequestProperty("HTTP_CLIENT_IP", ip);
@@ -146,20 +148,21 @@ public class VotePostByIp {
     }
 
     /**
-     *  生成一个随机ip
+     * 生成一个随机ip
+     *
      * @return ip
      */
     static String randomIpAddr(String code) {
         //设定一个种子，确保多线程每一次生成的ip组合序列一定不相同
         long seed = System.currentTimeMillis();
         Random random = new Random(seed);
-        int ip1,ip2,ip3,ip4;
-        if(!"china".equals(code)) {
+        int ip1, ip2, ip3, ip4;
+        if (!"china".equals(code)) {
             ip1 = random.nextInt(255) + 1;//左闭右开
             ip2 = random.nextInt(256);
             ip3 = random.nextInt(256);
             ip4 = random.nextInt(256);
-        }else{
+        } else {
             //58 比较接近中国ip
             ip1 = 58;//左闭右开
             ip2 = 200 + random.nextInt(56);

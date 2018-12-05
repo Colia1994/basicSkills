@@ -1,4 +1,4 @@
-package org.kly.basicSkills.validation;
+package org.kly.basicSkills.Validation;
 
 import org.springframework.stereotype.Component;
 
