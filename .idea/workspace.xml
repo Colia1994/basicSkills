@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="文件整理提交 刷题">
+      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/CountTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/CountTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/MainDebug.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/MainDebug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/regular/SelectFormatString.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Regular/SelectFormatString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/rortAlgorithm/StraightInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/StraightInsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/From.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/From.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/TestAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/TestAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/WaybillVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/WaybillVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/validation/AbstractCustomerValidatorRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/AbstractCustomerValidatorRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/validation/CustomerRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/CustomerRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/validation/CustomerValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/CustomerValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/validation/CustomerValidatorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/CustomerValidatorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/validation/CustomerValidatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/CustomerValidatorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/validation/CustomerValidatorRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/CustomerValidatorRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/validation/DateString.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/DateString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/validation/RequireValidatorRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/RequireValidatorRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/RequestUrlThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/RequestUrlThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/VotePostByIp.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/VotePostByIp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/resources/config/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/resources/config/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-entity/financeCount-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-entity/financeCount-entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount.iml" afterDir="false" />
     </list>
     <ignored path="financeCount.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,40 +41,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/VotePostByIp.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1043">
-              <caret line="175" column="1" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+            <state relative-caret-position="630">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/StringUtils.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="294">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/BeanUtils.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-10">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="1859">
+              <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+              <folding>
+                <element signature="e#2204#2205#0" expanded="true" />
+                <element signature="e#2235#2236#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/financeCount-entity/pom.xml" />
         <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/required.java" />
@@ -226,6 +200,9 @@
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/TestAnnotation.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/StraightInsertionSort.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java" />
       </list>
     </option>
   </component>
@@ -260,7 +237,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,7 +287,49 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="postUrl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
@@ -323,10 +341,33 @@
               <item name="kly" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sun.mail:javax.mail:1.5.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sun.mail:javax.mail:1.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.mail-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.sun.mail:javax.mail:1.5.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.mail-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,7 +376,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544029064022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544631970070" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -551,19 +592,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="financeCount" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <option name="filePath" />
       <option name="vmParameters" />
@@ -642,44 +670,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479697630828</updated>
-      <workItem from="1544027575310" duration="1481000" />
+      <workItem from="1544027575310" duration="2274000" />
+      <workItem from="1544369036005" duration="1179000" />
+      <workItem from="1544623868998" duration="1612000" />
+      <workItem from="1544630418137" duration="1345000" />
     </task>
+    <task id="LOCAL-00001" summary="文件整理提交 刷题">
+      <created>1544029159800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544029159800</updated>
+    </task>
+    <task id="LOCAL-00002" summary="消除游戏">
+      <created>1544370128017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544370128017</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1481000" />
+    <option name="totallyTimeSpent" value="6410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16255961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16613673" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Duplicate detector" sideWeight="0.49960256" weight="0.3299532" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3702081" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3702081" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3231106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32968238" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49841017" weight="0.3299532" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32968238" />
-      <window_info anchor="right" id="Maven" weight="0.3298887" />
-      <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Database" weight="0.3298887" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039744" side_tool="true" visible="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -687,6 +728,12 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.3298887" />
+      <window_info anchor="right" id="JSF" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3298887" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,6 +746,11 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="文件整理提交 刷题" />
+    <MESSAGE value="消除游戏" />
+    <option name="LAST_COMMIT_MESSAGE" value="消除游戏" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -717,15 +769,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/beans/PropertyDescriptor.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3675">
-          <caret line="147" column="50" selection-start-line="147" selection-start-column="50" selection-end-line="147" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar!/org/springframework/validation/Errors.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar!/org/springframework/validation/BindException.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/validation/Constraint.class" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/RequiredAndNotEmptyValidator.java" />
@@ -793,10 +836,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/asd.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/VotePostByIp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1043">
+        <state relative-caret-position="3465">
           <caret line="175" column="1" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -842,34 +910,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/asd.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="294">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="-10">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/BeanUtils.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="1859">
+          <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
+            <element signature="e#2235#2236#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
