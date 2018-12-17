@@ -28,25 +28,25 @@ public class SpiralMatrixII {
             resultArray[0][0] = 1;
             return resultArray;
         }
-        int dirextionLeftRight = 1;
-        int dirextionUpDown = 0;
+        int directionLeftRight = 1;
+        int directionUpDown = 0;
         int j = 0, k = 0;
         int value = 1;
         while (resultArray[j][k] ==0) {
             resultArray[j][k] = value;
             value++;
-            j += dirextionUpDown;
-            k += dirextionLeftRight;
+            j += directionUpDown;
+            k += directionLeftRight;
             if (j >= n || k >= n || j < 0 || k < 0 || resultArray[j][k] != 0) {
                 //边界警告 需要转向
                 //还原
-                j -= dirextionUpDown;
-                k -= dirextionLeftRight;
-                int newLR = redirection(dirextionLeftRight, dirextionUpDown, true);
-                dirextionUpDown = redirection(dirextionLeftRight, dirextionUpDown, false);
-                dirextionLeftRight = newLR;
-                j += dirextionUpDown;
-                k += dirextionLeftRight;
+                j -= directionUpDown;
+                k -= directionLeftRight;
+                int newLR = redirection(directionLeftRight, directionUpDown, true);
+                directionUpDown = redirection(directionLeftRight, directionUpDown, false);
+                directionLeftRight = newLR;
+                j += directionUpDown;
+                k += directionLeftRight;
             }
         }
         return resultArray;
@@ -91,6 +91,42 @@ public class SpiralMatrixII {
         return arr;
     }
 
+    /**
+     * 环形递增填数
+     */
+    private static int[][] asd(int m ,int n) {
+        int[][] asd1 = new int[m][n];
+        int j = 0;
+        int value = 1;
+        int count = 0;
+        while (count < m * n) {
+            for (int i = j; i < n - j; i++) {
+                asd1[j][i] = value;
+                count += 1;
+            }
+            value++;
+            for (int i = j +1; i < m - j; i++) {
+                asd1[i][n - j - 1] = value;
+                count += 1;
+
+            }
+            value++;
+            for (int i = n - j - 2; i >= j; i--) {
+                asd1[m - j - 1][i] = value;
+                count += 1;
+
+            }
+            value++;
+            for (int i = m - j - 2; i > j; i--) {
+                asd1[i][j] = value;
+                count += 1;
+            }
+            value++;
+            j++;
+        }
+
+        return asd1;
+    }
 
 
 
