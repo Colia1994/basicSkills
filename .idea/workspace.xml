@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="文件整理提交 刷题">
-      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java" afterDir="false" />
+    <list default="true" id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="z形和环形填充">
+      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Dfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financeCount-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java" afterDir="false" />
     </list>
+    <list id="f8a1a3da-db17-47c4-8a9f-d8a605e8c07a" name="NOT COMMIT" comment="" />
     <ignored path="financeCount.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,41 +48,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="21">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="63">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/financeCount-business.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="273">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/StraightInsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1859">
-              <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
-              <folding>
-                <element signature="e#2204#2205#0" expanded="true" />
-                <element signature="e#2235#2236#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="21">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -90,46 +107,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/WaybillVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/TestAnnotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/StraightInsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/CountTimer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/MainDebug.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
               <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/CountTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -152,17 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/financeCount-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/required.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/AppTest.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/tableCommit/testAnnotion.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/tableCommit/testAnnotation.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/tableCommit/WaybillVo.java" />
-        <option value="$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1.jar!/junit/framework/Assert.class" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/AbastractCustomerValidatorRule.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/CommonUtils/Errors.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/PropertyUtil.java" />
         <option value="$PROJECT_DIR$/financeCount-business/pom.xml" />
         <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/CustomerValidatorRule.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/AbstractCustomerValidatorRule.java" />
@@ -179,7 +158,6 @@
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tableCommit/From.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/resources/config/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/CustomerValidatorConfig.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/regular/selectFormatString.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/mainDebug.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/countTimer.java" />
@@ -203,6 +181,18 @@
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/MaximumAverageSubarrayI.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/ZigZagConversion.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/SpiralMatrixII.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestPalindromicSubstring.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TravelNode.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Dfs.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java" />
       </list>
     </option>
   </component>
@@ -223,10 +213,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="x" value="438" />
+    <option name="y" value="141" />
+    <option name="width" value="1981" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -297,7 +287,51 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="Concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="Regular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
@@ -376,7 +410,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544631970070" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545229859292" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -407,7 +441,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VotePostByIp">
+  <component name="RunManager" selected="Application.MonkeyStealsPeach">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -510,6 +544,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kly.App" />
+      <module name="financeCount-business" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.kly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonkeyStealsPeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.Concurrent.MonkeyStealsPeach" />
+      <module name="financeCount-business" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.kly.basicSkills.Concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectFormatString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.Regular.SelectFormatString" />
       <module name="financeCount-business" />
@@ -517,34 +579,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.kly.basicSkills.Regular.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StraightInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.sortAlgorithm.StraightInsertionSort" />
-      <module name="financeCount-business" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.sortAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.tableCommit.TestAnnotation" />
-      <module name="financeCount-business" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kly.tableCommit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -644,19 +678,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestAnnotation" />
-      <item itemvalue="Application.StraightInsertionSort" />
       <item itemvalue="Application.SelectFormatString" />
       <item itemvalue="Application.votePostByIp" />
       <item itemvalue="Application.VotePostByIp" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.MonkeyStealsPeach" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MonkeyStealsPeach" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.VotePostByIp" />
         <item itemvalue="Application.votePostByIp" />
         <item itemvalue="Application.SelectFormatString" />
-        <item itemvalue="Application.TestAnnotation" />
-        <item itemvalue="Application.StraightInsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -666,6 +700,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="" />
+      <changelist id="f8a1a3da-db17-47c4-8a9f-d8a605e8c07a" name="NOT COMMIT" comment="" />
       <created>1479697630828</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -673,7 +708,12 @@
       <workItem from="1544027575310" duration="2274000" />
       <workItem from="1544369036005" duration="1179000" />
       <workItem from="1544623868998" duration="1612000" />
-      <workItem from="1544630418137" duration="1345000" />
+      <workItem from="1544630418137" duration="1660000" />
+      <workItem from="1544891485820" duration="972000" />
+      <workItem from="1544976165513" duration="5280000" />
+      <workItem from="1545059866124" duration="5704000" />
+      <workItem from="1545147632352" duration="1212000" />
+      <workItem from="1545228203668" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="文件整理提交 刷题">
       <created>1544029159800</created>
@@ -689,38 +729,58 @@
       <option name="project" value="LOCAL" />
       <updated>1544370128017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.二叉树转链表&#10;2.自增排列">
+      <created>1544632009971</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544632009971</updated>
+    </task>
+    <task id="LOCAL-00004" summary="三道中等">
+      <created>1544892236661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544892236661</updated>
+    </task>
+    <task id="LOCAL-00005" summary="z形和环形填充">
+      <created>1544981431398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544981431398</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6410000" />
+    <option name="totallyTimeSpent" value="21787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16613673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17209856" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Duplicate detector" sideWeight="0.49960256" weight="0.3299532" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3702081" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3231106" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920508" weight="0.3697348" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960256" weight="0.32293293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32968238" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49841017" weight="0.3299532" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49920508" weight="0.32917318" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49523053" visible="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039744" side_tool="true" visible="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5047695" side_tool="true" visible="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Duplicate detector" order="14" sideWeight="0.49960256" weight="0.3299532" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -748,9 +808,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="文件整理提交 刷题" />
     <MESSAGE value="消除游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="消除游戏" />
+    <MESSAGE value="1.二叉树转链表&#10;2.自增排列" />
+    <MESSAGE value="三道中等" />
+    <MESSAGE value="z形和环形填充" />
+    <option name="LAST_COMMIT_MESSAGE" value="z形和环形填充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -769,36 +834,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar!/org/springframework/validation/BindException.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/validation/Constraint.class" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/RequiredAndNotEmptyValidator.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/CustomerRule.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar!/org/springframework/validation/beanvalidation/SpringValidatorAdapter.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.jar!/org/springframework/util/Assert.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar!/org/springframework/validation/Validator.class" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/CustomerValidator.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/RequiredAndNotEmpty.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/tableCommit/TestAnnotation.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/tableCommit/From.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/tableCommit/WaybillVo.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/resources/config/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/regex/Pattern.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/AbstractStringBuilder.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/regex/Matcher.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/sortAlgorithm/SortNo1.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/DateString.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/CustomerValidatorConfig.java" />
@@ -861,17 +898,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="294">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/DateString.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="567">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/MaximumAverageSubarrayI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -889,17 +964,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/SpiralMatrixII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1974">
+          <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/ZigZagConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1743">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39354">
+          <caret line="1945" column="18" selection-start-line="1945" selection-start-column="18" selection-end-line="1945" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TravelNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Dfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/target/classes/config/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/DateString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/financeCount-business.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/StraightInsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="21">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/CountTimer.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="474">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -910,28 +1074,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/CountTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1859">
-          <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
-          <folding>
-            <element signature="e#2204#2205#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="684">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>

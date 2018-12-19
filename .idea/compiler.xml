@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="financeCount" target="1.5" />
-      <module name="financeCount-business" target="1.7" />
+      <module name="financeCount-business" target="8" />
       <module name="financeCount-entity" target="1.5" />
     </bytecodeTargetLevel>
   </component>

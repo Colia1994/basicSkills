@@ -13,19 +13,17 @@ import java.util.List;
  * @Date 2018-4-23.
  */
 public class MonkeyStealsPeach {
-    private final Logger logger = LoggerFactory.getLogger(MonkeyStealsPeach.class);
 
     private static Integer numOfPeach = 21;
 
     private List<String> monkeys = Arrays.asList("姜晨","大刀切鸭梨");
 
-    private byte[] bytes = new byte[0];
+    private final byte[] bytes = new byte[0];
 
     private void stealPeach(String monkeyName){
         if(numOfPeach>2) {
-            //锁非制定对象，随意建一个数据来加锁，
-            // 新建byte[0]是因为相比较与new objects()
-            // 零长度的byte数组对象创建起来将比任何对象都经济――
+            // 锁非制定对象，随意建一个数据来加锁，
+            // 新建byte[0]是因为相比较与new objects() 零长度的byte数组对象创建起来将比任何对象都经济――
             // 查看编译后的字节码：生成零长度的byte[]对象只需3条操作码，而Object lock = new Object()则需要7行操作码。
             synchronized (bytes) {
                 System.out.println(monkeyName + "开始偷桃子,此时桃子还剩" + numOfPeach + "个");
@@ -55,12 +53,7 @@ public class MonkeyStealsPeach {
         final MonkeyStealsPeach monkeyStealsPeach = new MonkeyStealsPeach();
 
         for (final String monkeyName : monkeyStealsPeach.monkeys) {
-            Thread thread = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    monkeyStealsPeach.stealPeach(monkeyName);
-                }
-            });
+            Thread thread = new Thread(() -> monkeyStealsPeach.stealPeach(monkeyName));
             thread.start();
         }
 
