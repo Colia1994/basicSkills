@@ -1,7 +1,7 @@
 package org.kly.basicSkills.TableCommit;
 
 
-import org.kly.basicSkills.Validation.CustomerValidatorFactory;
+import org.kly.basicSkills.TableCommit.Validation.CustomerValidatorFactory;
 import org.springframework.validation.BindException;
 
 /**

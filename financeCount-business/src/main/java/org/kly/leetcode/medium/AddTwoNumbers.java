@@ -14,8 +14,6 @@ package org.kly.leetcode.medium;
 public class AddTwoNumbers {
 
     /**
-     *
-     *
      * @param l1
      * @param l2
      * @return
@@ -46,7 +44,7 @@ public class AddTwoNumbers {
             add = false;
         }
         if (l1next == null && l2next == null) {
-            if(add){
+            if (add) {
                 answer.next = new ListNode(1);
             }
             return answer;
@@ -55,6 +53,7 @@ public class AddTwoNumbers {
         add(answer1, l1next, l2next, add);
         return answer;
     }
+
     /**
      * 第一次答案 优化
      */
@@ -81,6 +80,7 @@ public class AddTwoNumbers {
 
     /**
      * solution
+     *
      * @param l1
      * @param l2
      * @return

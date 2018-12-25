@@ -1,4 +1,4 @@
-package org.kly.basicSkills.RortAlgorithm;
+package org.kly.basicSkills.RortAlgorithm.Tree;
 
 import java.util.HashMap;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package org.kly.basicSkills.designPattrens.Singleton;
+package org.kly.basicSkills.DesignPattrens.Singleton;
 
 /**
  *   单例调试
@@ -8,11 +8,11 @@ package org.kly.basicSkills.designPattrens.Singleton;
  */
 public class MainDebug extends Thread {
 
-    public static void main( String[] args ) {
+    public static void main(String[] args) {
 
 
         MainDebug[] mts = new MainDebug[10];
-        for(int i = 0 ; i < mts.length ; i++){
+        for (int i = 0; i < mts.length; i++) {
             mts[i] = new MainDebug();
         }
 

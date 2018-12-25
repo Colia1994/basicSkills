@@ -1,4 +1,4 @@
-package org.kly.basicSkills.Validation;
+package org.kly.basicSkills.TableCommit.Validation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,6 @@
 package org.kly.basicSkills.TableCommit;
 
-import org.kly.basicSkills.Validation.DateString;
+import org.kly.basicSkills.TableCommit.Validation.DateString;
 
 /**
  * 自定义校验-testvo
