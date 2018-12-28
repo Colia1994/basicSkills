@@ -2,7 +2,8 @@ package org.kly.basicSkills.algorithm.sort;
 
 /**
  *  插入排序-直接插入排序
- *  时间复杂度O（n^2）  空间复杂度 O(1)
+ *  时间复杂度 O（n^2）
+ *  空间复杂度 O(1)
  *  稳定排序
  * @author colia
  * @date 2017-07-18

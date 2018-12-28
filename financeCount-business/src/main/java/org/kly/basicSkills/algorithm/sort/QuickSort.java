@@ -2,7 +2,8 @@ package org.kly.basicSkills.algorithm.sort;
 
 /**
  * 快排
- * 时间复杂度 O( n * log n)  空间复杂度O(n * log n)
+ * 时间复杂度 O(n * log n)
+ * 空间复杂度 O(n * log n)
  * 不稳定排序
  * @Author konglingyao
  * @Date 2018/12/28
