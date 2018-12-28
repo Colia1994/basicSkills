@@ -1,4 +1,4 @@
-package org.kly.basicSkills.algorithm.Tree;
+package org.kly.basicSkills.algorithm.tree;
 
 import java.util.HashMap;
 import java.util.LinkedList;

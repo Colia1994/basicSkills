@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.sort;
 
+import org.kly.utils.PrintUtils;
+
 /**
  *  插入排序-直接插入排序
  *  时间复杂度 O（n^2）
@@ -11,18 +13,15 @@ package org.kly.basicSkills.algorithm.sort;
 public class StraightInsertionSort {
 
     public static void main( String[] args ) {
-        Integer[] inputArray = {121,11,12,3,123,1,132,12,234,123,12,2435,123,123,13};
-        inputArray = StraightInsertionSort.straightSortUp(inputArray);
-        for(Integer integer : inputArray) {
-            System.out.println(integer);
-        }
-
+        Integer[] inputArray = {121, 11, 12, 3, 123, 1, 132, 12, 234, 123, 12, 2435, 123, 123, 13};
+        StraightInsertionSort.straightSortUp(inputArray);
+        PrintUtils.printArray(inputArray);
     }
 
     /**
      *  升序排序　选出哨兵，向前插入，确保每一次比较的数组位置，前半部分为已排好顺序的
      */
-    private static Integer[] straightSortUp(Integer[] inputArray) {
+    private static void straightSortUp(Integer[] inputArray) {
         for (int i = 1; i < inputArray.length; i++) {
             if (inputArray[i] < inputArray[i - 1]) {
                 //默认前面有序 则当前位置需要向前移动到合适位置
@@ -35,14 +34,12 @@ public class StraightInsertionSort {
                 inputArray[j + 1] = cu;
             }
         }
-
-        return inputArray;
     }
 
     /**
      *  降序排序　选出哨兵，向前插入，确保每一次比较的数组位置，前半部分为已排好顺序的
      */
-    private static Integer[] straightSortDown(Integer[] inputArray) {
+    private static void straightSortDown(Integer[] inputArray) {
         for (int i = 1; i < inputArray.length; i++) {
             if (inputArray[i] > inputArray[i - 1]) {
                 //默认前面有序 则当前位置需要向前移动到合适位置
@@ -55,6 +52,5 @@ public class StraightInsertionSort {
                 inputArray[j + 1] = cu;
             }
         }
-        return inputArray;
     }
 }

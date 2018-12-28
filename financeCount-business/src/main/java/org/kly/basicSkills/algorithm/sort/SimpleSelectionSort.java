@@ -1,5 +1,8 @@
 package org.kly.basicSkills.algorithm.sort;
 
+import org.kly.utils.ArrayUtils;
+import org.kly.utils.PrintUtils;
+
 /**
  * 简单选择排序
  * 时间复杂度O(n^2)
@@ -12,21 +15,18 @@ public class SimpleSelectionSort {
 
     public static void main( String[] args ) {
         Integer[] inputArray = {121,11,12,3,123,1,132,12,234,123,12,2435,123,123,13};
-        inputArray = SimpleSelectionSort.simpleSelect(inputArray);
-        for(Integer integer : inputArray) {
-            System.out.println(integer);
-        }
+        SimpleSelectionSort.simpleSelect(inputArray);
+        PrintUtils.printArray(inputArray);
 
     }
 
-    private static Integer[] simpleSelect(Integer[] inputArray) {
+    private static void simpleSelect(Integer[] inputArray) {
         for (int i = 0; i < inputArray.length; i++) {
             int min = minInArray(inputArray, i, inputArray.length);
             if (inputArray[i] > inputArray[min]) {
-                swap(inputArray, i, min);
+                ArrayUtils.swap(inputArray, i, min);
             }
         }
-        return inputArray;
     }
 
     private static int minInArray(Integer[] inputArray,int start,int end) {
@@ -39,9 +39,5 @@ public class SimpleSelectionSort {
         return min;
     }
 
-    private static void swap(Integer[] inputArray,int i ,int j) {
-        int a = inputArray[i];
-        inputArray[i] = inputArray[j];
-        inputArray[j] = a;
-    }
+
 }
