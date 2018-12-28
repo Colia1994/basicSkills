@@ -53,6 +53,8 @@ public class MyThreadPoolExecutor {
      * 2）LinkedBlockingQueue：基于链表的先进先出队列，如果创建时没有指定此队列大小，则默认为Integer.MAX_VALUE；
      *
      * 3）synchronousQueue：这个队列比较特殊，它不会保存提交的任务，而是将直接新建一个线程来执行新来的任务。
+     *
+     * 4）PriorityBlockingQueue 带排序的阻塞优先级队列，底层是数组实现的二叉堆
      */
     private final BlockingQueue<Runnable> workQueue = new ArrayBlockingQueue<>(10);
 
@@ -113,4 +115,5 @@ public class MyThreadPoolExecutor {
             System.out.println("task "+taskNum+"执行完毕");
         }
     }
+
 }
