@@ -2,15 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="z形和环形填充">
-      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Dfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java" afterDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/SymmetricTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TravelNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/AddTwoNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestPalindromicSubstring.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/MaximumAverageSubarrayI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/RemoveNthNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/SpiralMatrixII.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/ZigZagConversion.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" afterPath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/financeCount-business/src/main/resources/config/spring-mvc.xml" afterPath="$PROJECT_DIR$/financeCount-business/src/main/resources/config/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/financeCount-entity/financeCount-entity.iml" afterPath="$PROJECT_DIR$/financeCount-entity/financeCount-entity.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/financeCount.iml" afterPath="$PROJECT_DIR$/financeCount.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/BrockingQueue/MyBlockingQueue.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/BrockingQueue/MyBlockingQueue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/ThreadPool/MyThreadPoolExecutor.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/ThreadPool/MyThreadPoolExecutor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/Singleton/CountTimer.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/CountTimer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/Singleton/MainDebug.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/MainDebug.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/LRUCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Regular/SelectFormatString.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/regular/SelectFormatString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/StraightInsertionSort.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/StraightInsertionSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Tree/Bfs.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/Tree/Bfs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Tree/BinaryTree.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Tree/BinaryTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Tree/Dfs.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Tree/Dfs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/From.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/From.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/TestAnnotation.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/TestAnnotation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/Validation/AbstractCustomerValidatorRule.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/Validation/AbstractCustomerValidatorRule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/Validation/CustomerRule.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/Validation/CustomerRule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/Validation/CustomerValidator.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/Validation/CustomerValidator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/Validation/CustomerValidatorConfig.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/Validation/CustomerValidatorConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/Validation/CustomerValidatorFactory.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/Validation/CustomerValidatorFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/Validation/CustomerValidatorRule.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/Validation/CustomerValidatorRule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/Validation/DateString.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/Validation/DateString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/Validation/RequireValidatorRule.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/Validation/RequireValidatorRule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/WaybillVo.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/WaybillVo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/SymmetricTree.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/SymmetricTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TravelNode.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TravelNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TwoSum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/AddTwoNumbers.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/leetcode/medium/AddTwoNumbers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/leetcode/medium/EliminationGame.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/FlattenBinaryTreetoLinkedList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/FlipStringtoMonotoneIncreasing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestPalindromicSubstring.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/leetcode/medium/LongestPalindromicSubstring.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/MaximumAverageSubarrayI.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/MaximumAverageSubarrayI.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/RemoveNthNode.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/leetcode/medium/RemoveNthNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/SpiralMatrixII.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/leetcode/medium/SpiralMatrixII.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/ZigZagConversion.java" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/leetcode/medium/ZigZagConversion.java" />
     </list>
     <list id="f8a1a3da-db17-47c4-8a9f-d8a605e8c07a" name="NOT COMMIT" comment="" />
     <ignored path="financeCount.iws" />
@@ -19,7 +65,9 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/financeCount-business/target/" />
     <ignored path="$PROJECT_DIR$/financeCount-entity/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,84 +90,110 @@
     <expand />
     <select />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="financeCount" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java">
+      <file leaf-file-name="LRUCache.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="525">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java">
+      <file leaf-file-name="StraightInsertionSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/StraightInsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="504">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/financeCount-business.iml">
+      <file leaf-file-name="MonkeyStealsPeach.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="651">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/StraightInsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/DateString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/MainDebug.java">
+      <file leaf-file-name="MainDebug.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/MainDebug.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
               <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/CountTimer.java">
+      <file leaf-file-name="CountTimer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/CountTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="509">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SymmetricTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/SymmetricTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TwoSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveNthNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/RemoveNthNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectFormatString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/regular/SelectFormatString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Tree/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="299" column="0" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,12 +213,14 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/financeCount-business/pom.xml" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/CustomerValidatorRule.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/AbstractCustomerValidatorRule.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/CustomerRule.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/CustomerValidatorConfig.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/CustomerValidator.java" />
@@ -193,7 +269,23 @@
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/StraightInsertionSort.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/StraightInsertionSort.java" />
       </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -212,196 +304,266 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="438" />
-    <option name="y" value="141" />
-    <option name="width" value="1981" />
-    <option name="height" value="1200" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1058" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="Concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="Regular" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="postUrl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kly" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.sun.mail:javax.mail:1.5.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.sun.mail:javax.mail:1.5.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.mail-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.sun.mail:javax.mail:1.5.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.mail-1.5.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financeCount-business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financeCount-business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financeCount-business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financeCount-business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financeCount-business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financeCount-business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financeCount-business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicSkills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,7 +603,114 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MonkeyStealsPeach">
+  <component name="RunManager">
+    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.kly.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="financeCount-business" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MonkeyStealsPeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kly.basicSkills.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.concurrent.MonkeyStealsPeach" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="financeCount-business" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SelectFormatString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kly.basicSkills.Regular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.Regular.SelectFormatString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="financeCount-business" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="VotePostByIp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kly.basicSkills.postUrl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.postUrl.VotePostByIp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="financeCount-business" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="votePostByIp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.kly.basicSkills.postUrl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.postUrl.votePostByIp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="financeCount-business" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -464,7 +733,10 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -487,6 +759,206 @@
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <option name="HEIGHT" value="0" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
@@ -508,6 +980,89 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="financeCount" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
@@ -538,161 +1093,41 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.App" />
-      <module name="financeCount-business" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
     </configuration>
-    <configuration name="MonkeyStealsPeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.Concurrent.MonkeyStealsPeach" />
-      <module name="financeCount-business" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.Concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
     </configuration>
-    <configuration name="SelectFormatString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.Regular.SelectFormatString" />
-      <module name="financeCount-business" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.Regular.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
     </configuration>
-    <configuration name="VotePostByIp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.postUrl.VotePostByIp" />
-      <module name="financeCount-business" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.postUrl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="votePostByIp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.postUrl.votePostByIp" />
-      <module name="financeCount-business" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.postUrl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.SelectFormatString" />
-      <item itemvalue="Application.votePostByIp" />
-      <item itemvalue="Application.VotePostByIp" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.MonkeyStealsPeach" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.App" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MonkeyStealsPeach" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SelectFormatString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.VotePostByIp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.votePostByIp" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Application.MonkeyStealsPeach" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.VotePostByIp" />
-        <item itemvalue="Application.votePostByIp" />
-        <item itemvalue="Application.SelectFormatString" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.votePostByIp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.VotePostByIp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SelectFormatString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MonkeyStealsPeach" />
+        <item index="4" class="java.lang.String" itemvalue="Application.App" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -714,6 +1149,7 @@
       <workItem from="1545059866124" duration="5704000" />
       <workItem from="1545147632352" duration="1212000" />
       <workItem from="1545228203668" duration="1894000" />
+      <workItem from="1545985985474" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="文件整理提交 刷题">
       <created>1544029159800</created>
@@ -754,46 +1190,38 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21787000" />
+    <option name="totallyTimeSpent" value="22202000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17209856" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Palette&#9;" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920508" weight="0.3697348" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960256" weight="0.32293293" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49920508" weight="0.32917318" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49523053" visible="true" weight="0.32917318" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5047695" side_tool="true" visible="true" weight="0.32917318" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Duplicate detector" order="14" sideWeight="0.49960256" weight="0.3299532" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Maven" order="7" weight="0.3298887" />
-      <window_info anchor="right" id="JSF" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.3298887" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="CDI" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -806,6 +1234,9 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -828,14 +1259,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/regex/Matcher.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/sortAlgorithm/SortNo1.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/DateString.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/CustomerValidatorConfig.java" />
@@ -849,13 +1279,7 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Random.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/net/URLConnection.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.9/commons-codec-1.9.jar!/org/apache/commons/codec/binary/StringUtils.class" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Regular/SelectFormatString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Regular/SelectFormatString.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/sortAlgorithm/StraightInsertionSort.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/postUrl/RequestUrlThread.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/postUrl/VotePostByIp.java" />
@@ -892,48 +1316,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/EliminationGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/FlipStringtoMonotoneIncreasing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/FlattenBinaryTreetoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/AddTwoNumbers.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/MaximumAverageSubarrayI.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/MaximumAverageSubarrayI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1638">
           <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
@@ -950,28 +1371,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/WaybillVo.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/WaybillVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TableCommit/TestAnnotation.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/TestAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/SpiralMatrixII.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/SpiralMatrixII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1974">
           <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/ZigZagConversion.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/ZigZagConversion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
           <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
@@ -981,103 +1402,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestPalindromicSubstring.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestPalindromicSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1743">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39354">
-          <caret line="1945" column="18" selection-start-line="1945" selection-start-column="18" selection-end-line="1945" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TravelNode.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TravelNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Dfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/target/classes/config/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/DateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Dfs.java" />
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java" />
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/DateString.java" />
     <entry file="file://$PROJECT_DIR$/financeCount-business/financeCount-business.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="525">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="525">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/StraightInsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="651">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/MainDebug.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/MainDebug.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/Singleton/CountTimer.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/CountTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="509">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/SymmetricTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/RemoveNthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/regular/SelectFormatString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Tree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="299" column="0" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/StraightInsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

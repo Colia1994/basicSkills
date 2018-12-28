@@ -18,6 +18,6 @@
 		http://www.springframework.org/schema/task
 		  http://www.springframework.org/schema/task/spring-task-3.1.xsd
 		">
-    <context:component-scan base-package="org.kly.basicSkills.TableCommit.Validation"/>
-    <bean id="customerValidatorConfig" class="org.kly.basicSkills.TableCommit.Validation.CustomerValidatorConfig"/>
+    <context:component-scan base-package="org.kly.basicSkills.tableCommit.Validation"/>
+    <bean id="customerValidatorConfig" class="org.kly.basicSkills.tableCommit.Validation.CustomerValidatorConfig"/>
 </beans>
