@@ -1,8 +1,9 @@
-package org.kly.basicSkills.algorithm;
+package org.kly.basicSkills.algorithm.sort;
 
 /**
  *  插入排序-直接插入排序
- *  时间复杂度O（n^2）
+ *  时间复杂度O（n^2）  空间复杂度 O(1)
+ *  稳定排序
  * @author colia
  * @date 2017-07-18
  */
@@ -10,7 +11,7 @@ public class StraightInsertionSort {
 
     public static void main( String[] args ) {
         Integer[] inputArray = {121,11,12,3,123,1,132,12,234,123,12,2435,123,123,13};
-        inputArray = StraightInsertionSort.straightSortDown(inputArray);
+        inputArray = StraightInsertionSort.straightSortUp(inputArray);
         for(Integer integer : inputArray) {
             System.out.println(integer);
         }
@@ -23,15 +24,14 @@ public class StraightInsertionSort {
     private static Integer[] straightSortUp(Integer[] inputArray) {
         for (int i = 1; i < inputArray.length; i++) {
             if (inputArray[i] < inputArray[i - 1]) {
-                int sentinel = inputArray[i]; //等待重新插入的哨兵
-                inputArray[i] = inputArray[i - 1]; //  前面值大的后移一位，待后面循环继续判断
-                //哨兵　向前排序
+                //默认前面有序 则当前位置需要向前移动到合适位置
                 int j = i - 1;
-                while (j >= 0 && sentinel < inputArray[j]) {
-                    inputArray[j + 1] = inputArray[j];//向前遍历
+                int cu = inputArray[i];
+                while (j >= 0 && cu < inputArray[j]) {
+                    inputArray[j + 1] = inputArray[j];
                     j--;
                 }
-                inputArray[j + 1] = sentinel;
+                inputArray[j + 1] = cu;
             }
         }
 
@@ -44,18 +44,16 @@ public class StraightInsertionSort {
     private static Integer[] straightSortDown(Integer[] inputArray) {
         for (int i = 1; i < inputArray.length; i++) {
             if (inputArray[i] > inputArray[i - 1]) {
-                int sentinel = inputArray[i]; //等待重新插入的哨兵
-                inputArray[i] = inputArray[i - 1]; //  前面值小的后移一位，待后面循环继续判断
-                //哨兵　向前排序
+                //默认前面有序 则当前位置需要向前移动到合适位置
                 int j = i - 1;
-                while (j >= 0 && sentinel > inputArray[j]) {
-                    inputArray[j + 1] = inputArray[j];//向前遍历
+                int cu = inputArray[i];
+                while (j >= 0 && cu > inputArray[j]) {
+                    inputArray[j + 1] = inputArray[j];
                     j--;
                 }
-                inputArray[j + 1] = sentinel;
+                inputArray[j + 1] = cu;
             }
         }
-
         return inputArray;
     }
 }

@@ -3,112 +3,17 @@
   <component name="issues">
     <option name="index">
       <map>
-        <entry key="/Dummy.txt">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="D:/Project/colia/src/main/java/QuickSort.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/financeCount-business.iml">
+        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/sort/QuickSort.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/LRUCache.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/Regular/SelectFormatString.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/StraightInsertionSort.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/Tree/BinaryTree.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/leetcode/easy/SymmetricTree.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/leetcode/easy/TwoSum.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/leetcode/medium/RemoveNthNode.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/regular/SelectFormatString.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/CountTimer.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/MainDebug.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Tree/BinaryTree.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/LRUCache.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/StraightInsertionSort.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Tree/BinaryTree.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/SymmetricTree.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TwoSum.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/RemoveNthNode.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/regular/SelectFormatString.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java">
+        <entry key="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/sort/StraightInsertionSort.java">
           <value>
             <set />
           </value>
