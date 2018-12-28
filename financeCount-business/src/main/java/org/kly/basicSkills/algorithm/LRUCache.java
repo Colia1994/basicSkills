@@ -1,4 +1,4 @@
-package org.kly.basicSkills.RortAlgorithm;
+package org.kly.basicSkills.algorithm;
 
 import java.util.Hashtable;
 

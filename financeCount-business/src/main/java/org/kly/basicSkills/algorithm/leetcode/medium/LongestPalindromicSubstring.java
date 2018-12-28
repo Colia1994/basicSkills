@@ -1,7 +1,4 @@
-package org.kly.leetcode.medium;
-
-import java.util.HashMap;
-import java.util.Map;
+package org.kly.basicSkills.algorithm.leetcode.medium;
 
 /**
  * 5. Longest Palindromic Substring

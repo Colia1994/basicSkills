@@ -1,4 +1,4 @@
-package org.kly.basicSkills.RortAlgorithm;
+package org.kly.basicSkills.algorithm;
 
 /**
  *  插入排序-直接插入排序

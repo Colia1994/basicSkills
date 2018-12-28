@@ -1,4 +1,4 @@
-package org.kly.basicSkills.RortAlgorithm.Regular;
+package org.kly.basicSkills.algorithm.regular;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

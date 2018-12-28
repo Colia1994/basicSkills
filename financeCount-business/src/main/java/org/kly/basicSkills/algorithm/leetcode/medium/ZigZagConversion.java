@@ -1,6 +1,4 @@
-package org.kly.leetcode.medium;
-
-import org.kly.utils.StringUtils;
+package org.kly.basicSkills.algorithm.leetcode.medium;
 
 import java.util.ArrayList;
 import java.util.List;

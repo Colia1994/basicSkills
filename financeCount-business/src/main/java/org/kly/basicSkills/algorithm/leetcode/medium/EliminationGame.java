@@ -1,4 +1,4 @@
-package org.kly.leetcode.medium;
+package org.kly.basicSkills.algorithm.leetcode.medium;
 
 /**
  *
