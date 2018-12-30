@@ -11,7 +11,10 @@ package org.kly.basicSkills.algorithm.toOffer;
  */
 public class 重建二叉树 {
 
-    public static TreeNode reConstructBinaryTree(int[] pre, int[] in) {
+    /**
+     * 基于不额外创建数组
+     */
+    private static TreeNode reConstructBinaryTree(int[] pre, int[] in) {
 
         if (pre == null || in == null || pre.length != in.length) {
             return null;
