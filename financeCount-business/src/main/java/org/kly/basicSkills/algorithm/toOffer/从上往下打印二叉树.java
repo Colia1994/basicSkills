@@ -14,7 +14,7 @@ public class 从上往下打印二叉树 {
     public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
         ArrayDeque<TreeNode> arrayDeque = new ArrayDeque<>();
         ArrayList<Integer> arrayList = new ArrayList<>();
-        if(root==null){
+        if (root == null) {
             return arrayList;
         }
         arrayDeque.addFirst(root);
