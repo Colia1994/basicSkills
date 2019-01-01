@@ -12,4 +12,10 @@ public class ArrayUtils {
         inputArray[i] = inputArray[j];
         inputArray[j] = a;
     }
+
+    public static void swap(int[] inputArray,int i ,int j) {
+        int a = inputArray[i];
+        inputArray[i] = inputArray[j];
+        inputArray[j] = a;
+    }
 }

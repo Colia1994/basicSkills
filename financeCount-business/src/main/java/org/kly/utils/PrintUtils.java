@@ -19,4 +19,18 @@ public class PrintUtils {
         }
         System.out.println("]");
     }
+
+    public static void printArray(int[] inputArray) {
+        if(inputArray == null){
+            return;
+        }
+        System.out.print("[");
+        for (int i = 0; i < inputArray.length; i++) {
+            System.out.print(inputArray[i]);
+            if (i < inputArray.length - 1) {
+                System.out.print(",");
+            }
+        }
+        System.out.println("]");
+    }
 }
