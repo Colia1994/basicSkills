@@ -1,8 +1,5 @@
 package org.kly.basicSkills.concurrent;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,14 +11,18 @@ import java.util.List;
  */
 public class MonkeyStealsPeach {
 
+
+    //桃子总数
     private static Integer numOfPeach = 21;
+    //睡眠时间
+    private static final long sleepTimes = 200;
 
     private List<String> monkeys = Arrays.asList("姜晨","大刀切鸭梨");
 
     private final byte[] bytes = new byte[0];
 
-    private void stealPeach(String monkeyName){
-        if(numOfPeach>2) {
+    private void stealPeach(String monkeyName) {
+        if (numOfPeach > 2) {
             // 锁非制定对象，随意建一个数据来加锁，
             // 新建byte[0]是因为相比较与new objects() 零长度的byte数组对象创建起来将比任何对象都经济――
             // 查看编译后的字节码：生成零长度的byte[]对象只需3条操作码，而Object lock = new Object()则需要7行操作码。
@@ -34,16 +35,16 @@ public class MonkeyStealsPeach {
                     System.out.println(monkeyName + "生气的跑了,此时桃子还剩" + numOfPeach + "个");
                 }
             }
-            try{
+            try {
                 //每一次偷桃子拿走需要耗费200ms
-                Thread.sleep(200);
-            }catch(InterruptedException e){
+                Thread.sleep(sleepTimes);
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(numOfPeach >2) {
+            if (numOfPeach > 2) {
                 stealPeach(monkeyName);
             }
-        }else {
+        } else {
             System.out.println(monkeyName + "生气的跑了,此时桃子还剩" + numOfPeach + "个");
         }
     }
