@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="z形和环形填充">
+    <list default="true" id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="完善加密解密代码">
+      <change afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/找出最大回文数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-entity/financeCount-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-entity/financeCount-entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java" afterDir="false" />
     </list>
     <list id="f8a1a3da-db17-47c4-8a9f-d8a605e8c07a" name="NOT COMMIT" comment="" />
     <ignored path="financeCount.iws" />
@@ -44,64 +43,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/SpiralMatrixII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-              <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/resources/spring-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/config/spring-context.xsd">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/MainDebug.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/CountTimer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/SymmetricTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TwoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="414">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -116,19 +61,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/regular/SelectFormatString.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TravelNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="161">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Tree/BinaryTree.java">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/SymmetricTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6532">
-              <caret line="299" selection-start-line="299" selection-end-line="299" />
+            <state relative-caret-position="506">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TwoSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/顺时针打印矩阵.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/找出最大回文数.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/regular/SelectFormatString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/链表中倒数第k个结点.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -144,6 +143,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>offerf</find>
+      <find>boolean</find>
+      <find>springframework</find>
+      <find>common</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,57 +158,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/CustomerValidatorConfig.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/CustomerValidator.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/RequiredAndNotEmptyValidator.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/RequiredAndNotEmpty.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/DateString.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/CustomerValidatorFactory.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/validation/RequireValidatorRule.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/tableCommit/From.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/test/java/org/kly/tableCommit/TestAnnotation.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tableCommit/From.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/resources/config/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/CustomerValidatorConfig.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/regular/selectFormatString.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/mainDebug.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/countTimer.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/MainDebug.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/CountTimer.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/sortAlgorithm/StraightInsertionSort.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tableCommit/TestAnnotation.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/regular/SelectFormatString.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/Utils/StringUtils.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/postUrl/votePostByIp.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/postUrl/requestUrlThread.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/postUrl/RequestUrlThread.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/postUrl/VotePostByIp.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/StringUtils.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/BeanUtils.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/RequestUrlThread.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/VotePostByIp.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/TestAnnotation.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/StraightInsertionSort.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TwoSum.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/EliminationGame.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlipStringtoMonotoneIncreasing.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/FlattenBinaryTreetoLinkedList.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/MaximumAverageSubarrayI.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/ZigZagConversion.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/SpiralMatrixII.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/medium/LongestPalindromicSubstring.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/easy/TravelNode.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Dfs.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/LRUCache.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Concurrent/MonkeyStealsPeach.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Tree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Algorithm/StraightInsertionSort.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/StraightInsertionSort.java" />
         <option value="$PROJECT_DIR$/financeCount-business/src/main/resources/spring-config.xml" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/sort/StraightInsertionSort.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/sort/SimpleSelectionSort.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/TreeNode.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/替换空格.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二维数组中的查找.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/ListNode.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/从尾到头打印链表.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/重建二叉树.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/用两个栈实现队列.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/旋转数组的最小数字.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/跳台阶.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/变态跳台阶.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/矩形覆盖.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/斐波那契数列.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二进制中1的个数.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/数值的整数次方.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/调整数组顺序使奇数位于偶数前面.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/链表中倒数第k个结点.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/反转链表.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/合并两个排序的链表.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/树的子结构.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉树的镜像.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/顺时针打印矩阵.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/包含min函数的栈.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/栈的压入弹出序列.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/从上往下打印二叉树.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉搜索树的后序遍历序列.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉树中和为某一值的路径.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/复杂链表的复制.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉搜索树与双向链表.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/字符串的排列.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/数组中出现次数超过一半的数字.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/PrintUtils.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/最小的K个数.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TestException.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/pom.xml" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/ThreadPool/MyThreadPoolExecutor.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/DESUtil.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Test.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Test1.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/找出最大回文数.java" />
+        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/找出最大回文数.java" />
       </list>
     </option>
   </component>
@@ -236,7 +243,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,12 +291,130 @@
               <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="regular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="BrockingQueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
+              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kly" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,8 +423,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546016979237" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548422557865" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yorik" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5091954" />
@@ -330,7 +455,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Test1">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -441,13 +566,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.App" />
+    <configuration name="二叉搜索树与双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.algorithm.toOffer.二叉搜索树与双向链表" />
       <module name="financeCount-business" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.kly.*" />
+          <option name="PATTERN" value="org.kly.basicSkills.algorithm.toOffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,13 +580,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonkeyStealsPeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.concurrent.MonkeyStealsPeach" />
+    <configuration name="最小的K个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.algorithm.toOffer.最小的K个数" />
       <module name="financeCount-business" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.concurrent.*" />
+          <option name="PATTERN" value="org.kly.basicSkills.algorithm.toOffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -469,13 +594,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectFormatString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.Regular.SelectFormatString" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.algorithm.sort.QuickSort" />
       <module name="financeCount-business" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.Regular.*" />
+          <option name="PATTERN" value="org.kly.basicSkills.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -483,13 +608,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VotePostByIp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.postUrl.VotePostByIp" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.algorithm.Test" />
       <module name="financeCount-business" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.postUrl.*" />
+          <option name="PATTERN" value="org.kly.basicSkills.algorithm.toOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.algorithm.Test1" />
+      <module name="financeCount-business" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.kly.basicSkills.algorithm.toOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.TestException" />
+      <module name="financeCount-business" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.kly.basicSkills.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -499,20 +652,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="votePostByIp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.postUrl.votePostByIp" />
-      <module name="financeCount-business" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.postUrl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -622,19 +761,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.MonkeyStealsPeach" />
-      <item itemvalue="Application.SelectFormatString" />
-      <item itemvalue="Application.VotePostByIp" />
-      <item itemvalue="Application.votePostByIp" />
+      <item itemvalue="Application.二叉搜索树与双向链表" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.最小的K个数" />
+      <item itemvalue="Application.TestException" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.votePostByIp" />
-        <item itemvalue="Application.VotePostByIp" />
-        <item itemvalue="Application.SelectFormatString" />
-        <item itemvalue="Application.MonkeyStealsPeach" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestException" />
+        <item itemvalue="Application.最小的K个数" />
+        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -659,7 +799,27 @@
       <workItem from="1545147632352" duration="1212000" />
       <workItem from="1545228203668" duration="1894000" />
       <workItem from="1545985985474" duration="462000" />
-      <workItem from="1546016800437" duration="241000" />
+      <workItem from="1546016800437" duration="2247000" />
+      <workItem from="1546156691877" duration="26249000" />
+      <workItem from="1546234126460" duration="3717000" />
+      <workItem from="1546337960561" duration="12661000" />
+      <workItem from="1546437108557" duration="2082000" />
+      <workItem from="1546582086306" duration="2320000" />
+      <workItem from="1546597395472" duration="4563000" />
+      <workItem from="1546619000624" duration="788000" />
+      <workItem from="1547040649230" duration="1218000" />
+      <workItem from="1547044190464" duration="261000" />
+      <workItem from="1547048267865" duration="302000" />
+      <workItem from="1547122449413" duration="1607000" />
+      <workItem from="1547875337071" duration="599000" />
+      <workItem from="1547983169087" duration="1200000" />
+      <workItem from="1547998992046" duration="271000" />
+      <workItem from="1548071582145" duration="1233000" />
+      <workItem from="1548141207397" duration="818000" />
+      <workItem from="1548325390096" duration="4481000" />
+      <workItem from="1548420138589" duration="1480000" />
+      <workItem from="1548489161566" duration="669000" />
+      <workItem from="1548580363385" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="文件整理提交 刷题">
       <created>1544029159800</created>
@@ -703,42 +863,181 @@
       <option name="project" value="LOCAL" />
       <updated>1545986412820</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="文件更新">
+      <created>1546017051726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546017051727</updated>
+    </task>
+    <task id="LOCAL-00008" summary="文件更新">
+      <created>1546017456280</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546017456280</updated>
+    </task>
+    <task id="LOCAL-00009" summary="提取了部分方法到工具类">
+      <created>1546018902170</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546018902170</updated>
+    </task>
+    <task id="LOCAL-00010" summary="剑指offer刷题1">
+      <created>1546168084809</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1546168084809</updated>
+    </task>
+    <task id="LOCAL-00011" summary="剑指offer刷题2">
+      <created>1546170771165</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1546170771165</updated>
+    </task>
+    <task id="LOCAL-00012" summary="剑指offer刷题 斐波那契数列">
+      <created>1546171585827</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1546171585827</updated>
+    </task>
+    <task id="LOCAL-00013" summary="剑指offer刷题 链表相关">
+      <created>1546181675554</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546181675554</updated>
+    </task>
+    <task id="LOCAL-00014" summary="剑指offer刷题 二叉树相关">
+      <created>1546187889256</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1546187889256</updated>
+    </task>
+    <task id="LOCAL-00015" summary="剑指offer刷题 二叉树相关">
+      <created>1546234702220</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546234702220</updated>
+    </task>
+    <task id="LOCAL-00016" summary="20181231 二叉树 胶南">
+      <created>1546237539199</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1546237539199</updated>
+    </task>
+    <task id="LOCAL-00017" summary="剑指offer刷题 复杂链表的复制">
+      <created>1546340929368</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1546340929368</updated>
+    </task>
+    <task id="LOCAL-00018" summary="剑指offer刷题  二叉树转换为链表">
+      <created>1546345217529</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1546345217529</updated>
+    </task>
+    <task id="LOCAL-00019" summary="剑指offer刷题  全排列">
+      <created>1546347706316</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1546347706316</updated>
+    </task>
+    <task id="LOCAL-00020" summary="剑指offer刷题  全排列">
+      <created>1546350108396</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546350108396</updated>
+    </task>
+    <task id="LOCAL-00021" summary="1">
+      <created>1546583884916</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1546583884916</updated>
+    </task>
+    <task id="LOCAL-00022" summary="版本依赖升级">
+      <created>1547048516420</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547048516420</updated>
+    </task>
+    <task id="LOCAL-00023" summary="版本升级">
+      <created>1547048531026</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547048531026</updated>
+    </task>
+    <task id="LOCAL-00024" summary="优化">
+      <created>1547998482860</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547998482860</updated>
+    </task>
+    <task id="LOCAL-00025" summary="完善加密解密代码">
+      <created>1548085185191</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1548085185191</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22490000" />
+    <option name="totallyTimeSpent" value="91615000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18879174" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.2217806" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Palette&#9;" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Favorites" order="5" sideWeight="0.50078005" side_tool="true" weight="0.19038156" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32908458" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839313" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298887" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
       <window_info anchor="bottom" id="SonarQube" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.23712948" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50317967" side_tool="true" visible="true" weight="0.29650238" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49682036" visible="true" weight="0.29650238" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3298887" />
+      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.3298887" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -747,6 +1046,11 @@
       <window_info anchor="right" id="Designer" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.3298887" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="CDI" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.3298887" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,9 +1064,6 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
@@ -772,7 +1073,23 @@
     <MESSAGE value="三道中等" />
     <MESSAGE value="z形和环形填充" />
     <MESSAGE value="整理文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理文档" />
+    <MESSAGE value="文件更新" />
+    <MESSAGE value="提取了部分方法到工具类" />
+    <MESSAGE value="剑指offer刷题1" />
+    <MESSAGE value="剑指offer刷题2" />
+    <MESSAGE value="剑指offer刷题 斐波那契数列" />
+    <MESSAGE value="剑指offer刷题 链表相关" />
+    <MESSAGE value="剑指offer刷题 二叉树相关" />
+    <MESSAGE value="20181231 二叉树 胶南" />
+    <MESSAGE value="剑指offer刷题 复杂链表的复制" />
+    <MESSAGE value="剑指offer刷题  二叉树转换为链表" />
+    <MESSAGE value="剑指offer刷题  全排列" />
+    <MESSAGE value="1" />
+    <MESSAGE value="版本依赖升级" />
+    <MESSAGE value="版本升级" />
+    <MESSAGE value="优化" />
+    <MESSAGE value="完善加密解密代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善加密解密代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -791,195 +1108,327 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/CustomerValidatorConfig.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tableCommit/WaybillVo.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/CustomerValidatorRule.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/RequireValidatorRule.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/AbstractCustomerValidatorRule.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/CustomerValidatorFactory.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tableCommit/TestAnnotation.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tableCommit/From.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Random.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/net/URLConnection.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.9/commons-codec-1.9.jar!/org/apache/commons/codec/binary/StringUtils.class" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Regular/SelectFormatString.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/sortAlgorithm/StraightInsertionSort.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/postUrl/RequestUrlThread.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/postUrl/VotePostByIp.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/ToolsController.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/合并两个排序的链表.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="621">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/RequestUrlThread.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/树的子结构.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="1196">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/leetcode/asd.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/VotePostByIp.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉树的镜像.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3465">
-          <caret line="175" column="1" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+        <state relative-caret-position="713">
+          <caret line="31" column="27" selection-start-line="24" selection-start-column="6" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/包含min函数的栈.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="9" selection-start-line="15" selection-start-column="5" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/从上往下打印二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉搜索树的后序遍历序列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8993">
+          <caret line="430" column="19" selection-start-line="430" selection-start-column="19" selection-end-line="430" selection-end-column="19" />
+          <folding>
+            <element signature="e#13953#13954#0" expanded="true" />
+            <element signature="e#13988#13989#0" expanded="true" />
+            <element signature="e#16642#16643#0" expanded="true" />
+            <element signature="e#16678#16679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉树中和为某一值的路径.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/复杂链表的复制.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/aop/TestAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉搜索树与双向链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12512">
+          <caret line="585" column="13" selection-start-line="585" selection-start-column="13" selection-end-line="585" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7061">
+          <caret line="338" column="36" selection-start-line="338" selection-start-column="36" selection-end-line="338" selection-end-column="36" />
+          <folding>
+            <element signature="e#14106#14107#0" expanded="true" />
+            <element signature="e#14155#14156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107341">
+          <caret line="5100" column="36" selection-start-line="5100" selection-start-column="36" selection-end-line="5100" selection-end-column="36" />
+          <folding>
+            <element signature="e#197058#197059#0" expanded="true" />
+            <element signature="e#197128#197129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/字符串的排列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/数组中出现次数超过一半的数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/最小的K个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3473">
+          <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4623">
+          <caret line="201" column="57" selection-start-line="201" selection-start-column="57" selection-end-line="201" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/ThreadPool/MyThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="88" column="45" selection-start-line="87" selection-start-column="38" selection-end-line="88" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/BrockingQueue/MyBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/jce.jar!/javax/crypto/Cipher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/MainDebug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/PrintUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/BeanUtils.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="161">
+          <caret line="9" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/EliminationGame.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/DESUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/FlipStringtoMonotoneIncreasing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/FlattenBinaryTreetoLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/MaximumAverageSubarrayI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/WaybillVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/TestAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/SpiralMatrixII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1974">
-          <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/ZigZagConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1743">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TravelNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Dfs.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/RortAlgorithm/Bfs.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/Validation/DateString.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/financeCount-business.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/StraightInsertionSort.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        <state relative-caret-position="575">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="575">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/CountTimer.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/栈的压入弹出序列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/SymmetricTree.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestPalindromicSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        <state relative-caret-position="243">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="92">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/MaximumAverageSubarrayI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/EliminationGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/FlattenBinaryTreetoLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/FlipStringtoMonotoneIncreasing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/ZigZagConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Test1.java" />
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/SpiralMatrixII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -990,45 +1439,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/regular/SelectFormatString.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TravelNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Tree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6532">
-          <caret line="299" selection-start-line="299" selection-end-line="299" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/config/spring-context.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/MainDebug.java">
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/SymmetricTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/顺时针打印矩阵.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/regular/SelectFormatString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/链表中倒数第k个结点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/找出最大回文数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1049,7 +1512,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1084,7 +1547,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>financeCount-entity</last-edited>
+          <last-edited>financeCount-business</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

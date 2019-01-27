@@ -10,8 +10,6 @@ import java.util.List;
  * @Date 2018-4-23.
  */
 public class MonkeyStealsPeach {
-
-
     //桃子总数
     private static Integer numOfPeach = 21;
     //睡眠时间
@@ -48,8 +46,6 @@ public class MonkeyStealsPeach {
             System.out.println(monkeyName + "生气的跑了,此时桃子还剩" + numOfPeach + "个");
         }
     }
-
-
     public static void main (String[] args){
         final MonkeyStealsPeach monkeyStealsPeach = new MonkeyStealsPeach();
 
