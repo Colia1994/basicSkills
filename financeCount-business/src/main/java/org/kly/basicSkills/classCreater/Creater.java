@@ -76,7 +76,7 @@ class B extends A {
         System.out.println("B: non-static initialization block 2");
     }
 
-    public String declareAndSet = "value in declared.";
+    String declareAndSet = "value in declared.";
     B() {
         System.out.println("B: B()");
         //init(); 这里测试赋值与初始化的不同含义感兴趣可以自行放开注释对比结果的差异
