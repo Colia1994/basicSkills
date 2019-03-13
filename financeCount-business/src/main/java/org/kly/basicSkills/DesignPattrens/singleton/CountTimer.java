@@ -10,7 +10,9 @@ class CountTimer {
 
     private static CountTimer countTimer;
 
+    //私有构造函数
     private CountTimer() {
+
     }
 
     /**
@@ -37,5 +39,16 @@ class CountTimer {
             }
         }
         return countTimer;
+    }
+
+    /**
+     * 静态内部类
+     */
+    static CountTimer getCountTimerInnner() {
+        return InnerCountTimer.countTimer1;
+    }
+
+    private static class InnerCountTimer{
+        public final static CountTimer countTimer1 = new CountTimer();
     }
 }
