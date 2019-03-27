@@ -86,25 +86,26 @@ public class ToolsController {
                 }
             }
 
-            if (params != null && params.size() > 0) {
+//            if (params != null && params.size() > 0) {
                 List<NameValuePair> nvps = new ArrayList<>();
-
-                for (Map.Entry<String, String> entry : params.entrySet()) {
-                    nvps.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
-                }
-                nvps.add(new BasicNameValuePair("1123", "123"));
-
+//
+//                for (Map.Entry<String, String> entry : params.entrySet()) {
+//                    nvps.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
+//                }
+                nvps.add(new BasicNameValuePair("userName", "admin"));
+                nvps.add(new BasicNameValuePair("password", "123"));
                 UrlEncodedFormEntity formEntity = null;
                 try {
                     formEntity = new UrlEncodedFormEntity(nvps, "utf-8");
 
                 } catch (UnsupportedEncodingException e1) {
+                    System.out.println(e1);
                 }
                 httpPost.setEntity(formEntity);
-            }
+//            }
             response = httpClient.execute(httpPost);
             result = EntityUtils.toString(response.getEntity());
-
+            EntityUtils.consumeQuietly(response.getEntity());
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -301,7 +302,7 @@ public class ToolsController {
     }
 
     public static void main(String[] args) {
-        httpPost("",null,null);
+        httpPost("http://localhost:8080/signIn",null,null);
     }
 }
 
