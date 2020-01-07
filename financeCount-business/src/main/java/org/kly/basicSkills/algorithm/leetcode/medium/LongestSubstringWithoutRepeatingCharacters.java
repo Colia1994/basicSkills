@@ -137,4 +137,25 @@ public class LongestSubstringWithoutRepeatingCharacters {
         }
         return ans;
     }
+
+    /**
+     * 20200107
+     */
+    public int lengthOfLongestSubstring(String s) {
+        int resultNum = 0;
+        int l = s.length();
+        Map<Character, Integer> integerMap = new HashMap<>();
+        for (int i = 0, j = 0; i < l; i++) {
+            if (integerMap.containsKey(s.charAt(i))) {
+                //重复后 移动指针
+                j = integerMap.get(s.charAt(i)) >= j ?  integerMap.get(s.charAt(i)) +1 : j;
+            }
+            integerMap.put(s.charAt(i), i);
+
+            //更新计数
+            resultNum = Math.max(i - j + 1, resultNum);
+        }
+
+        return resultNum;
+    }
 }

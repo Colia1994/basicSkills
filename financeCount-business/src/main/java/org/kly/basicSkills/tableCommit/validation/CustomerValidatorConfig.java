@@ -1,4 +1,4 @@
-package org.kly.basicSkills.tableCommit.Validation;
+package org.kly.basicSkills.tableCommit.validation;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

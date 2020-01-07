@@ -1,4 +1,4 @@
-package org.kly.basicSkills.tableCommit.Validation;
+package org.kly.basicSkills.tableCommit.validation;
 
 import java.lang.annotation.*;
 

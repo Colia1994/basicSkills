@@ -81,9 +81,6 @@ public class AddTwoNumbers {
     /**
      * solution
      *
-     * @param l1
-     * @param l2
-     * @return
      */
     public ListNode addTwoNumbersSolution(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
@@ -105,6 +102,31 @@ public class AddTwoNumbers {
         return dummyHead.next;
     }
 
+    /**
+     * 20200107
+     */
+    public ListNode addTwoNumbers20200107(ListNode l1, ListNode l2) {
+        int common = 0;
+        ListNode result = new ListNode(0);
+        ListNode next = result;
+        while (l1 != null || l2 != null || common == 1) {
+            int l1Int = l1 == null ? 0 : l1.val;
+            int l2Int = l2 == null ? 0 : l2.val;
+            int nodeInt = l1Int + l2Int + common;
+            common = 0;
+            if (nodeInt >= 10) {
+                nodeInt = nodeInt - 10;
+                common = 1;
+                next.next = new ListNode(nodeInt);
+            } else {
+                next.next = new ListNode(nodeInt);
+            }
+            next = next.next;
+            l1 = l1 == null ? null : l1.next;
+            l2 = l2 == null ? null : l2.next;
+        }
+        return result.next;
+    }
     public class ListNode {
         int val;
         ListNode next;
