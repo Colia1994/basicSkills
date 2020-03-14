@@ -16,7 +16,7 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * @author colia
  * @date 2018/12/17 0:47
  */
-public class SpiralMatrixII {
+public class m_59_螺旋矩阵_II {
     /**
      * my first answer
      */
@@ -82,7 +82,7 @@ public class SpiralMatrixII {
                 arr[i][n - j - 1] = c++;
             for (int i = n - j - 2; i >= j; i--)
                 arr[n - j - 1][i] = c++;
-            for (int i = n -j - 2; i > j; i--)
+            for (int i = n - j - 2; i > j; i--)
                 arr[i][j] = c++;
 
             j++;
@@ -128,7 +128,27 @@ public class SpiralMatrixII {
         return asd1;
     }
 
+    public int[][] generateMatrix2020(int n) {
+        int[][] arr = new int[n][n];
+        int num = 1, dep = 0;
+        while (num < n * n) {
 
+            for (int j = dep; j < n - dep; j++) {
+                arr[dep][j] = num++;
+            }
+            for (int i = dep + 1; i < n - dep; i++) {
+                arr[i][n - dep - 1] = num++;
+            }
+            for (int j = n - dep - 2; j >= dep; j--) {
+                arr[n - dep - 1][j] = num++;
+            }
+            for (int i = n - dep - 2; i > dep; i--) {
+                arr[i][dep] = num++;
+            }
+            dep++;
+        }
+        return arr;
+    }
 
 
 
