@@ -1,12 +1,30 @@
 package org.kly.basicSkills.algorithm.leetcode.easy;
 
+import org.kly.common.ListNode;
+
 /**
  * 单向链表翻转
  * @author colia
  * @date 2018/12/18 0:40
  */
-public class TravelNode {
+public class e_206_反转链表 {
 
+    public ListNode reverseList(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        ListNode pre = null;
+        ListNode cur = head;
+        while (cur != null) {
+
+            ListNode tl = cur.next;
+
+            cur.next = pre;
+            pre = cur;
+            cur = tl;
+        }
+        return pre;
+    }
 
     private static Node travel(Node head){
         if(head == null){
