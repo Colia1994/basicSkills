@@ -50,9 +50,7 @@ public class e_1365_有多少小于当前数字的数字 {
         }
         int[] result = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
-            if(nums[i]>0) {
-                result[i] = frequency[nums[i] - 1];
-            }
+
         }
         return result;
     }

@@ -1,7 +1,5 @@
 package org.kly.basicSkills.algorithm.leetcode.easy;
 
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.Stack;
 
 /**
