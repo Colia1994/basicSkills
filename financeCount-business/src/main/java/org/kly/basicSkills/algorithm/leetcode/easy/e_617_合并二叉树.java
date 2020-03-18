@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.leetcode.easy;
 
+import org.kly.common.TreeNode;
+
 /**
  * 给定两个二叉树，想象当你将它们中的一个覆盖到另一个上时，两个二叉树的一些节点便会重叠。
  *
@@ -48,14 +50,5 @@ public class e_617_合并二叉树 {
 
 
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
 }
