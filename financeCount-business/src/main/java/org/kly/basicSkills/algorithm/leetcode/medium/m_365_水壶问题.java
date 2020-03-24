@@ -45,14 +45,15 @@ public class m_365_水壶问题 {
         if (x == 0 || y == 0) {
             return z == 0 || (x + y == z);
         }
-        return z % gcd(x,y) == 0;
+        return z % gcd(x, y) == 0;
 
 
     }
-    static int gcd(int x,int y){
-        if(y == 0) return x;
+
+    static int gcd(int x, int y) {
+        if (y == 0) return x;
         int r = x % y;
-        return gcd(y,r);
+        return gcd(y, r);
     }
 
 }

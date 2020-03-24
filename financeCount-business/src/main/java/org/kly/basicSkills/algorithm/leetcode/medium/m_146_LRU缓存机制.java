@@ -46,6 +46,7 @@ public class m_146_LRU缓存机制 {
             DLinkedNode prev;
             DLinkedNode next;
         }
+
         private void addNode(DLinkedNode node) {
             /**
              * Always add the new node right after head.
@@ -57,7 +58,7 @@ public class m_146_LRU缓存机制 {
             head.next = node;
         }
 
-        private void removeNode(DLinkedNode node){
+        private void removeNode(DLinkedNode node) {
             /**
              * Remove an existing node from the linked list.
              */
@@ -68,13 +69,14 @@ public class m_146_LRU缓存机制 {
             next.prev = prev;
         }
 
-        private void moveToHead(DLinkedNode node){
+        private void moveToHead(DLinkedNode node) {
             /**
              * Move certain node in between to the head.
              */
             removeNode(node);
             addNode(node);
         }
+
         private DLinkedNode popTail() {
             /**
              * Pop the current tail.
@@ -88,6 +90,7 @@ public class m_146_LRU缓存机制 {
         private int size;
         private int capacity;
         private DLinkedNode head, tail;
+
         public LRUCache(int capacity) {
             this.size = 0;
             this.capacity = capacity;
@@ -115,7 +118,7 @@ public class m_146_LRU缓存机制 {
         public void put(int key, int value) {
             DLinkedNode node = cache.get(key);
 
-            if(node == null) {
+            if (node == null) {
                 DLinkedNode newNode = new DLinkedNode();
                 newNode.key = key;
                 newNode.value = value;
@@ -125,7 +128,7 @@ public class m_146_LRU缓存机制 {
 
                 ++size;
 
-                if(size > capacity) {
+                if (size > capacity) {
                     // pop the tail
                     DLinkedNode tail = popTail();
                     cache.remove(tail.key);

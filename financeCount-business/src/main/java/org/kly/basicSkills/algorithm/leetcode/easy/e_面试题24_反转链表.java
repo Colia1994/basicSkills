@@ -3,14 +3,15 @@ package org.kly.basicSkills.algorithm.leetcode.easy;
 /**
  * 定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。
  * 示例:
- *
+ * <p>
  * 输入: 1->2->3->4->5->NULL
  * 输出: 5->4->3->2->1->NULL
- *
- *
+ * <p>
+ * <p>
  * 限制：
- *
+ * <p>
  * 0 <= 节点个数 <= 5000
+ *
  * @Author Colia
  * @Date 2020/3/12.
  */
@@ -39,9 +40,8 @@ public class e_面试题24_反转链表 {
     }
 
 
-
     public ListNode reverseListDigui(ListNode head) {
-        if(head == null || head.next == null){
+        if (head == null || head.next == null) {
             return head;
         }
         ListNode cur = reverseListDigui(head.next);

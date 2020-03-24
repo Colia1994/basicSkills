@@ -5,7 +5,7 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * A string of '0's and '1's is monotone increasing if it consists of some number of '0's (possibly 0), followed by some number of '1's (also possibly 0.)
  * We are given a string S of '0's and '1's, and we may flip any '0' to a '1' or a '1' to a '0'.
  * Return the minimum number of flips to make S monotone increasing.
- *
+ * <p>
  * Example 1:
  * Input: "00110"
  * Output: 1
@@ -18,11 +18,11 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * Input: "00011000"
  * Output: 2
  * Explanation: We flip to get 00000000.
+ *
  * @author colia
  * @date 2018/12/13 0:14
  */
 public class FlipStringtoMonotoneIncreasing {
-
 
 
     public int minFlipsMonoIncr(String S) {
@@ -58,7 +58,7 @@ public class FlipStringtoMonotoneIncreasing {
             //假设第j位是分割左右 01的界限 0~j都是0 j到n都是1
             //0~j的1需要翻转 P[j]
             //j到n 的0 需要翻转 P[N]-P[j]是 j到n的1出现的次数
-            ans = Math.min(ans, P[j] + N-j-(P[N]-P[j]));
+            ans = Math.min(ans, P[j] + N - j - (P[N] - P[j]));
         }
 
         return ans;

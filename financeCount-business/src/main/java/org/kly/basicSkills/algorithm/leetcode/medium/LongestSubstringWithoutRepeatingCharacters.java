@@ -7,36 +7,35 @@ import java.util.Set;
 
 /**
  * * 3. Longest Substring Without Repeating Characters
- *      Given a string, find the length of the longest substring without repeating characters.
+ * Given a string, find the length of the longest substring without repeating characters.
+ * <p>
+ * Example 1:
+ * <p>
+ * Input: "abcabcbb"
+ * Output: 3
+ * Explanation: The answer is "abc", with the length of 3.
+ * Example 2:
+ * <p>
+ * Input: "bbbbb"
+ * Output: 1
+ * Explanation: The answer is "b", with the length of 1.
+ * Example 3:
+ * <p>
+ * Input: "pwwkew"
+ * Output: 3
+ * Explanation: The answer is "wke", with the length of 3.
+ * Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  *
- *      Example 1:
- *
- *      Input: "abcabcbb"
- *      Output: 3
- *      Explanation: The answer is "abc", with the length of 3.
- *      Example 2:
- *
- *      Input: "bbbbb"
- *      Output: 1
- *      Explanation: The answer is "b", with the length of 1.
- *      Example 3:
- *
- *      Input: "pwwkew"
- *      Output: 3
- *      Explanation: The answer is "wke", with the length of 3.
- *      Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  * @author colia
  * @date 2018/12/16 0:42
  */
 public class LongestSubstringWithoutRepeatingCharacters {
 
 
-
     /**
-
      * map集合法
      */
-    public  int lengthOfLongestSubstringMine(String s) {
+    public int lengthOfLongestSubstringMine(String s) {
         int resultNum = 0;
         int l = s.length();
         Map<Character, Integer> integerMap = new HashMap<>();
@@ -49,12 +48,11 @@ public class LongestSubstringWithoutRepeatingCharacters {
                 integerMap.put(s.charAt(i), i);
             }
             //更新计数
-            resultNum = Math.max(integerMap.size(),resultNum);
+            resultNum = Math.max(integerMap.size(), resultNum);
         }
 
         return resultNum;
     }
-
 
 
     /**
@@ -110,11 +108,10 @@ public class LongestSubstringWithoutRepeatingCharacters {
         int ans = 0, i = 0, j = 0;
         while (i < n && j < n) {
             // try to extend the range [i, j]
-            if (!set.contains(s.charAt(j))){
+            if (!set.contains(s.charAt(j))) {
                 set.add(s.charAt(j++));
                 ans = Math.max(ans, j - i);
-            }
-            else {
+            } else {
                 set.remove(s.charAt(i++));
             }
         }
@@ -148,7 +145,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         for (int i = 0, j = 0; i < l; i++) {
             if (integerMap.containsKey(s.charAt(i))) {
                 //重复后 移动指针
-                j = integerMap.get(s.charAt(i)) >= j ?  integerMap.get(s.charAt(i)) +1 : j;
+                j = integerMap.get(s.charAt(i)) >= j ? integerMap.get(s.charAt(i)) + 1 : j;
             }
             integerMap.put(s.charAt(i), i);
 

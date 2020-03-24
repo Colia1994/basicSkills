@@ -9,7 +9,7 @@ public class EXCEL26进制问题 {
         int result = 0;
         for (int i = 0; i < s.length(); i++) {
             int charNum = (int) s.charAt(i) - 64;
-            result =  result * 26 + charNum;
+            result = result * 26 + charNum;
         }
         return result;
 

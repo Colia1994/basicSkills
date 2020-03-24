@@ -8,6 +8,7 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
  * Output: 7 -> 0 -> 8
  * Explanation: 342 + 465 = 807.
+ *
  * @author colia
  * @date 2018/12/16 0:35
  */
@@ -80,7 +81,6 @@ public class AddTwoNumbers {
 
     /**
      * solution
-     *
      */
     public ListNode addTwoNumbersSolution(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
@@ -127,6 +127,7 @@ public class AddTwoNumbers {
         }
         return result.next;
     }
+
     public class ListNode {
         int val;
         ListNode next;

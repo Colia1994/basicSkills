@@ -4,11 +4,11 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * 148. 排序链表
  * 在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序。
  * 示例 1:
- *
+ * <p>
  * 输入: 4->2->1->3
  * 输出: 1->2->3->4
  * 示例 2:
- *
+ * <p>
  * 输入: -1->5->3->4->0
  * 输出: -1->0->3->4->5
  *
@@ -29,7 +29,7 @@ public class m_148_排序链表 {
 
     //归并递归 空间超过预期 O logN  时间 n log n
     public static ListNode sortList(ListNode head) {
-        if (head ==null || head.next == null) {
+        if (head == null || head.next == null) {
             return head;
         }
         ListNode quick = head.next;
@@ -40,7 +40,7 @@ public class m_148_排序链表 {
         }
         ListNode tmp = slow.next;
         slow.next = null;
-        ListNode bef  = sortList(head);
+        ListNode bef = sortList(head);
         ListNode next = sortList(tmp);
 
         //合并数组
@@ -78,9 +78,9 @@ public class m_148_排序链表 {
         ListNode l2 = new ListNode(2);
         ListNode l3 = new ListNode(1);
         ListNode l4 = new ListNode(3);
-        l1.next=l2;
-        l2.next=l3;
-        l3.next =l4;
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l4;
         l4.next = null;
         m_148_排序链表.sortList(l1);
 
@@ -92,7 +92,7 @@ public class m_148_排序链表 {
             return head;
         }
         int length = 0, deep = 1;
-        ListNode pre,l1,l2,res,h;
+        ListNode pre, l1, l2, res, h;
         ListNode quick = head;
         while (quick != null) {
             quick = quick.next;
@@ -115,7 +115,7 @@ public class m_148_排序链表 {
                 }
                 l2 = h;
 
-                if(count >0){
+                if (count > 0) {
                     break;
                 }
                 count = deep;//计数器
@@ -140,7 +140,7 @@ public class m_148_排序链表 {
                 }
 
                 pre.next = c1 > 0 ? l1 : l2;
-                while(c1 >0 || c2 >0){
+                while (c1 > 0 || c2 > 0) {
                     pre = pre.next;
                     c1--;
                     c2--;
