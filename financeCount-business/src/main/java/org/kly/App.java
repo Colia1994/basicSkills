@@ -1,22 +1,18 @@
 package org.kly;
 
-import org.kly.basicSkills.algorithm.leetcode.easy.e_1160_拼写单词;
-import org.kly.basicSkills.algorithm.leetcode.easy.e_409_最长回文串;
+import org.kly.basicSkills.algorithm.leetcode.medium.m_945_使数组唯一的最小增量;
 
 /**
  * Hello world!
- *
  */
 public class App {
     public static void main(String[] args) {
-        String[] words = new String[]{"cat","bt","hat","tree"};
-        String chars = "atach";
-        e_409_最长回文串 e_409_最长回文串 = new e_409_最长回文串();
-        e_409_最长回文串.longestPalindrome("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth");
+        int[] A = new int[]{3, 2, 1, 2, 1, 7};
+
+        m_945_使数组唯一的最小增量 m = new m_945_使数组唯一的最小增量();
+        m.minIncrementForUnique(A);
         System.out.println("hello world");
     }
-
-
 
 
 }
