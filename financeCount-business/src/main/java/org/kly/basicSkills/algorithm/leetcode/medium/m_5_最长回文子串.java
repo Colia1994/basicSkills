@@ -17,7 +17,7 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * @author colia
  * @date 2018/12/17 23:35
  */
-public class LongestPalindromicSubstring {
+public class m_5_最长回文子串 {
 
     /**
      * 第一次解答
