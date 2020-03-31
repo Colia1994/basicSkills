@@ -85,40 +85,7 @@ public class m_912_排序数组 {
         return nums;
     }
 
-    //归并
-    public int[] sortArrayGB(int[] nums) {
-        int[] copy = new int[nums.length];
-        guiBing(nums, copy, 0, nums.length - 1);
-        return copy;
-    }
 
-    private void guiBing(int[] nums, int[] copy, int start, int end) {
-        if (start == end) {
-            return;
-        }
-        int mid = (end + start) / 2;
-        guiBing(nums, copy, start, mid);
-        guiBing(nums, copy, mid + 1, end);
-        int i = mid;
-        int j = end;
-        int k = end;
-        while (i >= start && j >= mid + 1) {
-            if (nums[i] > nums[j]) {
-                copy[k--] = nums[i--];
-            } else {
-                copy[k--] = nums[j--];
-            }
-        }
-        while (i >= start) {
-            copy[k--] = nums[i--];
-        }
-        while (j >= mid + 1) {
-            copy[k--] = nums[j--];
-        }
-        for (int s = start; s <= end; s++) {
-            nums[s] = copy[s];
-        }
-    }
 
     //插入
     public int[] sortArrayCR(int[] nums) {
@@ -165,41 +132,7 @@ public class m_912_排序数组 {
         return nums;
     }
 
-    //堆排序
-    private void heapSort(int[] nums) {
-        heapify(nums,nums.length-1);                                 // 新建一个最大堆
-        for (int i = nums.length - 1; i >= 1; i--) {
-            swap(nums, 0, i);                       // 弹出最大堆的堆顶放在最后
-            rebuildHeap(nums, 0, i - 1);          // 重建最大堆
-        }
-    }
 
-    private void heapify(int[] nums, int end ) {
-        for (int i = 1; i <= end; i++) {
-            int par = (i - 1) >> 1;                       // 找到父节点
-            int child = i;                            // 定义子节点
-            while (child > 0 && nums[par] < nums[child]) {  // 从子节点到根节点构建最大堆
-                swap(nums, par, child);
-                child = par;
-                par = (par - 1) >> 1;
-            }
-        }
-    }
-
-    private void rebuildHeap(int[] nums, int par, int last) {
-        int left = 2 * par + 1;                           // 左子节点
-        int right = 2 * par + 2;                          // 右子节点
-        int maxIndex = left;
-
-        if (right <= last && nums[right] > nums[left]) {  // 找到最大子节点
-            maxIndex = right;
-        }
-
-        if (left <= last && nums[par] < nums[maxIndex]) {// 和最大子节点比较
-            swap(nums, par, maxIndex);                 // 互换到最大子节点
-            rebuildHeap(nums, maxIndex, last);         // 重建最大子节点代表的子树
-        }
-    }
 
     //二叉搜索树排序
     private int[] bstSort(int[] nums) {
