@@ -8,6 +8,7 @@ import org.kly.utils.PrintUtils;
  * 时间复杂度 O(n * log n)
  * 空间复杂度 O(n * log n)
  * 不稳定排序
+ *
  * @Author konglingyao
  * @Date 2018/12/28
  */
@@ -15,12 +16,12 @@ public class QuickSort {
 
     public static void main(String[] args) {
         Integer[] inputArray = {121, 11, 12, 3, 123, 1, 132, 12, 234, 123, 12, 2435, 123, 123, 13};
-        QuickSort.quickSortAndSwapUp(inputArray,0,inputArray.length-1);
+        QuickSort.quickSortAndSwapUp(inputArray, 0, inputArray.length - 1);
         PrintUtils.printArray(inputArray);
 
     }
 
-    private static void quickSortAndSwapUp(Integer[] inputArray,int low,int high) {
+    private static void quickSortAndSwapUp(Integer[] inputArray, int low, int high) {
         if (low < high) {
             PrintUtils.printArray(inputArray);
             int cu = partition(inputArray, low, high);

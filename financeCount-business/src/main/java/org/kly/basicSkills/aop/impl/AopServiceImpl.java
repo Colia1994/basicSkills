@@ -57,7 +57,7 @@ public class AopServiceImpl implements AopService {
     @Validate(value = "#{str}")
     @Override
     public void del(String str) {
-        if(org.apache.commons.lang3.StringUtils.isBlank(str)){
+        if (org.apache.commons.lang3.StringUtils.isBlank(str)) {
             System.out.println("null");
         }
         System.out.println(str);
@@ -93,7 +93,6 @@ public class AopServiceImpl implements AopService {
 
     /**
      * 判断是纯数字
-     *
      */
     private static boolean isDigit(Object origin) {
         if (null == origin) {
@@ -114,7 +113,6 @@ public class AopServiceImpl implements AopService {
 
         return true;
     }
-
 
 
 }

@@ -1,7 +1,7 @@
 package org.kly.basicSkills.designPattrens.singleton;
 
 /**
- *   计时计数类
+ * 计时计数类
  *
  * @author colia
  * @date 2017-07-20
@@ -48,7 +48,7 @@ class CountTimer {
         return InnerCountTimer.countTimer1;
     }
 
-    private static class InnerCountTimer{
+    private static class InnerCountTimer {
         public final static CountTimer countTimer1 = new CountTimer();
     }
 }

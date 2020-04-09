@@ -15,6 +15,7 @@ import java.util.List;
  * //     '(2.1)第三节',
  * //     '(2.2)第四节'
  * // ];
+ *
  * @Author Colia
  * @Date 2020/3/11.
  */
@@ -30,7 +31,7 @@ public class PrintChapterTree {
     }
 
 
-    private static void print(NodeTree nodeTree, List<String> result ,String bef,int num) {
+    private static void print(NodeTree nodeTree, List<String> result, String bef, int num) {
         bef += num < 0 ? "" : num + 1 + "";
         result.add(bef.equals("") ? bef + nodeTree.name : "(" + bef + ")" + nodeTree.name);
         if (nodeTree.children != null) {
@@ -40,7 +41,6 @@ public class PrintChapterTree {
             }
         }
     }
-
 
 
     public static void main(String[] args) {
@@ -80,12 +80,12 @@ public class PrintChapterTree {
         printChapter(nodeTree);
     }
 
-    static class NodeTree{
+    static class NodeTree {
         String name;
 
         List<NodeTree> children;
 
-        NodeTree(String name,List<NodeTree> children){
+        NodeTree(String name, List<NodeTree> children) {
             this.name = name;
             this.children = children;
         }

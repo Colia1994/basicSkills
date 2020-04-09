@@ -7,6 +7,7 @@ import java.lang.reflect.Field;
 
 /**
  * 自定义校验- 校验处理器接口
+ *
  * @author kongly
  * @date 2017-07-03 10:00:00
  */
@@ -21,7 +22,7 @@ public interface CustomerValidatorRule {
     boolean support(Annotation annotation);
 
     /**
-     *  校验处理
+     * 校验处理
      *
      * @param annotation
      * @param field

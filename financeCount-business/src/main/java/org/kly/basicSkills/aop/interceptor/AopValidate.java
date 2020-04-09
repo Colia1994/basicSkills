@@ -21,7 +21,7 @@ public class AopValidate {
     public Object validate(ProceedingJoinPoint joinPoint, Validate validate) throws Throwable {
         Signature signature = joinPoint.getSignature();
 
-        System.out.println(validate.value()+"--------" + signature.getName());
+        System.out.println(validate.value() + "--------" + signature.getName());
         Object result = null;
         try {
             //执行目标方法

@@ -98,7 +98,9 @@ public class h_460_LFU缓存 {
         Node pre;
         Node post;
 
-        public Node() {}
+        public Node() {
+        }
+
         public Node(int key, int value) {
             this.key = key;
             this.value = value;

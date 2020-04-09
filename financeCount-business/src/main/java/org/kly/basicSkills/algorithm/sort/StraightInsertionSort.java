@@ -3,23 +3,24 @@ package org.kly.basicSkills.algorithm.sort;
 import org.kly.utils.PrintUtils;
 
 /**
- *  插入排序-直接插入排序
- *  时间复杂度 O（n^2）
- *  空间复杂度 O(1)
- *  稳定排序
+ * 插入排序-直接插入排序
+ * 时间复杂度 O（n^2）
+ * 空间复杂度 O(1)
+ * 稳定排序
+ *
  * @author colia
  * @date 2017-07-18
  */
 public class StraightInsertionSort {
 
-    public static void main( String[] args ) {
+    public static void main(String[] args) {
         Integer[] inputArray = {121, 11, 12, 3, 123, 1, 132, 12, 234, 123, 12, 2435, 123, 123, 13};
         StraightInsertionSort.straightSortUp(inputArray);
         PrintUtils.printArray(inputArray);
     }
 
     /**
-     *  升序排序　选出哨兵，向前插入，确保每一次比较的数组位置，前半部分为已排好顺序的
+     * 升序排序　选出哨兵，向前插入，确保每一次比较的数组位置，前半部分为已排好顺序的
      */
     private static void straightSortUp(Integer[] inputArray) {
         for (int i = 1; i < inputArray.length; i++) {
@@ -37,7 +38,7 @@ public class StraightInsertionSort {
     }
 
     /**
-     *  降序排序　选出哨兵，向前插入，确保每一次比较的数组位置，前半部分为已排好顺序的
+     * 降序排序　选出哨兵，向前插入，确保每一次比较的数组位置，前半部分为已排好顺序的
      */
     private static void straightSortDown(Integer[] inputArray) {
         for (int i = 1; i < inputArray.length; i++) {

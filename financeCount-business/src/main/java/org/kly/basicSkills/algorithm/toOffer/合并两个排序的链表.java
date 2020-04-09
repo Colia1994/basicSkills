@@ -2,6 +2,7 @@ package org.kly.basicSkills.algorithm.toOffer;
 
 /**
  * 输入两个单调递增的链表，输出两个链表合成后的链表，当然我们需要合成后的链表满足单调不减规则。
+ *
  * @author colia
  * @date 2018/12/30 22:40
  */
@@ -16,16 +17,16 @@ public class 合并两个排序的链表 {
                     list2.next = null;
                     aryNode.next = list2;
                     list2 = newNode;
-                }else{
+                } else {
                     ListNode newNode = list1.next;
                     list1.next = null;
                     aryNode.next = list1;
                     list1 = newNode;
                 }
-            }else if(list1 == null){
+            } else if (list1 == null) {
                 aryNode.next = list2;
                 list2 = null;
-            }else{
+            } else {
                 aryNode.next = list1;
                 list1 = null;
             }

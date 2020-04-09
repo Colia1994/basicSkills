@@ -4,6 +4,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * 阻塞队列
+ *
  * @author colia
  * @date 2018/12/25 23:18
  */

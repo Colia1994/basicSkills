@@ -1,7 +1,7 @@
 package org.kly.basicSkills.designPattrens.singleton;
 
 /**
- *   单例调试
+ * 单例调试
  *
  * @author colia
  * @date 2017-07-20

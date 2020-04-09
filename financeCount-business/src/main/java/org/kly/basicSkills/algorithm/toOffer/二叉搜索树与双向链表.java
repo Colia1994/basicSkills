@@ -3,6 +3,7 @@ package org.kly.basicSkills.algorithm.toOffer;
 /**
  * 输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。
  * 要求不能创建任何新的结点，只能调整树中结点指针的指向。
+ *
  * @author colia
  * @date 2019/1/1 19:09
  */
@@ -30,7 +31,7 @@ public class 二叉搜索树与双向链表 {
         if (pRootOfTree == null) {
             return null;
         }
-        if(pRootOfTree.right!=null) {
+        if (pRootOfTree.right != null) {
             node = Convert(pRootOfTree.right, node);
         }
         pRootOfTree.right = node;
@@ -38,7 +39,7 @@ public class 二叉搜索树与双向链表 {
             node.left = pRootOfTree;
         }
         node = pRootOfTree;
-        if(pRootOfTree.left!=null) {
+        if (pRootOfTree.left != null) {
 
             node = Convert(pRootOfTree.left, node);
         }

@@ -4,6 +4,7 @@ import java.util.Hashtable;
 
 /**
  * LRU
+ *
  * @author colia
  * @date 2018/12/11
  */
@@ -15,11 +16,12 @@ public class LRUCache {
     private CacheNode first;//(实现双链表)链表头
     private CacheNode last;//(实现双链表)链表尾
 
-    class CacheNode{
+    class CacheNode {
         CacheNode prev;//前一节点
         CacheNode next;//后一节点
         Object value;//值
         Object key;//键
+
         CacheNode() {
         }
     }
@@ -32,6 +34,7 @@ public class LRUCache {
 
     /**
      * 获取缓存中对象
+     *
      * @param key
      * @return
      */
@@ -47,6 +50,7 @@ public class LRUCache {
 
     /**
      * 添加缓存
+     *
      * @param key
      * @param value
      */
@@ -71,8 +75,10 @@ public class LRUCache {
         moveToHead(node);
         nodes.put(key, node);
     }
+
     /**
      * 将缓存删除
+     *
      * @param key
      * @return
      */
@@ -92,13 +98,15 @@ public class LRUCache {
         }
         return node;
     }
+
     public void clear() {
         first = null;
         last = null;
     }
+
     /**
      * 删除链表尾部节点
-     *  表示 删除最少使用的缓存对象
+     * 表示 删除最少使用的缓存对象
      */
     private void removeLast() {
         //链表尾不为空,则将链表尾指向null. 删除连表尾（删除最少使用的缓存对象）
@@ -115,6 +123,7 @@ public class LRUCache {
     /**
      * 命中节点
      * 移动到链表头，表示这个节点是最新使用过的
+     *
      * @param node 命中的节点
      */
     private void moveToHead(CacheNode node) {

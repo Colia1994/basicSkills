@@ -34,7 +34,7 @@ public class e_面试题_17_16_按摩师 {
 
     public int massage(int[] nums) {
         //0 标识使用选择当前预约 1标识不选择
-        if(nums.length < 1){
+        if (nums.length < 1) {
             return 0;
         }
         int num_i0 = 0, num_i1 = nums[0];

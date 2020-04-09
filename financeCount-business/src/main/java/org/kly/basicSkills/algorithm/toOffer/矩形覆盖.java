@@ -2,6 +2,7 @@ package org.kly.basicSkills.algorithm.toOffer;
 
 /**
  * 我们可以用2*1的小矩形横着或者竖着去覆盖更大的矩形。请问用n个2*1的小矩形无重叠地覆盖一个2*n的大矩形，总共有多少种方法？
+ *
  * @author colia
  * @date 2018/12/30 20:28
  */

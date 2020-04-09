@@ -86,7 +86,6 @@ public class m_912_排序数组 {
     }
 
 
-
     //插入
     public int[] sortArrayCR(int[] nums) {
 
@@ -131,7 +130,6 @@ public class m_912_排序数组 {
         }
         return nums;
     }
-
 
 
     //二叉搜索树排序

@@ -8,6 +8,7 @@ import java.lang.annotation.*;
  * Retention定义了该Annotation被保留的时间长短
  * Target说明了Annotation所修饰的对象范围
  * Inherited 元注解是一个标记注解,注解作用于类可以被继承
+ *
  * @author kongly
  * @date 2017-07-03 10:00:00
  */

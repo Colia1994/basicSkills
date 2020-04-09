@@ -10,13 +10,15 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 自动扫描实现
+ *
  * @author kongly
  * @date 2017-07-03 10:00:00
  */
 public class CustomerValidatorConfig implements ApplicationContextAware {
 
-    private Map<Annotation, CustomerValidatorRule> rules	= new ConcurrentHashMap<Annotation, CustomerValidatorRule>();
-    private Map<String, Object>	customerValidationRules = null;
+    private Map<Annotation, CustomerValidatorRule> rules = new ConcurrentHashMap<Annotation, CustomerValidatorRule>();
+    private Map<String, Object> customerValidationRules = null;
+
     /**
      * @see org.springframework.context.ApplicationContextAware#setApplicationContext(org.springframework.context.ApplicationContext)
      */
@@ -25,6 +27,7 @@ public class CustomerValidatorConfig implements ApplicationContextAware {
                 .getBeansWithAnnotation(CustomerRule.class);
         System.out.println(customerValidationRules);
     }
+
     private CustomerValidatorRule findFormMap(Annotation annotation) {
         for (Map.Entry<String, Object> entry : customerValidationRules.entrySet()) {
             if (entry.getValue() != null
@@ -34,6 +37,7 @@ public class CustomerValidatorConfig implements ApplicationContextAware {
         }
         return null;
     }
+
     CustomerValidatorRule findRule(Annotation annotation) {
         CustomerValidatorRule customerValidatorRule = null;
         if (!rules.containsKey(annotation)) {

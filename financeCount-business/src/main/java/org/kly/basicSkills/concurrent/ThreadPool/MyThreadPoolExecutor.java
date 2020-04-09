@@ -4,6 +4,7 @@ import java.util.concurrent.*;
 
 /**
  * 线程池相关
+ *
  * @author colia
  * @date 2018/12/25 22:35
  */
@@ -35,7 +36,7 @@ public class MyThreadPoolExecutor {
     private final long keepAliveTime = 1000;
     /**
      * 参数keepAliveTime的时间单位，有7种取值，在TimeUnit类中有7种静态属性
-     *
+     * <p>
      * TimeUnit.DAYS;               //天
      * TimeUnit.HOURS;             //小时
      * TimeUnit.MINUTES;           //分钟
@@ -49,11 +50,11 @@ public class MyThreadPoolExecutor {
     /**
      * 一个阻塞队列，用来存储等待执行的任务
      * 1）ArrayBlockingQueue：基于数组的先进先出队列，此队列创建时必须指定大小；
-     *
+     * <p>
      * 2）LinkedBlockingQueue：基于链表的先进先出队列，如果创建时没有指定此队列大小，则默认为Integer.MAX_VALUE；
-     *
+     * <p>
      * 3）synchronousQueue：这个队列比较特殊，它不会保存提交的任务，而是将直接新建一个线程来执行新来的任务。
-     *
+     * <p>
      * 4）PriorityBlockingQueue 带排序的阻塞优先级队列，底层是数组实现的二叉堆
      */
     private final BlockingQueue<Runnable> workQueue = new ArrayBlockingQueue<>(10);
@@ -65,7 +66,7 @@ public class MyThreadPoolExecutor {
 
     /**
      * 表示当拒绝处理任务时的策略
-     *
+     * <p>
      * ThreadPoolExecutor.AbortPolicy:丢弃任务并抛出RejectedExecutionException异常。
      * ThreadPoolExecutor.DiscardPolicy：也是丢弃任务，但是不抛出异常。
      * ThreadPoolExecutor.DiscardOldestPolicy：丢弃队列最前面的任务，然后重新尝试执行任务（重复此过程）
@@ -83,16 +84,15 @@ public class MyThreadPoolExecutor {
     ThreadPoolExecutor threadPoolExecutor4 = new ThreadPoolExecutor(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, threadFactory, handler);
 
 
-
     public static void main(String[] args) {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 200, TimeUnit.MILLISECONDS,
                 new ArrayBlockingQueue<>(5));
 //        ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newSingleThreadExecutor();
-        for(int i=0;i<15;i++){
+        for (int i = 0; i < 15; i++) {
             MyTask myTask = new MyTask(i);
             executor.execute(myTask);
-            System.out.println("线程池中线程数目："+executor.getPoolSize()+"，队列中等待执行的任务数目："+
-                    executor.getQueue().size()+"，已执行玩别的任务数目："+executor.getCompletedTaskCount());
+            System.out.println("线程池中线程数目：" + executor.getPoolSize() + "，队列中等待执行的任务数目：" +
+                    executor.getQueue().size() + "，已执行玩别的任务数目：" + executor.getCompletedTaskCount());
         }
         executor.shutdown();
     }
@@ -106,13 +106,13 @@ public class MyThreadPoolExecutor {
 
         @Override
         public void run() {
-            System.out.println("正在执行task "+taskNum);
+            System.out.println("正在执行task " + taskNum);
             try {
                 Thread.sleep(4000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("task "+taskNum+"执行完毕");
+            System.out.println("task " + taskNum + "执行完毕");
         }
     }
 

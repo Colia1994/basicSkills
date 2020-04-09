@@ -6,8 +6,6 @@ package org.kly.basicSkills.algorithm.toOffer;
  * 例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
  * NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
  *
- *
- *
  * @author colia
  * @date 2018/12/30 19:21
  */

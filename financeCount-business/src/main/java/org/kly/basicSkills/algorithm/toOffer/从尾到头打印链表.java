@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 /**
  * 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
+ *
  * @author colia
  * @date 2018/12/30 17:47
  */

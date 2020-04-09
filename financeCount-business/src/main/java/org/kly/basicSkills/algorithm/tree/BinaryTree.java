@@ -202,16 +202,16 @@ public class BinaryTree {
         ArrayDeque<TreeNode> arrayDeque = new ArrayDeque<>();
         arrayDeque.add(treeNode);
         Boolean ifasd = true;
-        while (!arrayDeque.isEmpty()){
+        while (!arrayDeque.isEmpty()) {
             treeNode = arrayDeque.element();
-            while (ifasd && treeNode.leftChild != null){
+            while (ifasd && treeNode.leftChild != null) {
                 arrayDeque.addFirst(treeNode.leftChild);
                 treeNode = treeNode.leftChild;
             }
             treeNode = arrayDeque.pop();
             visted(treeNode);
             ifasd = false;
-            if(treeNode.rightChild != null){
+            if (treeNode.rightChild != null) {
                 arrayDeque.addFirst(treeNode.rightChild);
                 ifasd = true;
             }
@@ -231,10 +231,10 @@ public class BinaryTree {
                 visted(treeNode);
                 arrayDeque.pop();
             } else {
-                if(treeNode.rightChild !=null){
+                if (treeNode.rightChild != null) {
                     arrayDeque.addFirst(treeNode.rightChild);
                 }
-                if(treeNode.leftChild !=null){
+                if (treeNode.leftChild != null) {
                     arrayDeque.addFirst(treeNode.leftChild);
 
                 }

@@ -15,8 +15,8 @@ public class JSON {
         String test = "{\"multi_entry\":0,\"\":{\"ip1\":{\"ip\":\"\",\"interface\":\"\"}}}";
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            MultiIpPreferences multiIpPreferences = objectMapper.readValue(test,MultiIpPreferences.class);
-            if(null != multiIpPreferences){
+            MultiIpPreferences multiIpPreferences = objectMapper.readValue(test, MultiIpPreferences.class);
+            if (null != multiIpPreferences) {
                 System.out.println(multiIpPreferences.toString());
 
             }

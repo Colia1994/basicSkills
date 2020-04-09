@@ -7,11 +7,12 @@ import java.util.Date;
 
 /**
  * 自定义校验-testvo
+ *
  * @author kongly
  * @date 2017-07-03 10:00:00
  */
 @CustomerRule
-public class RequireValidatorRule extends AbstractCustomerValidatorRule{
+public class RequireValidatorRule extends AbstractCustomerValidatorRule {
 
     @Override
     public boolean support(Annotation annotation) {
@@ -25,6 +26,7 @@ public class RequireValidatorRule extends AbstractCustomerValidatorRule{
             postHandler.postHanle(ds.errorCode(), ds.message());
         }
     }
+
     private Date parse(String pattern, String property) {
         try {
             SimpleDateFormat sdf = new SimpleDateFormat(pattern);

@@ -13,5 +13,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Validate {
 
-    String value()  default  "";
+    String value() default "";
 }

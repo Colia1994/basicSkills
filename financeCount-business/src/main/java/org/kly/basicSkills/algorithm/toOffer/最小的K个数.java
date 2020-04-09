@@ -7,6 +7,7 @@ import java.util.PriorityQueue;
 /**
  * 输入n个整数，找出其中最小的K个数。
  * 例如输入4,5,1,6,2,7,3,8这8个数字，则最小的4个数字是1,2,3,4,。
+ *
  * @author colia
  * @date 2019/1/1 21:01
  */
@@ -64,7 +65,7 @@ public class 最小的K个数 {
     public ArrayList<Integer> GetLeastNumbers_Solution1(int[] input, int k) {
         ArrayList<Integer> result = new ArrayList<>();
         int length = input.length;
-        if(k > length || k == 0){
+        if (k > length || k == 0) {
             return result;
         }
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(k, Comparator.reverseOrder());

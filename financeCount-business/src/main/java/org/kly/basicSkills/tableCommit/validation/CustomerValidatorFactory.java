@@ -14,6 +14,7 @@ import java.util.List;
 
 /**
  * 自动扫描实现
+ *
  * @author kongly
  * @date 2017-07-03 10:00:00
  */
@@ -48,6 +49,7 @@ public class CustomerValidatorFactory implements Validator {
             }
         }
     }
+
     /**
      * 获取class的fields。
      *

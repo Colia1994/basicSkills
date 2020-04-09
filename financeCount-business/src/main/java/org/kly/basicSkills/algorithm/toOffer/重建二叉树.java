@@ -27,14 +27,15 @@ public class 重建二叉树 {
 
     /**
      * 核心递归方法
-     * @param root 当前节点
-     * @param pre 完整前序数组
-     * @param in 完整中序数组
+     *
+     * @param root   当前节点
+     * @param pre    完整前序数组
+     * @param in     完整中序数组
      * @param indexP 本次递归前序开始下标
-     * @param start 本次递归中序开始下标
+     * @param start  本次递归中序开始下标
      * @param length 本次递归数组长度
      */
-    private static void reConstructBinaryTree(TreeNode root, int[] pre, int[] in, int indexP ,int start, int length) {
+    private static void reConstructBinaryTree(TreeNode root, int[] pre, int[] in, int indexP, int start, int length) {
         int index = findIndex(pre[indexP], start, in);
         if (indexP + 1 < pre.length && index > 0) {
             root.left = new TreeNode(pre[indexP + 1]);

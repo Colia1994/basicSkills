@@ -19,13 +19,13 @@ public class MultiIpPreferences {
 
     @Data
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public static class Ips{
+    public static class Ips {
         public Ip ip1;
         public Ip ip2;
 
         @Data
         @JsonIgnoreProperties(ignoreUnknown = true)
-        public static class Ip{
+        public static class Ip {
             public String ip;
 
             public String connector;

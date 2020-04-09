@@ -3,20 +3,19 @@ package org.kly.basicSkills.algorithm.wild;
 import java.util.HashMap;
 
 /**
- *
- *  * [
- *
- *         [1,  2,  3,  4,  5,  6],
- *
- *         [11, 23, 35, 345],
- *
- *         [34,  4,  65]
- *
- *     ]
- *
+ * * [
+ * <p>
+ * [1,  2,  3,  4,  5,  6],
+ * <p>
+ * [11, 23, 35, 345],
+ * <p>
+ * [34,  4,  65]
+ * <p>
+ * ]
+ * <p>
  * // 1,2,11,3,23, 34，4, 。。。。
- *
- *
+ * <p>
+ * <p>
  * 00
  * 01 10
  * 02 11 20
@@ -33,7 +32,7 @@ public class 斜对角线打印 {
     private static void print(int[][] a) {
         int n = 0, max = 0;
         for (int le = 0; le < a.length; le++) {
-            max = Math.max(max, a[le].length +le);
+            max = Math.max(max, a[le].length + le);
         }
         while (n < max) {
             int i = 0;
@@ -54,9 +53,9 @@ public class 斜对角线打印 {
     public static void main(String[] args) {
 //        print(array);
 //        CollectionUtils.;
-        HashMap<String,String> newh = new HashMap<>();
-        newh.put(null,null);
-        if(newh.isEmpty()){
+        HashMap<String, String> newh = new HashMap<>();
+        newh.put(null, null);
+        if (newh.isEmpty()) {
             System.out.print("assssssssssssss");
         }
     }

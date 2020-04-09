@@ -8,7 +8,7 @@ public class 找出最大回文数 {
 
     public static void main(String[] args) {
         找出最大回文数 test = new 找出最大回文数();
-        int[] a = new int[]{122,121,232,1,3,5};
+        int[] a = new int[]{122, 121, 232, 1, 3, 5};
         System.out.println(test.rollNumber(a));
     }
 

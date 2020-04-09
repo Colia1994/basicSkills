@@ -11,9 +11,9 @@ public class 替换空格 {
 
     public String replaceSpace(StringBuffer str) {
 
-        if(str == null){
+        if (str == null) {
             return null;
         }
-        return str.toString().replaceAll(" ","%20");
+        return str.toString().replaceAll(" ", "%20");
     }
 }

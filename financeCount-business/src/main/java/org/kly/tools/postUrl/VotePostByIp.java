@@ -1,7 +1,6 @@
 package org.kly.tools.postUrl;
 
 
-
 import org.kly.utils.StringUtils;
 
 import java.io.BufferedReader;
@@ -14,8 +13,9 @@ import java.util.Random;
 
 /**
  * 服务器锁定ip情况下模拟请求，发送get post请求
- *
+ * <p>
  * 需求提出者，老爹。投票
+ *
  * @author colia
  * @date 2017-08-08
  */

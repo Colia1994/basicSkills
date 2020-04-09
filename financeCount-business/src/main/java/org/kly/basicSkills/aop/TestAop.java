@@ -22,7 +22,7 @@ public class TestAop {
         this.aopService = aopService;
     }
 
-    public void printString(){
+    public void printString() {
         System.out.println("*****controller进入，准备执行");
         aopService.complateAop();
         System.out.println("*****controller结束，结束执行");

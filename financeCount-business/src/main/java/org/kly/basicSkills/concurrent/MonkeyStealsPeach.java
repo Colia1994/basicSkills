@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * 题目：猴子偷桃 n个猴子去一筐桃子里偷桃，猴子很贪心，一次偷两个，不够两个时会生气的返回 请用代码模拟这个场景
  * 假设有21个桃子 2只猴子
+ *
  * @Author Colia
  * @Date 2018-4-23.
  */
@@ -15,7 +16,7 @@ public class MonkeyStealsPeach {
     //睡眠时间
     private static final long sleepTimes = 200;
 
-    private List<String> monkeys = Arrays.asList("姜晨","大刀切鸭梨");
+    private List<String> monkeys = Arrays.asList("姜晨", "大刀切鸭梨");
 
     private final byte[] bytes = new byte[0];
 
@@ -46,7 +47,8 @@ public class MonkeyStealsPeach {
             System.out.println(monkeyName + "生气的跑了,此时桃子还剩" + numOfPeach + "个");
         }
     }
-    public static void main (String[] args){
+
+    public static void main(String[] args) {
         final MonkeyStealsPeach monkeyStealsPeach = new MonkeyStealsPeach();
 
         for (final String monkeyName : monkeyStealsPeach.monkeys) {

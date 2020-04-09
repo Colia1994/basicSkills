@@ -2,6 +2,7 @@ package org.kly.utils;
 
 /**
  * string工具类
+ *
  * @author colia
  * @date 2017-07-18
  */

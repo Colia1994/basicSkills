@@ -7,7 +7,7 @@ package org.kly.utils;
 public class PrintUtils {
 
     public static void printArray(Integer[] inputArray) {
-        if(inputArray == null){
+        if (inputArray == null) {
             return;
         }
         System.out.print("[");
@@ -21,7 +21,7 @@ public class PrintUtils {
     }
 
     public static void printArray(int[] inputArray) {
-        if(inputArray == null){
+        if (inputArray == null) {
             return;
         }
         System.out.print("[");

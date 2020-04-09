@@ -35,6 +35,7 @@ public class ToolsController {
 
     /**
      * 基本GET请求
+     *
      * @param url
      * @param headers
      * @return
@@ -67,6 +68,7 @@ public class ToolsController {
 
     /**
      * 基本POST请求
+     *
      * @param url
      * @param params
      * @param headers
@@ -85,21 +87,21 @@ public class ToolsController {
             }
 
 //            if (params != null && params.size() > 0) {
-                List<NameValuePair> nvps = new ArrayList<>();
+            List<NameValuePair> nvps = new ArrayList<>();
 //
 //                for (Map.Entry<String, String> entry : params.entrySet()) {
 //                    nvps.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
 //                }
-                nvps.add(new BasicNameValuePair("userName", "admin"));
-                nvps.add(new BasicNameValuePair("password", "123"));
-                UrlEncodedFormEntity formEntity = null;
-                try {
-                    formEntity = new UrlEncodedFormEntity(nvps, "utf-8");
+            nvps.add(new BasicNameValuePair("userName", "admin"));
+            nvps.add(new BasicNameValuePair("password", "123"));
+            UrlEncodedFormEntity formEntity = null;
+            try {
+                formEntity = new UrlEncodedFormEntity(nvps, "utf-8");
 
-                } catch (UnsupportedEncodingException e1) {
-                    System.out.println(e1);
-                }
-                httpPost.setEntity(formEntity);
+            } catch (UnsupportedEncodingException e1) {
+                System.out.println(e1);
+            }
+            httpPost.setEntity(formEntity);
 //            }
             response = httpClient.execute(httpPost);
             result = EntityUtils.toString(response.getEntity());
@@ -121,6 +123,7 @@ public class ToolsController {
 
     /**
      * 基本DELETE请求
+     *
      * @param url
      * @param headers
      * @return
@@ -152,6 +155,7 @@ public class ToolsController {
 
     /**
      * 基本PUT请求
+     *
      * @param url
      * @param params
      * @return
@@ -300,7 +304,7 @@ public class ToolsController {
     }
 
     public static void main(String[] args) {
-        httpPost("http://localhost:8080/signIn",null,null);
+        httpPost("http://localhost:8080/signIn", null, null);
     }
 }
 
@@ -312,9 +316,11 @@ class HttpGetWithEntity extends HttpEntityEnclosingRequestBase {
     public String getMethod() {
         return METHOD_NAME;
     }
+
     public HttpGetWithEntity(URI url) {
         this.setURI(url);
     }
+
     public HttpGetWithEntity(String uri) {
         this.setURI(URI.create(uri));
     }

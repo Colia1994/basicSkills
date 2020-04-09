@@ -8,13 +8,14 @@ import org.kly.utils.PrintUtils;
  * 时间复杂度O(n^2)
  * 空间复杂度O(1)
  * 不稳定排序
+ *
  * @Author konglingyao
  * @Date 2018/12/28
  */
 public class SimpleSelectionSort {
 
-    public static void main( String[] args ) {
-        Integer[] inputArray = {121,11,12,3,123,1,132,12,234,123,12,2435,123,123,13};
+    public static void main(String[] args) {
+        Integer[] inputArray = {121, 11, 12, 3, 123, 1, 132, 12, 234, 123, 12, 2435, 123, 123, 13};
         SimpleSelectionSort.simpleSelect(inputArray);
         PrintUtils.printArray(inputArray);
 
@@ -29,7 +30,7 @@ public class SimpleSelectionSort {
         }
     }
 
-    private static int minInArray(Integer[] inputArray,int start,int end) {
+    private static int minInArray(Integer[] inputArray, int start, int end) {
         int min = start;
         for (int i = start + 1; i < end; i++) {
             if (inputArray[i] < inputArray[min]) {
