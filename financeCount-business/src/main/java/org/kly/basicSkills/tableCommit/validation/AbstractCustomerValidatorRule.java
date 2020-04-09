@@ -11,10 +11,11 @@ import java.lang.reflect.Method;
 
 /**
  * 校验处理器
+ *
  * @author kongly
  * @date 2017-07-03 10:00:00
  */
-public abstract class AbstractCustomerValidatorRule implements CustomerValidatorRule{
+public abstract class AbstractCustomerValidatorRule implements CustomerValidatorRule {
 
     public abstract boolean support(Annotation annotation);
 
@@ -41,6 +42,7 @@ public abstract class AbstractCustomerValidatorRule implements CustomerValidator
         Assert.notNull(errors);
         Assert.notNull(field);
     }
+
     public abstract void validProperty(Annotation annotation, Object property,
                                        PostHandler postHandler);
 }
