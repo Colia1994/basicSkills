@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.leetcode.medium;
 
+import org.kly.common.ListNode;
+
 /**
  * 19. Remove Nth Node From End of List
  * <p>
@@ -35,14 +37,6 @@ public class RemoveNthNode {
         return listNode.next;
     }
 
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
 
 }

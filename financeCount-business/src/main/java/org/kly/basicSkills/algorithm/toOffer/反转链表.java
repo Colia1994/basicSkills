@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.toOffer;
 
+import org.kly.common.ListNode;
+
 /**
  * 输入一个链表，反转链表后，输出新链表的表头。
  *
@@ -21,12 +23,4 @@ public class 反转链表 {
 
     }
 
-    class ListNode {
-        int val;
-        ListNode next = null;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
 }

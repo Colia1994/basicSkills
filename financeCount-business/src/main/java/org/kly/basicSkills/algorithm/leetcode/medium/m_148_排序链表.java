@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.leetcode.medium;
 
+import org.kly.common.ListNode;
+
 /**
  * 148. 排序链表
  * 在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序。
@@ -18,14 +20,6 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
 public class m_148_排序链表 {
 
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     //归并递归 空间超过预期 O logN  时间 n log n
     public static ListNode sortList(ListNode head) {

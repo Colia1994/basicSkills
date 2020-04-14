@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.leetcode.easy;
 
+import org.kly.common.ListNode;
+
 /**
  * 定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。
  * 示例:
@@ -17,14 +19,6 @@ package org.kly.basicSkills.algorithm.leetcode.easy;
  */
 public class e_面试题24_反转链表 {
 
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     //非递归实现
     public ListNode reverseList(ListNode head) {

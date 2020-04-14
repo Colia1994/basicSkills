@@ -1,6 +1,8 @@
 package org.kly.basicSkills.algorithm.toOffer;
 
 
+import org.kly.common.ListNode;
+
 import java.util.ArrayList;
 
 /**
@@ -30,14 +32,5 @@ public class 从尾到头打印链表 {
         arrayList.add(listNode.val);
     }
 
-    public class ListNode {
-
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
 }

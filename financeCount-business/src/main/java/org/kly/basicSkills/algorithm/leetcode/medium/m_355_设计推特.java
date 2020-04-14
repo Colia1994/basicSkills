@@ -14,12 +14,12 @@ public class m_355_设计推特 {
     private static int timestamp = 0;
 
 
-    class ListNode {
+    class TweetNode {
         int tweetId;
         int timeStamp;
-        ListNode next;
+        TweetNode next;
 
-        ListNode(int tweetId, int timeStamp) {
+        TweetNode(int tweetId, int timeStamp) {
             this.timeStamp = timeStamp;
             this.tweetId = tweetId;
         }
@@ -27,7 +27,7 @@ public class m_355_设计推特 {
 
 
     //Tweet是有序链表,按照时间戳来排序
-    private Map<Integer, ListNode> userTweetMap = new HashMap<>();
+    private Map<Integer, TweetNode> userTweetMap = new HashMap<>();
 
     //followMap
     private Map<Integer, Set<Integer>> userFollowMap = new HashMap<>();
@@ -45,8 +45,8 @@ public class m_355_设计推特 {
      * Compose a new tweet.
      */
     public void postTweet(int userId, int tweetId) {
-        ListNode oldHead = userTweetMap.get(userId);
-        userTweetMap.compute(userId, (k, v) -> new ListNode(tweetId, ++timestamp)).next = oldHead;
+        TweetNode oldHead = userTweetMap.get(userId);
+        userTweetMap.compute(userId, (k, v) -> new TweetNode(tweetId, ++timestamp)).next = oldHead;
 
 
     }
@@ -55,13 +55,13 @@ public class m_355_设计推特 {
      * Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent.
      */
     public List<Integer> getNewsFeed(int userId) {
-        PriorityQueue<ListNode> pq = new PriorityQueue<>((t1, t2) -> t2.timeStamp - t1.timeStamp);
+        PriorityQueue<TweetNode> pq = new PriorityQueue<>((t1, t2) -> t2.timeStamp - t1.timeStamp);
         List<Integer> feed = new ArrayList<>();
         follow(userId, userId);
         userFollowMap.get(userId).forEach(followerId -> Optional.ofNullable(userTweetMap.get(followerId)).ifPresent(pq::offer));
         int count = 0;
         while (!pq.isEmpty() && count < 10) {
-            ListNode tw = pq.poll();
+            TweetNode tw = pq.poll();
             feed.add(tw.tweetId);
             if (tw.next != null) {
                 pq.offer(tw.next);
