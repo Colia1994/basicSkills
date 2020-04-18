@@ -36,6 +36,7 @@ public class m_55_跳跃游戏 {
                 if (rightmost >= n - 1) {
                     return true;
                 }
+
             }
         }
         return false;
