@@ -38,10 +38,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="mac test git commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java" afterDir="false" />
     </list>
-    <list id="f8a1a3da-db17-47c4-8a9f-d8a605e8c07a" name="NOT COMMIT" comment="" />
+    <list id="f8a1a3da-db17-47c4-8a9f-d8a605e8c07a" name="NOT COMMIT" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -532,7 +533,7 @@
       <workItem from="1589800789300" duration="840000" />
       <workItem from="1589853628649" duration="308000" />
       <workItem from="1589854121189" duration="1820000" />
-      <workItem from="1589873940499" duration="146000" />
+      <workItem from="1589873940499" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="文件整理提交 刷题">
       <created>1544029159800</created>
