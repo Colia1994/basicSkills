@@ -12,6 +12,8 @@ public class App {
         m_945_使数组唯一的最小增量 m = new m_945_使数组唯一的最小增量();
         m.minIncrementForUnique(A);
         System.out.println("hello world");
+
+        //工具类的使用
     }
 
 

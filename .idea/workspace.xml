@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0f7cfe74-eb54-43e3-9c94-afb651d4db8a" name="Default" comment="算法演习 20200312每日一练">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/financeCount-business/target/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/financeCount-business.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/financeCount-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java" afterDir="false" />
     </list>
     <list id="f8a1a3da-db17-47c4-8a9f-d8a605e8c07a" name="NOT COMMIT" comment="" />
-    <ignored path="financeCount.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/financeCount-business/target/" />
-    <ignored path="$PROJECT_DIR$/financeCount-entity/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,404 +53,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="financeCount" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/wild/PrintChapterTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/tree/Dfs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_543_二叉树的直径.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_面试题24_反转链表.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-              <folding>
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_面试题25_合并两个排序的链表.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="827">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/m_148_排序链表.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-              <folding>
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/financeCount-business/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1008">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://MAVEN/org.kly:financeCount-business:1.0-SNAPSHOT">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>MAVEN</ID>
-              <OriginalElement>org.kly:financeCount-business:1.0-SNAPSHOT</OriginalElement>
-              <nodes>
-                <node x="1744.5" y="360.0">org.kly:financeCount-business:1.0-SNAPSHOT</node>
-                <node x="3285.0" y="160.0">junit:junit:jar:3.8.1</node>
-                <node x="3055.0" y="160.0">org.springframework:spring-web:jar:5.1.13</node>
-                <node x="2936.0" y="160.0">org.springframework:spring-oxm:jar:5.1.13</node>
-                <node x="2688.0" y="160.0">org.springframework:spring-tx:jar:5.1.13</node>
-                <node x="2569.0" y="160.0">org.springframework:spring-jdbc:jar:5.1.13</node>
-                <node x="2428.0" y="160.0">org.springframework:spring-webmvc:jar:5.1.13</node>
-                <node x="2310.0" y="160.0">org.springframework:spring-aop:jar:5.1.13</node>
-                <node x="2123.0" y="160.0">org.springframework:spring-context-support:jar:5.1.13</node>
-                <node x="1885.0" y="160.0">org.springframework:spring-test:jar:5.1.13</node>
-                <node x="1787.0" y="160.0">org.mybatis:mybatis:jar:3.2.6</node>
-                <node x="1648.0" y="160.0">org.mybatis:mybatis-spring:jar:1.2.2</node>
-                <node x="3173.0" y="160.0">javax:javaee-api:jar:7.0</node>
-                <node x="3175.0" y="80.0">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0</node>
-                <node x="3175.5" y="0.0">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0/javax.activation:activation:jar:1.1</node>
-                <node x="1303.0" y="160.0">mysql:mysql-connector-java:jar:5.1.30</node>
-                <node x="2792.0" y="160.0">commons-dbcp:commons-dbcp:jar:1.2.2</node>
-                <node x="2793.5" y="80.0">commons-dbcp:commons-dbcp:jar:1.2.2/commons-pool:commons-pool:jar:1.3</node>
-                <node x="1235.0" y="160.0">jstl:jstl:jar:1.2</node>
-                <node x="1924.9791666666665" y="80.0">log4j:log4j:jar:1.2.17</node>
-                <node x="964.9999999999999" y="160.0">com.alibaba:fastjson:jar:1.2.54</node>
-                <node x="2213.7291666666665" y="80.0">org.slf4j:slf4j-api:jar:1.7.7</node>
-                <node x="2000.0" y="160.0">org.slf4j:slf4j-log4j12:jar:1.7.7</node>
-                <node x="1480.0" y="160.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
-                <node x="1490.0" y="80.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
-                <node x="1062.0" y="160.0">commons-fileupload:commons-fileupload:jar:1.4</node>
-                <node x="1129.1155582922822" y="80.0">commons-io:commons-io:jar:2.2</node>
-                <node x="663.0" y="160.0">commons-codec:commons-codec:jar:1.9</node>
-                <node x="517.0" y="160.0">org.apache.commons:commons-lang3:jar:3.3.2</node>
-                <node x="415.0" y="160.0">org.aspectj:aspectjrt:jar:1.8.8</node>
-                <node x="281.0" y="160.0">org.aspectj:aspectjweaver:jar:1.8.8</node>
-                <node x="811.9999999999999" y="160.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3</node>
-                <node x="877.9999999999999" y="80.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10</node>
-                <node x="750.9999999999999" y="80.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.10</node>
-                <node x="176.0" y="160.0">org.apache.httpcomponents:httpclient:jar:4.3.6</node>
-                <node x="392.82194170771754" y="80.0">org.apache.httpcomponents:httpclient:jar:4.3.6/org.apache.httpcomponents:httpcore:jar:4.3.3</node>
-                <node x="149.0" y="80.0">org.apache.httpcomponents:httpclient:jar:4.3.6/commons-logging:commons-logging:jar:1.1.3</node>
-                <node x="0.0" y="80.0">org.apache.httpcomponents:httpclient:jar:4.3.6/commons-codec:commons-codec:jar:1.6</node>
-                <node x="79.0" y="160.0">org.projectlombok:lombok:jar:1.16.10</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="commons-fileupload:commons-fileupload:jar:1.4" target="commons-io:commons-io:jar:2.2">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1138.0" y="135.0" />
-                  <point x="1155.3655582922822" y="135.0" />
-                  <point x="-26.25" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:5.1.13">
-                  <point x="27.931034482758605" y="-15.0" />
-                  <point x="1853.4310344827586" y="250.0" />
-                  <point x="2358.5" y="250.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:5.1.13">
-                  <point x="39.10344827586209" y="-15.0" />
-                  <point x="1864.6034482758619" y="270.0" />
-                  <point x="2488.5" y="270.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.apache.httpcomponents:httpclient:jar:4.3.6" target="org.apache.httpcomponents:httpclient:jar:4.3.6/commons-logging:commons-logging:jar:1.1.3">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="commons-io:commons-io:jar:2.2">
-                  <point x="-27.931034482758605" y="-15.0" />
-                  <point x="1797.5689655172414" y="250.0" />
-                  <point x="1224.5" y="250.0" />
-                  <point x="1224.5" y="135.0" />
-                  <point x="1207.8655582922822" y="135.0" />
-                  <point x="26.25" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.apache.httpcomponents:httpclient:jar:4.3.6">
-                  <point x="-72.62068965517233" y="-15.0" />
-                  <point x="1752.8793103448274" y="330.0" />
-                  <point x="218.5" y="330.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-context-support:jar:5.1.13">
-                  <point x="22.344827586206975" y="-15.0" />
-                  <point x="1847.844827586207" y="240.0" />
-                  <point x="2206.5" y="240.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="commons-codec:commons-codec:jar:1.9">
-                  <point x="-50.27586206896558" y="-15.0" />
-                  <point x="1775.2241379310344" y="290.0" />
-                  <point x="727.5" y="290.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:5.1.13">
-                  <point x="50.27586206896558" y="-15.0" />
-                  <point x="1875.7758620689656" y="290.0" />
-                  <point x="2730.0" y="290.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.3.2">
-                  <point x="-55.86206896551721" y="-15.0" />
-                  <point x="1769.6379310344828" y="300.0" />
-                  <point x="580.0" y="300.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.30">
-                  <point x="-16.758620689655118" y="-15.0" />
-                  <point x="1808.7413793103447" y="230.0" />
-                  <point x="1381.5" y="230.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.apache.httpcomponents:httpclient:jar:4.3.6" target="org.apache.httpcomponents:httpclient:jar:4.3.6/org.apache.httpcomponents:httpcore:jar:4.3.3">
-                  <point x="28.333333333333485" y="-15.0" />
-                  <point x="246.83333333333348" y="135.0" />
-                  <point x="433.32194170771754" y="135.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.10">
-                  <point x="-33.25" y="-15.0" />
-                  <point x="845.2499999999999" y="135.0" />
-                  <point x="804.4999999999999" y="135.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10">
-                  <point x="33.25" y="-15.0" />
-                  <point x="911.7499999999999" y="135.0" />
-                  <point x="952.4999999999999" y="135.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.2.6">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-oxm:jar:5.1.13">
-                  <point x="61.44827586206907" y="-15.0" />
-                  <point x="1886.9482758620688" y="310.0" />
-                  <point x="2985.5" y="310.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="javax:javaee-api:jar:7.0" target="javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.aspectj:aspectjrt:jar:1.8.8">
-                  <point x="-61.44827586206907" y="-15.0" />
-                  <point x="1764.0517241379307" y="310.0" />
-                  <point x="456.0" y="310.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.7">
-                  <point x="33.51724137931046" y="-15.0" />
-                  <point x="1859.0172413793102" y="260.0" />
-                  <point x="2417.5" y="260.0" />
-                  <point x="2417.5" y="135.0" />
-                  <point x="2272.2291666666665" y="135.0" />
-                  <point x="19.5" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="junit:junit:jar:3.8.1">
-                  <point x="78.20689655172418" y="-15.0" />
-                  <point x="1903.7068965517242" y="340.0" />
-                  <point x="3313.0" y="340.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.slf4j:slf4j-log4j12:jar:1.7.7" target="log4j:log4j:jar:1.2.17">
-                  <point x="-25.75" y="-15.0" />
-                  <point x="2025.75" y="135.0" />
-                  <point x="1970.7291666666665" y="135.0" />
-                  <point x="15.25" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
-                  <point x="5.58620689655163" y="-15.0" />
-                  <point x="1831.0862068965516" y="210.0" />
-                  <point x="1874.5" y="210.0" />
-                  <point x="1874.5" y="135.0" />
-                  <point x="1940.2291666666665" y="135.0" />
-                  <point x="-15.25" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="jstl:jstl:jar:1.2">
-                  <point x="-22.344827586206975" y="-15.0" />
-                  <point x="1803.155172413793" y="240.0" />
-                  <point x="1259.0" y="240.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.apache.httpcomponents:httpclient:jar:4.3.6" target="org.apache.httpcomponents:httpclient:jar:4.3.6/commons-codec:commons-codec:jar:1.6">
-                  <point x="-28.333333333333485" y="-15.0" />
-                  <point x="190.16666666666652" y="135.0" />
-                  <point x="64.5" y="135.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.10">
-                  <point x="-78.20689655172418" y="-15.0" />
-                  <point x="1747.2931034482758" y="340.0" />
-                  <point x="117.5" y="340.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="commons-dbcp:commons-dbcp:jar:1.2.2" target="commons-dbcp:commons-dbcp:jar:1.2.2/commons-pool:commons-pool:jar:1.3">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13">
-                  <point x="-11.172413793103487" y="-15.0" />
-                  <point x="1814.3275862068963" y="220.0" />
-                  <point x="1554.0" y="220.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.54">
-                  <point x="-39.10344827586209" y="-15.0" />
-                  <point x="1786.3965517241377" y="270.0" />
-                  <point x="1003.4999999999999" y="270.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.2.2">
-                  <point x="55.86206896551721" y="-15.0" />
-                  <point x="1881.3620689655172" y="300.0" />
-                  <point x="2854.0" y="300.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:5.1.13">
-                  <point x="67.0344827586207" y="-15.0" />
-                  <point x="1892.5344827586205" y="320.0" />
-                  <point x="3104.0" y="320.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.7">
-                  <point x="16.758620689655118" y="-15.0" />
-                  <point x="1842.258620689655" y="230.0" />
-                  <point x="2051.5" y="230.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:5.1.13">
-                  <point x="11.172413793103487" y="-15.0" />
-                  <point x="1836.6724137931033" y="220.0" />
-                  <point x="1932.5" y="220.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0" target="javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0/javax.activation:activation:jar:1.1">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="javax:javaee-api:jar:7.0">
-                  <point x="72.62068965517233" y="-15.0" />
-                  <point x="1898.120689655172" y="330.0" />
-                  <point x="3219.0" y="330.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3">
-                  <point x="-44.68965517241395" y="-15.0" />
-                  <point x="1780.810344827586" y="280.0" />
-                  <point x="878.4999999999999" y="280.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.slf4j:slf4j-log4j12:jar:1.7.7" target="org.slf4j:slf4j-api:jar:1.7.7">
-                  <point x="25.75" y="-15.0" />
-                  <point x="2077.25" y="135.0" />
-                  <point x="2233.2291666666665" y="135.0" />
-                  <point x="-19.5" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.2">
-                  <point x="-5.58620689655163" y="-15.0" />
-                  <point x="1819.9137931034484" y="210.0" />
-                  <point x="1707.5" y="210.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:5.1.13">
-                  <point x="44.68965517241372" y="-15.0" />
-                  <point x="1870.1896551724135" y="280.0" />
-                  <point x="2618.5" y="280.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.4">
-                  <point x="-33.51724137931046" y="-15.0" />
-                  <point x="1791.9827586206893" y="260.0" />
-                  <point x="1138.0" y="260.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.8.8">
-                  <point x="-67.0344827586207" y="-15.0" />
-                  <point x="1758.465517241379" y="320.0" />
-                  <point x="338.0" y="320.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.4404481132075472" x="534.8995983935743" y="-251.13654618473902" />
-              <SelectedNodes />
-              <Categories />
-              <VISIBILITY>All</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -471,100 +85,21 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉树的镜像.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/顺时针打印矩阵.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/包含min函数的栈.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/栈的压入弹出序列.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/从上往下打印二叉树.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉搜索树的后序遍历序列.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉树中和为某一值的路径.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/复杂链表的复制.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉搜索树与双向链表.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/字符串的排列.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/数组中出现次数超过一半的数字.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/ArrayUtils.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/PrintUtils.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/最小的K个数.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TestException.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/ThreadPool/MyThreadPoolExecutor.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/utils/DESUtil.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Test.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/Test1.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/找出最大回文数.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/找出最大回文数.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/RotateImage.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/classCreater/Creater.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/ThreadPool/CallableThreadTest.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/DesignPattrens/singleton/CountTimer.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/JSON.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/json/MutilIpRef.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/json/MultiIpPreferences.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/json/JSON.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/ToolsController.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/ToolsController.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/MainDebug.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/EXCEL26进制问题.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/wild/斜对角线打印.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/m_11_盛最多水的容器.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_121_买卖股票的最佳时机.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_665_非递减数列.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/m_面试题64.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_面试题58_II.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_1013_将数组分成和相等的三个部分.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/wild/PrintChapterTree.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_543_二叉树的直径.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_面试题24_反转链表.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_面试题25_合并两个排序的链表.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/m_148_排序链表.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_1071_字符串的最大公因子.java" />
-        <option value="$PROJECT_DIR$/financeCount-business/pom.xml" />
-      </list>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Colia1994/BasicSkills.git" />
+      </set>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Colia\.m2\repository" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="C:\Users\Colia\.m2\settings.xml" />
+        <option name="localRepository" value="$USER_HOME$/apache/repository" />
+        <option name="mavenHome" value="$USER_HOME$/apache/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache/settings.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="financeCount" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="financeCount" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="financeCount-business" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="financeCount-business" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="financeCount-entity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="231" />
@@ -572,56 +107,34 @@
     <option name="width" value="1938" />
     <option name="height" value="1058" />
   </component>
+  <component name="ProjectId" id="1c4fCKoP9n2RnLIfPnIvURnzPFT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-business" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicSkills" type="462c0819:PsiDirectoryNode" />
-              <item name="financeCount-entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BasicSkills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584030076370" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5091954" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -635,19 +148,7 @@
       <recent name="E:\Documents\IdeaProjects\financeCount\financeCount-business\src\main\java\org\kly" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.PrintChapterTree">
+  <component name="RunManager" selected="Application.App">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -701,6 +202,14 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -750,14 +259,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet">
-      <option name="HEIGHT" value="0" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="WIDTH" value="0" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="斜对角线打印" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.algorithm.wild.斜对角线打印" />
       <module name="financeCount-business" />
@@ -765,6 +266,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.kly.basicSkills.algorithm.wild.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kly.App" />
+      <module name="financeCount-business" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.kly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -800,20 +315,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kly.basicSkills.TestException" />
-      <module name="financeCount-business" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kly.basicSkills.designPattrens.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ToolsController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.kly.tools.postUrl.ToolsController" />
       <module name="financeCount-business" />
@@ -840,6 +341,7 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
@@ -852,6 +354,7 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <properties />
@@ -864,6 +367,7 @@
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -871,13 +375,14 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -912,6 +417,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -939,19 +445,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TestException" />
       <item itemvalue="Application.ToolsController" />
       <item itemvalue="Application.JSON" />
       <item itemvalue="Application.斜对角线打印" />
       <item itemvalue="Application.PrintChapterTree" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.PrintChapterTree" />
         <item itemvalue="Application.斜对角线打印" />
         <item itemvalue="Application.JSON" />
         <item itemvalue="Application.ToolsController" />
-        <item itemvalue="Application.TestException" />
       </list>
     </recent_temporary>
   </component>
@@ -1025,6 +531,11 @@
       <workItem from="1583766966969" duration="8368000" />
       <workItem from="1583924434388" duration="8013000" />
       <workItem from="1583941417993" duration="6588000" />
+      <workItem from="1589792660035" duration="615000" />
+      <workItem from="1589799863968" duration="447000" />
+      <workItem from="1589800789300" duration="840000" />
+      <workItem from="1589853628649" duration="308000" />
+      <workItem from="1589854121189" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="文件整理提交 刷题">
       <created>1544029159800</created>
@@ -1302,9 +813,6 @@
     <option name="localTasksCounter" value="40" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154363000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -1314,89 +822,8 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.23489666" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Palette&#9;" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50078005" side_tool="true" weight="0.19038156" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32839313" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" weight="0.28060412" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49602544" weight="0.40699524" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
-      <window_info anchor="bottom" id="SonarQube" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49761525" weight="0.24403815" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5071542" side_tool="true" visible="true" weight="0.2647059" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49284577" visible="true" weight="0.2647059" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49960256" weight="0.3298887" />
-      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.3298887" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.3298887" />
-      <window_info anchor="right" id="Maven" order="8" visible="true" weight="0.24403815" />
-      <window_info anchor="right" id="JSF" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="CDI" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="12" weight="0.3298887" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.22337043" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Palette&#9;" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50078005" side_tool="true" weight="0.19038156" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32839313" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298887" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
-      <window_info anchor="bottom" id="SonarQube" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5035771" side_tool="true" visible="true" weight="0.29650238" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4964229" visible="true" weight="0.29650238" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3298887" />
-      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.3298887" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.3298887" />
-      <window_info anchor="right" id="JSF" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="CDI" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="12" weight="0.3298887" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1404,19 +831,10 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
               </option>
             </State>
           </value>
@@ -1437,6 +855,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1476,13 +895,18 @@
     <MESSAGE value="算法演习 20200312每日一练" />
     <option name="LAST_COMMIT_MESSAGE" value="算法演习 20200312每日一练" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="397" y="199" key="SettingsEditor" timestamp="1589855908485">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1589855908485" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/validation/AbstractCustomerValidatorRule.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
@@ -1496,667 +920,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/json/JSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/TestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/CountTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="105" column="15" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3634">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/client/methods/HttpEntityEnclosingRequestBase.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/client/methods/HttpPost.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/HashMap.java" />
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/postUrl/VotePostByIp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding>
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/concurrent/MonkeyStealsPeach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/validation/CustomerRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="431" column="7" lean-forward="true" selection-start-line="431" selection-start-column="7" selection-end-line="431" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/validation/CustomerValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/validation/CustomerValidatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/validation/AbstractCustomerValidatorRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/validation/RequireValidatorRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/designPattrens/singleton/MainDebug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/tools/ToolsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6864">
-          <caret line="309" column="6" selection-start-line="309" selection-start-column="6" selection-end-line="309" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/classCreater/Creater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/数值的整数次方.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/找出最大回文数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/m_11_盛最多水的容器.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/EXCEL26进制问题.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_121_买卖股票的最佳时机.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_665_非递减数列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/m_面试题64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/二叉树中和为某一值的路径.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_面试题58_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_1013_将数组分成和相等的三个部分.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/toOffer/栈的压入弹出序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="656" selection-start-line="656" selection-end-line="656" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/wild/斜对角线打印.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/tree/Dfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_543_二叉树的直径.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/wild/PrintChapterTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_面试题25_合并两个排序的链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_1071_字符串的最大公因子.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/easy/e_面试题24_反转链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/algorithm/leetcode/medium/m_148_排序链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Colia.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_27.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_13.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://MAVEN/org.kly:financeCount:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>org.kly:financeCount:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">org.kly:financeCount:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-453.5" y="-181.5" />
-          <SelectedNodes>
-            <node>org.kly:financeCount:1.0-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/org.kly:financeCount-business:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>org.kly:financeCount-business:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="1744.5" y="360.0">org.kly:financeCount-business:1.0-SNAPSHOT</node>
-            <node x="3285.0" y="160.0">junit:junit:jar:3.8.1</node>
-            <node x="3055.0" y="160.0">org.springframework:spring-web:jar:5.1.13</node>
-            <node x="2936.0" y="160.0">org.springframework:spring-oxm:jar:5.1.13</node>
-            <node x="2688.0" y="160.0">org.springframework:spring-tx:jar:5.1.13</node>
-            <node x="2569.0" y="160.0">org.springframework:spring-jdbc:jar:5.1.13</node>
-            <node x="2428.0" y="160.0">org.springframework:spring-webmvc:jar:5.1.13</node>
-            <node x="2310.0" y="160.0">org.springframework:spring-aop:jar:5.1.13</node>
-            <node x="2123.0" y="160.0">org.springframework:spring-context-support:jar:5.1.13</node>
-            <node x="1885.0" y="160.0">org.springframework:spring-test:jar:5.1.13</node>
-            <node x="1787.0" y="160.0">org.mybatis:mybatis:jar:3.2.6</node>
-            <node x="1648.0" y="160.0">org.mybatis:mybatis-spring:jar:1.2.2</node>
-            <node x="3173.0" y="160.0">javax:javaee-api:jar:7.0</node>
-            <node x="3175.0" y="80.0">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0</node>
-            <node x="3175.5" y="0.0">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0/javax.activation:activation:jar:1.1</node>
-            <node x="1303.0" y="160.0">mysql:mysql-connector-java:jar:5.1.30</node>
-            <node x="2792.0" y="160.0">commons-dbcp:commons-dbcp:jar:1.2.2</node>
-            <node x="2793.5" y="80.0">commons-dbcp:commons-dbcp:jar:1.2.2/commons-pool:commons-pool:jar:1.3</node>
-            <node x="1235.0" y="160.0">jstl:jstl:jar:1.2</node>
-            <node x="1924.9791666666665" y="80.0">log4j:log4j:jar:1.2.17</node>
-            <node x="964.9999999999999" y="160.0">com.alibaba:fastjson:jar:1.2.54</node>
-            <node x="2213.7291666666665" y="80.0">org.slf4j:slf4j-api:jar:1.7.7</node>
-            <node x="2000.0" y="160.0">org.slf4j:slf4j-log4j12:jar:1.7.7</node>
-            <node x="1480.0" y="160.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
-            <node x="1490.0" y="80.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
-            <node x="1062.0" y="160.0">commons-fileupload:commons-fileupload:jar:1.4</node>
-            <node x="1129.1155582922822" y="80.0">commons-io:commons-io:jar:2.2</node>
-            <node x="663.0" y="160.0">commons-codec:commons-codec:jar:1.9</node>
-            <node x="517.0" y="160.0">org.apache.commons:commons-lang3:jar:3.3.2</node>
-            <node x="415.0" y="160.0">org.aspectj:aspectjrt:jar:1.8.8</node>
-            <node x="281.0" y="160.0">org.aspectj:aspectjweaver:jar:1.8.8</node>
-            <node x="811.9999999999999" y="160.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3</node>
-            <node x="877.9999999999999" y="80.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10</node>
-            <node x="750.9999999999999" y="80.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.10</node>
-            <node x="176.0" y="160.0">org.apache.httpcomponents:httpclient:jar:4.3.6</node>
-            <node x="392.82194170771754" y="80.0">org.apache.httpcomponents:httpclient:jar:4.3.6/org.apache.httpcomponents:httpcore:jar:4.3.3</node>
-            <node x="149.0" y="80.0">org.apache.httpcomponents:httpclient:jar:4.3.6/commons-logging:commons-logging:jar:1.1.3</node>
-            <node x="0.0" y="80.0">org.apache.httpcomponents:httpclient:jar:4.3.6/commons-codec:commons-codec:jar:1.6</node>
-            <node x="79.0" y="160.0">org.projectlombok:lombok:jar:1.16.10</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="commons-fileupload:commons-fileupload:jar:1.4" target="commons-io:commons-io:jar:2.2">
-              <point x="0.0" y="-15.0" />
-              <point x="1138.0" y="135.0" />
-              <point x="1155.3655582922822" y="135.0" />
-              <point x="-26.25" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:5.1.13">
-              <point x="27.931034482758605" y="-15.0" />
-              <point x="1853.4310344827586" y="250.0" />
-              <point x="2358.5" y="250.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:5.1.13">
-              <point x="39.10344827586209" y="-15.0" />
-              <point x="1864.6034482758619" y="270.0" />
-              <point x="2488.5" y="270.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.httpcomponents:httpclient:jar:4.3.6" target="org.apache.httpcomponents:httpclient:jar:4.3.6/commons-logging:commons-logging:jar:1.1.3">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="commons-io:commons-io:jar:2.2">
-              <point x="-27.931034482758605" y="-15.0" />
-              <point x="1797.5689655172414" y="250.0" />
-              <point x="1224.5" y="250.0" />
-              <point x="1224.5" y="135.0" />
-              <point x="1207.8655582922822" y="135.0" />
-              <point x="26.25" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.apache.httpcomponents:httpclient:jar:4.3.6">
-              <point x="-72.62068965517233" y="-15.0" />
-              <point x="1752.8793103448274" y="330.0" />
-              <point x="218.5" y="330.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-context-support:jar:5.1.13">
-              <point x="22.344827586206975" y="-15.0" />
-              <point x="1847.844827586207" y="240.0" />
-              <point x="2206.5" y="240.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="commons-codec:commons-codec:jar:1.9">
-              <point x="-50.27586206896558" y="-15.0" />
-              <point x="1775.2241379310344" y="290.0" />
-              <point x="727.5" y="290.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:5.1.13">
-              <point x="50.27586206896558" y="-15.0" />
-              <point x="1875.7758620689656" y="290.0" />
-              <point x="2730.0" y="290.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.3.2">
-              <point x="-55.86206896551721" y="-15.0" />
-              <point x="1769.6379310344828" y="300.0" />
-              <point x="580.0" y="300.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.30">
-              <point x="-16.758620689655118" y="-15.0" />
-              <point x="1808.7413793103447" y="230.0" />
-              <point x="1381.5" y="230.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.httpcomponents:httpclient:jar:4.3.6" target="org.apache.httpcomponents:httpclient:jar:4.3.6/org.apache.httpcomponents:httpcore:jar:4.3.3">
-              <point x="28.333333333333485" y="-15.0" />
-              <point x="246.83333333333348" y="135.0" />
-              <point x="433.32194170771754" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.10">
-              <point x="-33.25" y="-15.0" />
-              <point x="845.2499999999999" y="135.0" />
-              <point x="804.4999999999999" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10">
-              <point x="33.25" y="-15.0" />
-              <point x="911.7499999999999" y="135.0" />
-              <point x="952.4999999999999" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.2.6">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-oxm:jar:5.1.13">
-              <point x="61.44827586206907" y="-15.0" />
-              <point x="1886.9482758620688" y="310.0" />
-              <point x="2985.5" y="310.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax:javaee-api:jar:7.0" target="javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.aspectj:aspectjrt:jar:1.8.8">
-              <point x="-61.44827586206907" y="-15.0" />
-              <point x="1764.0517241379307" y="310.0" />
-              <point x="456.0" y="310.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.7">
-              <point x="33.51724137931046" y="-15.0" />
-              <point x="1859.0172413793102" y="260.0" />
-              <point x="2417.5" y="260.0" />
-              <point x="2417.5" y="135.0" />
-              <point x="2272.2291666666665" y="135.0" />
-              <point x="19.5" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="junit:junit:jar:3.8.1">
-              <point x="78.20689655172418" y="-15.0" />
-              <point x="1903.7068965517242" y="340.0" />
-              <point x="3313.0" y="340.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.7" target="log4j:log4j:jar:1.2.17">
-              <point x="-25.75" y="-15.0" />
-              <point x="2025.75" y="135.0" />
-              <point x="1970.7291666666665" y="135.0" />
-              <point x="15.25" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
-              <point x="5.58620689655163" y="-15.0" />
-              <point x="1831.0862068965516" y="210.0" />
-              <point x="1874.5" y="210.0" />
-              <point x="1874.5" y="135.0" />
-              <point x="1940.2291666666665" y="135.0" />
-              <point x="-15.25" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="jstl:jstl:jar:1.2">
-              <point x="-22.344827586206975" y="-15.0" />
-              <point x="1803.155172413793" y="240.0" />
-              <point x="1259.0" y="240.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.httpcomponents:httpclient:jar:4.3.6" target="org.apache.httpcomponents:httpclient:jar:4.3.6/commons-codec:commons-codec:jar:1.6">
-              <point x="-28.333333333333485" y="-15.0" />
-              <point x="190.16666666666652" y="135.0" />
-              <point x="64.5" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.10">
-              <point x="-78.20689655172418" y="-15.0" />
-              <point x="1747.2931034482758" y="340.0" />
-              <point x="117.5" y="340.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="commons-dbcp:commons-dbcp:jar:1.2.2" target="commons-dbcp:commons-dbcp:jar:1.2.2/commons-pool:commons-pool:jar:1.3">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13">
-              <point x="-11.172413793103487" y="-15.0" />
-              <point x="1814.3275862068963" y="220.0" />
-              <point x="1554.0" y="220.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.54">
-              <point x="-39.10344827586209" y="-15.0" />
-              <point x="1786.3965517241377" y="270.0" />
-              <point x="1003.4999999999999" y="270.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.2.2">
-              <point x="55.86206896551721" y="-15.0" />
-              <point x="1881.3620689655172" y="300.0" />
-              <point x="2854.0" y="300.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:5.1.13">
-              <point x="67.0344827586207" y="-15.0" />
-              <point x="1892.5344827586205" y="320.0" />
-              <point x="3104.0" y="320.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.7">
-              <point x="16.758620689655118" y="-15.0" />
-              <point x="1842.258620689655" y="230.0" />
-              <point x="2051.5" y="230.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:5.1.13">
-              <point x="11.172413793103487" y="-15.0" />
-              <point x="1836.6724137931033" y="220.0" />
-              <point x="1932.5" y="220.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0" target="javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0/javax.activation:activation:jar:1.1">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="javax:javaee-api:jar:7.0">
-              <point x="72.62068965517233" y="-15.0" />
-              <point x="1898.120689655172" y="330.0" />
-              <point x="3219.0" y="330.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.3">
-              <point x="-44.68965517241395" y="-15.0" />
-              <point x="1780.810344827586" y="280.0" />
-              <point x="878.4999999999999" y="280.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.7" target="org.slf4j:slf4j-api:jar:1.7.7">
-              <point x="25.75" y="-15.0" />
-              <point x="2077.25" y="135.0" />
-              <point x="2233.2291666666665" y="135.0" />
-              <point x="-19.5" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.2">
-              <point x="-5.58620689655163" y="-15.0" />
-              <point x="1819.9137931034484" y="210.0" />
-              <point x="1707.5" y="210.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:5.1.13">
-              <point x="44.68965517241372" y="-15.0" />
-              <point x="1870.1896551724135" y="280.0" />
-              <point x="2618.5" y="280.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.4">
-              <point x="-33.51724137931046" y="-15.0" />
-              <point x="1791.9827586206893" y="260.0" />
-              <point x="1138.0" y="260.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.kly:financeCount-business:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.8.8">
-              <point x="-67.0344827586207" y="-15.0" />
-              <point x="1758.465517241379" y="320.0" />
-              <point x="338.0" y="320.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.4404481132075472" x="534.8995983935743" y="-251.13654618473902" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financeCount-business/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
