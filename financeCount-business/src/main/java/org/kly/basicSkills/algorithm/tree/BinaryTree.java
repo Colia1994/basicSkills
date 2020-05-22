@@ -136,7 +136,7 @@ public class BinaryTree {
     //前序遍历
     private void preOrder(TreeNode subTree) {
         if (subTree != null) {
-            visted(subTree);
+            visited(subTree);
             preOrder(subTree.leftChild);
             preOrder(subTree.rightChild);
         }
@@ -146,7 +146,7 @@ public class BinaryTree {
     private void inOrder(TreeNode subTree) {
         if (subTree != null) {
             inOrder(subTree.leftChild);
-            visted(subTree);
+            visited(subTree);
             inOrder(subTree.rightChild);
         }
     }
@@ -156,7 +156,7 @@ public class BinaryTree {
         if (subTree != null) {
             postOrder(subTree.leftChild);
             postOrder(subTree.rightChild);
-            visted(subTree);
+            visited(subTree);
         }
     }
 
@@ -168,7 +168,7 @@ public class BinaryTree {
         }
         while (!arrayDeque.isEmpty()) {
             treeNode = arrayDeque.pollFirst();
-            visted(treeNode);
+            visited(treeNode);
             if (treeNode != null && treeNode.rightChild != null) {
                 arrayDeque.addFirst(treeNode.rightChild);
             }
@@ -192,7 +192,7 @@ public class BinaryTree {
             //栈非空
             if (stack.size() > 0) {
                 node = stack.pop();
-                visted(node);
+                visited(node);
                 node = node.rightChild;
             }
         }
@@ -209,7 +209,7 @@ public class BinaryTree {
                 treeNode = treeNode.leftChild;
             }
             treeNode = arrayDeque.pop();
-            visted(treeNode);
+            visited(treeNode);
             ifasd = false;
             if (treeNode.rightChild != null) {
                 arrayDeque.addFirst(treeNode.rightChild);
@@ -228,7 +228,7 @@ public class BinaryTree {
             if ((treeNode.leftChild == null && treeNode.rightChild == null)
                     || (treeNode.leftChild == lastVisit || treeNode.rightChild == lastVisit)) {
                 lastVisit = treeNode;
-                visted(treeNode);
+                visited(treeNode);
                 arrayDeque.pop();
             } else {
                 if (treeNode.rightChild != null) {
@@ -242,8 +242,8 @@ public class BinaryTree {
         }
     }
 
-    private void visted(TreeNode subTree) {
-        subTree.isVisted = true;
+    private void visited(TreeNode subTree) {
+        subTree.isVisited = true;
         System.out.println("key:" + subTree.key + "--name:" + subTree.data);
     }
 
@@ -251,15 +251,13 @@ public class BinaryTree {
     /**
      * 二叉树的节点数据结构
      */
-    private class TreeNode {
-        private int key = 0;
-        private String data = null;
-        private boolean isVisted = false;
-        private TreeNode leftChild = null;
-        private TreeNode rightChild = null;
+    private static class TreeNode {
+        private int key;
+        private String data;
+        public boolean isVisited = false;
+        private TreeNode leftChild;
+        private TreeNode rightChild;
 
-        public TreeNode() {
-        }
 
         TreeNode(int key, String data) {
             this.key = key;
