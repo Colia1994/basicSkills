@@ -37,14 +37,14 @@ public class m_105_从前序与中序遍历序列构造二叉树 {
             return null;
         }
 
-        return build(preorder, inorder, 0, l1 - 1, 0, l2 - 1);
+        return build(preorder, inorder, 0, 0, l2 - 1);
 
     }
 
-    private static TreeNode build(int[] preorder, int[] inorder, int i1, int i2, int j1, int j2) {
+    private static TreeNode build(int[] preorder, int[] inorder, int i1, int j1, int j2) {
         TreeNode node = new TreeNode(preorder[i1]);
         int leftLength = 0;
-        int rightLength = 0;
+        int rightLength;
         for (int j = j1; j <= j2; j++) {
             if (inorder[j] == preorder[i1]) {
                 leftLength = j - j1;
@@ -54,11 +54,11 @@ public class m_105_从前序与中序遍历序列构造二叉树 {
         rightLength = j2 - j1 - leftLength;
 
         if (leftLength != 0) {
-            node.left = build(preorder, inorder, i1 + 1, i1 + 1 + leftLength - 1, j1, j1 + leftLength - 1);
+            node.left = build(preorder, inorder, i1 + 1, j1, j1 + leftLength - 1);
 
         }
         if (rightLength != 0) {
-            node.right = build(preorder, inorder, i1 + 1 + leftLength, i2, j1 + leftLength + 1, j2);
+            node.right = build(preorder, inorder, i1 + 1 + leftLength, j1 + leftLength + 1, j2);
         }
         return node;
     }
