@@ -33,7 +33,7 @@ public class m_105_从前序与中序遍历序列构造二叉树 {
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
         int l1 = preorder.length;
         int l2 = inorder.length;
-        if(l1 == 0 || l2 == 0){
+        if (l1 == 0 || l2 == 0) {
             return null;
         }
 

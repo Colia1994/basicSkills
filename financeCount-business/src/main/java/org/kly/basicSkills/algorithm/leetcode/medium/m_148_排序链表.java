@@ -20,7 +20,6 @@ import org.kly.common.ListNode;
 public class m_148_排序链表 {
 
 
-
     //归并递归 空间超过预期 O logN  时间 n log n
     public static ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {

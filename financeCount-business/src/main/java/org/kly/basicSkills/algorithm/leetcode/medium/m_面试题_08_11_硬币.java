@@ -10,7 +10,7 @@ public class m_面试题_08_11_硬币 {
 
         int[] dp = new int[n + 1];
 
-        int[] coins = new int[]{1,5,10,25};
+        int[] coins = new int[]{1, 5, 10, 25};
 
 
         //刚好可以用一个硬币凑成的情况，是一种情况
@@ -22,8 +22,8 @@ public class m_面试题_08_11_硬币 {
          * dp方程：dp[i] += dp[i - coin];
          */
 
-        for(int coin : coins) {
-            for(int i = coin; i <= n; i++) {
+        for (int coin : coins) {
+            for (int i = coin; i <= n; i++) {
                 dp[i] = (dp[i] + dp[i - coin]) % 1000000007;
             }
         }

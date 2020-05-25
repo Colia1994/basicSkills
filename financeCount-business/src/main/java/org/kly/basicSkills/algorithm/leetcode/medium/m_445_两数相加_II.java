@@ -26,8 +26,8 @@ public class m_445_两数相加_II {
         ListNode head = null;
         while (!stack1.isEmpty() || !stack2.isEmpty() || carry > 0) {
             int sum = carry;
-            sum += stack1.isEmpty()? 0: stack1.pop();
-            sum += stack2.isEmpty()? 0: stack2.pop();
+            sum += stack1.isEmpty() ? 0 : stack1.pop();
+            sum += stack2.isEmpty() ? 0 : stack2.pop();
             ListNode node = new ListNode(sum % 10);
             node.next = head;
             head = node;

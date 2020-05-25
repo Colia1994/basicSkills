@@ -12,7 +12,7 @@ import java.util.Map;
  * @Date 2020/3/9.
  */
 public class m_11_盛最多水的容器 {
-    Map<String,String> imap = new HashMap<>();
+    Map<String, String> imap = new HashMap<>();
 
     /**
      * 暴力破解
