@@ -9,7 +9,7 @@ public class TestException {
     public TestException() {
     }
 
-    Boolean testEx() throws Exception {
+    private Boolean testEx() throws Exception {
         Boolean ret = true;
         try {
             ret = testEx1();
@@ -22,8 +22,7 @@ public class TestException {
             return ret;
         }
     }
-
-    Boolean testEx1() throws Exception {
+    private Boolean testEx1() throws Exception {
         Boolean ret = true;
         try {
             ret = testEx2();
@@ -41,16 +40,10 @@ public class TestException {
             return ret;
         }
     }
-
-    Boolean testEx2() throws Exception {
+    private Boolean testEx2() throws Exception {
         Boolean ret = true;
         try {
-            int b = 12;
-            int c;
-            for (int i = 2; i >= -2; i--) {
-                c = b / i;
-                System.out.println("i=" + i);
-            }
+            int b = 12/0;
             return true;
         } catch (Exception e) {
             System.out.println("testEx2, catch exception");
