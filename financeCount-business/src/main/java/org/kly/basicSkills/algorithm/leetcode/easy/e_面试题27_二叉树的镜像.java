@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.leetcode.easy;
 
+import org.kly.common.TreeNode;
+
 import java.util.Stack;
 
 /**
@@ -38,21 +40,13 @@ public class e_面试题27_二叉树的镜像 {
         }
         TreeNode rightTree = mirrorTree(root.left);
         TreeNode leftTree = mirrorTree(root.right);
-        root.left = leftTree;
         root.right = rightTree;
+
+        root.left = leftTree;
         return root;
     }
 
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
 
     //非递归实现

@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.leetcode.easy;
 
+import org.kly.common.TreeNode;
+
 /**
  * 101. Symmetric tree
  * Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
@@ -21,7 +23,7 @@ package org.kly.basicSkills.algorithm.leetcode.easy;
  * @author colia
  * @date 2018/12/25 21:34
  */
-public class SymmetricTree {
+public class e_101_对称二叉树 {
 
 
     public boolean isSymmetric(TreeNode root) {
@@ -36,13 +38,4 @@ public class SymmetricTree {
                 && isSymmetric(root1.right, root2.left);
     }
 
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

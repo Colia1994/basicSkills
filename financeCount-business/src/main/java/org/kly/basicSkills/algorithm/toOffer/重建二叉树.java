@@ -1,6 +1,8 @@
 package org.kly.basicSkills.algorithm.toOffer;
 
 
+import org.kly.common.TreeNode;
+
 /**
  * 输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。
  * 假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
@@ -63,16 +65,6 @@ public class 重建二叉树 {
         return result;
     }
 
-    public static class TreeNode {
-
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public static void main(String[] args) {
         int[] pre = new int[]{1, 2, 4, 7, 3, 5, 6, 8};

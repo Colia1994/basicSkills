@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.tree;
 
+import org.kly.common.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.Stack;
 
@@ -33,13 +35,13 @@ public class BinaryTree {
         TreeNode newNodeG = new TreeNode(7, "G");
         TreeNode newNodeH = new TreeNode(8, "H");
 
-        root.leftChild = newNodeB;
-        root.rightChild = newNodeC;
-        root.leftChild.leftChild = newNodeD;
-        root.leftChild.rightChild = newNodeE;
-        root.rightChild.rightChild = newNodeF;
-        root.rightChild.leftChild = newNodeG;
-        root.rightChild.leftChild.rightChild = newNodeH;
+        root.left = newNodeB;
+        root.right = newNodeC;
+        root.left.left = newNodeD;
+        root.left.right = newNodeE;
+        root.right.right = newNodeF;
+        root.right.left = newNodeG;
+        root.right.left.right = newNodeH;
 
 
     }
@@ -64,8 +66,8 @@ public class BinaryTree {
         if (subTree == null)
             return 0;//递归结束：空树高度为0
         else {
-            int i = height(subTree.leftChild);
-            int j = height(subTree.rightChild);
+            int i = height(subTree.left);
+            int j = height(subTree.right);
             return (i < j) ? (j + 1) : (i + 1);
         }
     }
@@ -74,8 +76,8 @@ public class BinaryTree {
         if (subTree == null) {
             return 0;
         } else {
-            return 1 + size(subTree.leftChild)
-                    + size(subTree.rightChild);
+            return 1 + size(subTree.left)
+                    + size(subTree.right);
         }
     }
 
@@ -87,25 +89,25 @@ public class BinaryTree {
     private TreeNode parent(TreeNode subTree, TreeNode element) {
         if (subTree == null)
             return null;
-        if (subTree.leftChild == element || subTree.rightChild == element)
+        if (subTree.left == element || subTree.right == element)
             //返回父结点地址
             return subTree;
         TreeNode p;
         //现在左子树中找，如果左子树中没有找到，才到右子树去找
-        if ((p = parent(subTree.leftChild, element)) != null)
+        if ((p = parent(subTree.left, element)) != null)
             //递归在左子树中搜索
             return p;
         else
             //递归在右子树中搜索
-            return parent(subTree.rightChild, element);
+            return parent(subTree.right, element);
     }
 
-    public TreeNode getLeftChildNode(TreeNode element) {
-        return (element != null) ? element.leftChild : null;
+    public TreeNode getleftNode(TreeNode element) {
+        return (element != null) ? element.left : null;
     }
 
-    public TreeNode getRightChildNode(TreeNode element) {
-        return (element != null) ? element.rightChild : null;
+    public TreeNode getrightNode(TreeNode element) {
+        return (element != null) ? element.right : null;
     }
 
     public TreeNode getRoot() {
@@ -118,44 +120,44 @@ public class BinaryTree {
         //删除根为subTree的子树
         if (subTree != null) {
             //删除左子树
-            destroy(subTree.leftChild);
+            destroy(subTree.left);
             //删除右子树
-            destroy(subTree.rightChild);
+            destroy(subTree.right);
             //删除根结点
             subTree = null;
         }
     }
 
     private void traverse(TreeNode subTree) {
-        System.out.println("key:" + subTree.key + "--name:" + subTree.data);
+        System.out.println("key:" + subTree.val + "--name:" + subTree.data);
         ;
-        traverse(subTree.leftChild);
-        traverse(subTree.rightChild);
+        traverse(subTree.left);
+        traverse(subTree.right);
     }
 
     //前序遍历
     private void preOrder(TreeNode subTree) {
         if (subTree != null) {
             visited(subTree);
-            preOrder(subTree.leftChild);
-            preOrder(subTree.rightChild);
+            preOrder(subTree.left);
+            preOrder(subTree.right);
         }
     }
 
     //中序遍历
     private void inOrder(TreeNode subTree) {
         if (subTree != null) {
-            inOrder(subTree.leftChild);
+            inOrder(subTree.left);
             visited(subTree);
-            inOrder(subTree.rightChild);
+            inOrder(subTree.right);
         }
     }
 
     //后续遍历
     private void postOrder(TreeNode subTree) {
         if (subTree != null) {
-            postOrder(subTree.leftChild);
-            postOrder(subTree.rightChild);
+            postOrder(subTree.left);
+            postOrder(subTree.right);
             visited(subTree);
         }
     }
@@ -169,11 +171,11 @@ public class BinaryTree {
         while (!arrayDeque.isEmpty()) {
             treeNode = arrayDeque.pollFirst();
             visited(treeNode);
-            if (treeNode != null && treeNode.rightChild != null) {
-                arrayDeque.addFirst(treeNode.rightChild);
+            if (treeNode.right != null) {
+                arrayDeque.addFirst(treeNode.right);
             }
-            if (treeNode != null && treeNode.leftChild != null) {
-                arrayDeque.addFirst(treeNode.leftChild);
+            if (treeNode.left != null) {
+                arrayDeque.addFirst(treeNode.left);
             }
 
         }
@@ -187,13 +189,13 @@ public class BinaryTree {
             //存在左子树
             while (node != null) {
                 stack.push(node);
-                node = node.leftChild;
+                node = node.left;
             }
             //栈非空
             if (stack.size() > 0) {
                 node = stack.pop();
                 visited(node);
-                node = node.rightChild;
+                node = node.right;
             }
         }
     }
@@ -201,18 +203,18 @@ public class BinaryTree {
     private void nonRecInOrderMine(TreeNode treeNode) {
         ArrayDeque<TreeNode> arrayDeque = new ArrayDeque<>();
         arrayDeque.add(treeNode);
-        Boolean ifasd = true;
+        boolean ifasd = true;
         while (!arrayDeque.isEmpty()) {
             treeNode = arrayDeque.element();
-            while (ifasd && treeNode.leftChild != null) {
-                arrayDeque.addFirst(treeNode.leftChild);
-                treeNode = treeNode.leftChild;
+            while (ifasd && treeNode.left != null) {
+                arrayDeque.addFirst(treeNode.left);
+                treeNode = treeNode.left;
             }
             treeNode = arrayDeque.pop();
             visited(treeNode);
             ifasd = false;
-            if (treeNode.rightChild != null) {
-                arrayDeque.addFirst(treeNode.rightChild);
+            if (treeNode.right != null) {
+                arrayDeque.addFirst(treeNode.right);
                 ifasd = true;
             }
         }
@@ -225,17 +227,17 @@ public class BinaryTree {
         TreeNode lastVisit = null;
         while (!arrayDeque.isEmpty()) {
             treeNode = arrayDeque.peek();
-            if ((treeNode.leftChild == null && treeNode.rightChild == null)
-                    || (treeNode.leftChild == lastVisit || treeNode.rightChild == lastVisit)) {
+            if ((treeNode.left == null && treeNode.right == null)
+                    || (treeNode.left == lastVisit || treeNode.right == lastVisit)) {
                 lastVisit = treeNode;
                 visited(treeNode);
                 arrayDeque.pop();
             } else {
-                if (treeNode.rightChild != null) {
-                    arrayDeque.addFirst(treeNode.rightChild);
+                if (treeNode.right != null) {
+                    arrayDeque.addFirst(treeNode.right);
                 }
-                if (treeNode.leftChild != null) {
-                    arrayDeque.addFirst(treeNode.leftChild);
+                if (treeNode.left != null) {
+                    arrayDeque.addFirst(treeNode.left);
 
                 }
             }
@@ -244,29 +246,7 @@ public class BinaryTree {
 
     private void visited(TreeNode subTree) {
         subTree.isVisited = true;
-        System.out.println("key:" + subTree.key + "--name:" + subTree.data);
-    }
-
-
-    /**
-     * 二叉树的节点数据结构
-     */
-    private static class TreeNode {
-        private int key;
-        private String data;
-        public boolean isVisited = false;
-        private TreeNode leftChild;
-        private TreeNode rightChild;
-
-
-        TreeNode(int key, String data) {
-            this.key = key;
-            this.data = data;
-            this.leftChild = null;
-            this.rightChild = null;
-        }
-
-
+        System.out.println("key:" + subTree.val + "--name:" + subTree.data);
     }
 
 

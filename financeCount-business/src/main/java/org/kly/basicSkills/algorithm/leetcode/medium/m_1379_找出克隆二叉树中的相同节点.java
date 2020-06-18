@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.leetcode.medium;
 
+import org.kly.common.TreeNode;
+
 import java.util.Stack;
 
 /**
@@ -58,13 +60,5 @@ public class m_1379_找出克隆二叉树中的相同节点 {
         return cloned;
     }
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
 
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

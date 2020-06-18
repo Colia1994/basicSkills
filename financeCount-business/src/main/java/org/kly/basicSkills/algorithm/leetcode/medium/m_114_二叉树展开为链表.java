@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.leetcode.medium;
 
+import org.kly.common.TreeNode;
+
 /**
  * 114. FlattenBinaryTreetoLinkedList
  * Given a binary tree, flatten it to a linked list in-place.
@@ -27,7 +29,7 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * @author colia
  * @date 2018/12/13 0:16
  */
-public class FlattenBinaryTreetoLinkedList {
+public class m_114_二叉树展开为链表 {
 
 
     /**
@@ -99,18 +101,5 @@ public class FlattenBinaryTreetoLinkedList {
 
     }
 
-
-    /**
-     * 自定义二叉树
-     */
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
 }
