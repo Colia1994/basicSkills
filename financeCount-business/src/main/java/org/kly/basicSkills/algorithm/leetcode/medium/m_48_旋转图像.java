@@ -39,7 +39,7 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * @author colia
  * @date 2019/2/20 22:32
  */
-public class RotateImage {
+public class m_48_旋转图像 {
 
     /**
      * my solution

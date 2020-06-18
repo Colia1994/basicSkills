@@ -22,7 +22,7 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * @author colia
  * @date 2018/12/13 0:14
  */
-public class FlipStringtoMonotoneIncreasing {
+public class m_926_将字符串翻转到单调递增 {
 
 
     public int minFlipsMonoIncr(String S) {

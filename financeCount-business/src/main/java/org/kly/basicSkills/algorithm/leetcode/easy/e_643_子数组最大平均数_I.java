@@ -1,4 +1,4 @@
-package org.kly.basicSkills.algorithm.leetcode.medium;
+package org.kly.basicSkills.algorithm.leetcode.easy;
 
 /**
  * 643. Maximum Average Subarray I
@@ -12,7 +12,7 @@ package org.kly.basicSkills.algorithm.leetcode.medium;
  * @author colia
  * @date 2018/12/16 0:39
  */
-public class MaximumAverageSubarrayI {
+public class e_643_子数组最大平均数_I {
 
     /**
      *
@@ -25,7 +25,7 @@ public class MaximumAverageSubarrayI {
             for (int j = i; j < i + k; j++) {
                 total += nums[j];
             }
-            double totalD = (double) total;
+            double totalD = total;
             numIn = totalD / k;
 
             num = Math.max(num, numIn);

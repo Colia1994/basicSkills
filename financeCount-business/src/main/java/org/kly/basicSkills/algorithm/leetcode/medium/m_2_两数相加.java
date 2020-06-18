@@ -14,11 +14,11 @@ import org.kly.common.ListNode;
  * @author colia
  * @date 2018/12/16 0:35
  */
-public class AddTwoNumbers {
+public class m_2_两数相加 {
 
     /**
-     * @param l1
-     * @param l2
+     * @param l1 第一个数字链表
+     * @param l2 第二个数字链表
      * @return
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
