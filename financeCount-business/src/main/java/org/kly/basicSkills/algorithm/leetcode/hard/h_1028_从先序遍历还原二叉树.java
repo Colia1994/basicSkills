@@ -2,6 +2,9 @@ package org.kly.basicSkills.algorithm.leetcode.hard;
 
 import org.kly.common.TreeNode;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * 我们从二叉树的根节点 root 开始进行深度优先搜索。
  * <p>
@@ -48,6 +51,41 @@ import org.kly.common.TreeNode;
 public class h_1028_从先序遍历还原二叉树 {
 
     public TreeNode recoverFromPreorder(String S) {
+        String splitLine = "-";
+        return diGui(S, splitLine);
+    }
 
+    private TreeNode diGui(String s, String splitLine) {
+        TreeNode root = null;
+        String regex = "(?<=[^@])@(?=[^@])".replace("@",splitLine);
+        String[] trees = s.split(regex);
+
+
+        if (trees.length >= 1) {
+            root = new TreeNode(Integer.parseInt(trees[0]));
+            if (trees.length == 1) {
+                return root;
+            }
+        }
+        splitLine += "-";
+        if (trees.length >= 2) {
+            root.left = diGui(trees[1], splitLine);
+            if (trees.length == 2) {
+                return root;
+            }
+        }
+        if (trees.length >= 3) {
+            root.right = diGui(trees[2], splitLine);
+
+        }
+        return root;
+    }
+
+    public static void main(String[] args){
+        h_1028_从先序遍历还原二叉树 h = new h_1028_从先序遍历还原二叉树();
+        TreeNode node = h.recoverFromPreorder("1-2--3--4-5--6--7");
+        if(node==null){
+            System.out.println("test01");
+        }
     }
 }
