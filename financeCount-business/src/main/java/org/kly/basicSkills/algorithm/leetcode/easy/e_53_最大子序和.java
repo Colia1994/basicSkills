@@ -21,6 +21,7 @@ package org.kly.basicSkills.algorithm.leetcode.easy;
  */
 public class e_53_最大子序和 {
 
+    //动态规划
     public int maxSubArray(int[] nums) {
         int max = nums[0];
         for (int i = 1; i < nums.length; i++) {

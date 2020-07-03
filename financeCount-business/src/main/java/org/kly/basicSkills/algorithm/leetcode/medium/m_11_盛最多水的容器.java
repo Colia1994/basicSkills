@@ -54,7 +54,7 @@ public class m_11_盛最多水的容器 {
         while (maxZj > minZj) {
             int low = Math.min(height[maxZj], height[minZj]);
             int now = (maxZj - minZj) * low;
-            maxArea = maxArea > now ? maxArea : now;
+            maxArea = Math.max(maxArea, now);
             if (low == height[maxZj]) {
                 maxZj--;
             } else {

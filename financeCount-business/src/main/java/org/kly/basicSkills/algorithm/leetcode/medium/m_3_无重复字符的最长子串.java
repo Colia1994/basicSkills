@@ -56,7 +56,7 @@ public class m_3_无重复字符的最长子串 {
 
 
     /**
-     * map集合法 优化
+     * map集合法 优化  abcabcbb
      */
     public static int lengthOfLongestSubstringMineNext(String s) {
         int resultNum = 0;
