@@ -205,7 +205,7 @@ public class BinaryTree {
         arrayDeque.add(treeNode);
         boolean ifasd = true;
         while (!arrayDeque.isEmpty()) {
-            treeNode = arrayDeque.element();
+            treeNode = arrayDeque.peek();
             while (ifasd && treeNode.left != null) {
                 arrayDeque.addFirst(treeNode.left);
                 treeNode = treeNode.left;

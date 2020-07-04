@@ -1,5 +1,8 @@
 package org.kly.basicSkills.algorithm.leetcode.hard;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * 给定一个只包含 '(' 和 ')' 的字符串，找出最长的包含有效括号的子串的长度。
  * <p>
@@ -23,6 +26,11 @@ package org.kly.basicSkills.algorithm.leetcode.hard;
  */
 public class h_32_最长有效括号 {
 
+    //动态规划 dp数组记录i位置结尾的最长有效括号
+    //推导 当i为左括号（ 则为0
+    //当i为 右括号） 且 i-1为左括号 （ 直接 dp[i] = dp[i-2] +2
+    //当i为右括号） 且i-1 为左括号） 找到dp[i-1] 长度前一位 i-dp[i-1] -1 确认是不是左括号
+    //是当话 直接 dp[i] = dp[i-1] + dp[i-dp[i-1]-1-1] +2
     public int longestValidParentheses(String s) {
         int[] dp = new int[s.length()];
         int max = 0;
@@ -35,6 +43,47 @@ public class h_32_最长有效括号 {
                 }
             }
             max = Math.max(max, dp[i]);
+        }
+        return max;
+    }
+
+    //栈
+    public int longestValidParentheses1(String s) {
+        Deque<Integer> stack = new LinkedList<>();
+        return 0;
+    }
+
+    //双向扫描
+    public int longestValidParentheses2(String s) {
+        int left = 0, right = 0;
+        int max = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                left++;
+            } else {
+                right++;
+            }
+            if (left == right) {
+                max = Math.max(max, right * 2);
+            } else if (left < right) {
+                left = 0;
+                right = 0;
+            }
+        }
+        left = 0;
+        right = 0;
+        for (int j = s.length() - 1; j >= 0; j--) {
+            if (s.charAt(j) == '(') {
+                left++;
+            } else {
+                right++;
+            }
+            if (left == right) {
+                max = Math.max(max, right * 2);
+            } else if (left > right) {
+                left = 0;
+                right = 0;
+            }
         }
         return max;
     }
