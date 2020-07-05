@@ -23,4 +23,7 @@ public class MyBlockingQueue {
         blockingQueue.offer(1);
         int i = blockingQueue.peek();
     }
+
+
+
 }

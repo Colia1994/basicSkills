@@ -73,10 +73,10 @@ public class h_32_最长有效括号 {
         left = 0;
         right = 0;
         for (int j = s.length() - 1; j >= 0; j--) {
-            if (s.charAt(j) == '(') {
-                left++;
-            } else {
+            if (s.charAt(j) == ')') {
                 right++;
+            } else {
+                left++;
             }
             if (left == right) {
                 max = Math.max(max, right * 2);

@@ -77,4 +77,87 @@ public class m_542_01_矩阵 {
 
         return matrix;
     }
+
+    public int[][] updateMatrix1(int[][] matrix) {
+
+        int m = matrix.length;
+        int n = matrix[0].length;
+        int[][] res = new int[m][n];
+        boolean[][] visited = new boolean[m][n];
+        for(int i = 0 ;i<m;i++){
+            for(int j = 0;j<n;j++){
+                if(matrix[i][j] == 1){
+                    matrix[i][j] = -1;
+                }
+            }
+        }
+        for(int i = 0 ;i<m;i++){
+            for(int j = 0;j<n;j++){
+                res[i][j] = dfs(matrix,i,j,visited);
+            }
+        }
+
+        return res;
+    }
+
+    private int dfs(int[][] matrix,int m, int n,boolean[][] visited){
+        if(m<0 || n<0 || m>=matrix.length||n>=matrix[0].length){
+            return 200000;
+        }
+        if(visited[m][n] && matrix[m][n] == -1){
+            return 200000;
+        }
+        visited[m][n] = true;
+
+        if(matrix[m][n] == 0){
+            matrix[m][n] = 0;
+            return 0;
+        } else if(matrix[m][n] == -1){
+            int up = dfs(matrix,m,n-1,visited)+1;
+            int down = dfs(matrix,m,n+1,visited)+1;
+
+
+            int left = dfs(matrix,m-1,n,visited)+1;
+
+            int right = dfs(matrix,m+1,n,visited)+1;
+            matrix[m][n] = Math.min(Math.min(up,down),Math.min(left,right));
+            if(matrix[m][n] ==3){
+                matrix[m][n] = Math.min(Math.min(up,down),Math.min(left,right));
+
+            }
+            return Math.min(Math.min(up,down),Math.min(left,right));
+        } else {
+            return matrix[m][n];
+        }
+    }
+    /**
+     * [
+     * [1,0,1,1,0,0,1,0,0,1],
+     * [0,1,1,0,1,0,1,0,1,1],
+     * [0,0,1,0,1,0,0,1,0,0],
+     * [1,0,1,0,1,1,1,1,1,1],
+     * [0,1,0,1,1,0,0,0,0,1],
+     * [0,0,1,0,1,1,1,0,1,0],
+     * [0,1,0,1,0,1,0,0,1,1],
+     * [1,0,0,0,1,1,1,1,0,1],
+     * [1,1,1,1,1,1,1,0,1,0],
+     * [1,1,1,1,0,1,0,0,1,1]
+     * ]
+     */
+
+    public static void main(String[] args) {
+        m_542_01_矩阵 m = new m_542_01_矩阵();
+        int[][] matrix = new int[10][10];
+        matrix[0] = new int[]{1,0,1,1,0,0,1,0,0,1};
+        matrix[1] = new int[]{0,1,1,0,1,0,1,0,1,1};
+        matrix[2] = new int[]{0,0,1,0,1,0,0,1,0,0};
+        matrix[3] = new int[]{1,0,1,0,1,1,1,1,1,1};
+        matrix[4] = new int[]{0,1,0,1,1,0,0,0,0,1};
+        matrix[5] = new int[]{0,0,1,0,1,1,1,0,1,0};
+        matrix[6] = new int[]{0,1,0,1,0,1,0,0,1,1};
+        matrix[7] = new int[]{1,0,0,0,1,1,1,1,0,1};
+        matrix[8] = new int[]{1,1,1,1,1,1,1,0,1,0};
+        matrix[9] = new int[]{1,1,1,1,0,1,0,0,1,1};
+        m.updateMatrix1(matrix);
+    }
 }

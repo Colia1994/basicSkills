@@ -27,24 +27,10 @@ import java.util.Arrays;
 public class m_322_零钱兑换 {
 
     /**
-     * 其中 c_jc
-     * j
-     * ​
-     * 代表的是第 jj 枚硬币的面值，即我们枚举最后一枚硬币面额是 c_jc
-     * j
-     * ​
-     * ，那么需要从 i-c_ji−c
-     * j
-     * ​
-     * 这个金额的状态 F(i-c_j)F(i−c
-     * j
-     * ​
-     * ) 转移过来，再算上枚举的这枚硬币数量 11 的贡献，由于要硬币数量最少，所以 F(i)F(i) 为前面能转移过来的状态的最小值加上枚举的硬币数量 11 。
-     * <p>
-     * 作者：LeetCode-Solution
-     * 链接：https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/
-     * 来源：力扣（LeetCode）
-     * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+     * 合为amount最小硬币数目 为 min(dp[amount-1] ,dp[amount-2],dp[amount-5])
+     * dp[11]  min(dp[10],dp[9],[6]) + 1
+     * 0 1 2 3 4 5 6 7 8 9 10 11
+     * 0 1 1 2 2 1 2 2 3 3 2 3
      *
      * @param coins  硬币集合
      * @param amount 合
@@ -53,15 +39,23 @@ public class m_322_零钱兑换 {
     public int coinChange(int[] coins, int amount) {
         int max = amount + 1;
         int[] dp = new int[amount + 1];
+        //全部填充最大值，1为了min函数不被0取到，2 为了找到万一不存在匹配的场景
         Arrays.fill(dp, max);
         dp[0] = 0;
         for (int i = 1; i <= amount; i++) {
-            for (int j = 0; j < coins.length; j++) {
-                if (coins[j] <= i) {
-                    dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
+            for (int coin : coins) {
+                if (coin <= i) {
+                    dp[i] = Math.min(dp[i], dp[i - coin] + 1);
                 }
             }
         }
         return dp[amount] > amount ? -1 : dp[amount];
     }
+
+    public static void main(String[] args) {
+        m_322_零钱兑换 m = new m_322_零钱兑换();
+        m.coinChange(new int[]{1, 2, 5}, 11);
+    }
+
+
 }
