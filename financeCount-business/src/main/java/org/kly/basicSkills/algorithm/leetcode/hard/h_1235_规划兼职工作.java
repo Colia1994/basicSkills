@@ -1,6 +1,5 @@
 package org.kly.basicSkills.algorithm.leetcode.hard;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -39,7 +38,9 @@ public class h_1235_规划兼职工作 {
         }
         Arrays.sort(jobs, Comparator.comparingInt(a -> a[1]));
 
+        //截止第i个job 最大利润
         int[] dp = new int[n + 1];
+        //第i个job前一个job
         int[] preJob = new int[n + 1];
 
         dp[0] = 0;

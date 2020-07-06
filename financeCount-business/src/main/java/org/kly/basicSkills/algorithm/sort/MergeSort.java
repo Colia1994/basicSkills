@@ -41,8 +41,8 @@ public class MergeSort {
         while (j >= mid + 1) {
             copy[k--] = nums[j--];
         }
-        for (int s = start; s <= end; s++) {
-            nums[s] = copy[s];
+        if (end + 1 - start >= 0) {
+            System.arraycopy(copy, start, nums, start, end + 1 - start);
         }
     }
 }

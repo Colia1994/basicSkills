@@ -2,9 +2,6 @@ package org.kly.basicSkills.algorithm.leetcode.easy;
 
 import org.kly.common.TreeNode;
 
-import java.util.Deque;
-import java.util.LinkedList;
-
 /**
  * 给定一个二叉树，计算整个树的坡度。
  * <p>

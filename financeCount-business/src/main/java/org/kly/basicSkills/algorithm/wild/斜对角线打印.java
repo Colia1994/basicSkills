@@ -51,7 +51,7 @@ public class 斜对角线打印 {
 
 
     public static void main(String[] args) {
-//        print(array);
+        print(array);
 //        CollectionUtils.;
         HashMap<String, String> newh = new HashMap<>();
         newh.put(null, null);

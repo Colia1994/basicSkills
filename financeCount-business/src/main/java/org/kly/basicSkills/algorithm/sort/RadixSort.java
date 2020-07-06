@@ -1,5 +1,7 @@
 package org.kly.basicSkills.algorithm.sort;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * 桶排序-基数排序
  * 时间复杂度 O(d(r+n))
@@ -10,4 +12,9 @@ package org.kly.basicSkills.algorithm.sort;
  * @Date 2018/12/28
  */
 public class RadixSort {
+
+    private void test(){
+        ReentrantLock lock = new ReentrantLock();
+        lock.lock();
+    }
 }

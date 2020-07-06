@@ -1,7 +1,5 @@
 package org.kly.common;
 
-import org.kly.basicSkills.algorithm.tree.BinaryTree;
-
 /**
  * @Author Colia
  * @Date 2020/3/18.

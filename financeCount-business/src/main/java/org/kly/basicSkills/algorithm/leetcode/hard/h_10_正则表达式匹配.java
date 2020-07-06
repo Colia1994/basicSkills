@@ -55,7 +55,7 @@ package org.kly.basicSkills.algorithm.leetcode.hard;
  */
 public class h_10_正则表达式匹配 {
 
-    public boolean isMatch(String s, String p) {
+    public boolean isMatch1(String s, String p) {
         int m = s.length();
         int n = p.length();
 
@@ -87,4 +87,33 @@ public class h_10_正则表达式匹配 {
         }
         return s.charAt(i - 1) == p.charAt(j - 1);
     }
+
+    //dp[][]
+
+    /**
+     * "mississippi"
+     * "mis*is*p*."
+     */
+    public boolean isMatch(String s, String p) {
+        boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
+        dp[0][0] = true;
+        for (int j = 1; j <= p.length(); j++) {
+            dp[0][j] = p.charAt(j - 1) == '*' && dp[0][j - 2];
+        }
+        for (int i = 1; i <= s.length(); i++) {
+            for (int j = 1; j <= p.length(); j++) {
+                if (p.charAt(j - 1) == s.charAt(i - 1) || p.charAt(j - 1) == '.') {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else if (p.charAt(j - 1) == '*') {
+                    //1 * p前第二个匹配s  则默许前一个重复0次
+                    //2 * p前一个匹配s 则默许p-1匹配0次 和前一个s匹配 （前提条件p前一个匹配s）
+                    dp[i][j] = dp[i][j - 2]
+                            || ((p.charAt(j - 2) == s.charAt(i - 1) || p.charAt(j - 2) == '.') && dp[i-1][j]);
+                }
+            }
+
+        }
+        return dp[s.length()][p.length()];
+    }
+
 }

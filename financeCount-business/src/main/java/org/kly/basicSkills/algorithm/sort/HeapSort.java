@@ -1,7 +1,5 @@
 package org.kly.basicSkills.algorithm.sort;
 
-import org.kly.utils.ArrayUtils;
-
 import static org.kly.utils.ArrayUtils.swap;
 
 /**

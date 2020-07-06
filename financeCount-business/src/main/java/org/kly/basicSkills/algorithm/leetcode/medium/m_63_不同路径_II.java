@@ -42,9 +42,10 @@ public class m_63_不同路径_II {
         int n = obstacleGrid[0].length;
 
 
+        //预先计算dp函数 便可知
+        //-1 代表一种走法 1 代表障碍物
         for (int i = 0; i < n; i++) {
             if (obstacleGrid[0][i] == 1) {
-                obstacleGrid[0][i] = 1;
                 break;
             } else {
                 obstacleGrid[0][i] = -1;
@@ -52,7 +53,6 @@ public class m_63_不同路径_II {
         }
         for (int i = 0; i < m; i++) {
             if (obstacleGrid[i][0] == 1) {
-                obstacleGrid[i][0] = 1;
                 break;
             } else {
                 obstacleGrid[i][0] = -1;
@@ -68,7 +68,7 @@ public class m_63_不同路径_II {
         if (obstacleGrid[m - 1][n - 1] > 0) {
             return 0;
         } else {
-            return 0 - obstacleGrid[m - 1][n - 1];
+            return -obstacleGrid[m - 1][n - 1];
         }
     }
 }

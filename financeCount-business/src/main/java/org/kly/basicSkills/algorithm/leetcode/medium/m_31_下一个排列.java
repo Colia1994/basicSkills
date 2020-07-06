@@ -1,9 +1,5 @@
 package org.kly.basicSkills.algorithm.leetcode.medium;
 
-import org.kly.utils.ArrayUtils;
-
-import java.util.Collections;
-
 /**
  * 实现获取下一个排列的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
  * <p>
