@@ -1,4 +1,4 @@
-package org.kly.basicSkills.designPattrens.singleton;
+package org.kly.basicSkills.designPattrens.创建型模式.单例模式;
 
 /**
  * 计时计数类
@@ -41,14 +41,15 @@ class CountTimer {
         return countTimer;
     }
 
-    /**
-     * 静态内部类
-     */
-    static CountTimer getCountTimerInnner() {
-        return InnerCountTimer.countTimer1;
-    }
 
-    private static class InnerCountTimer {
-        public final static CountTimer countTimer1 = new CountTimer();
-    }
+//    /**
+//     * 静态内部类
+//     */
+//    static CountTimer getCountTimerInner() {
+//        return InnerCountTimer.countTimer1;
+//    }
+//
+//    private static class InnerCountTimer {
+//        public final static CountTimer countTimer1 = new CountTimer();
+//    }
 }

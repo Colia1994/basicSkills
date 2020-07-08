@@ -1,5 +1,6 @@
 package org.kly.basicSkills.algorithm.leetcode.medium;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -84,52 +85,46 @@ public class m_542_01_矩阵 {
         int n = matrix[0].length;
         int[][] res = new int[m][n];
         boolean[][] visited = new boolean[m][n];
-        for(int i = 0 ;i<m;i++){
-            for(int j = 0;j<n;j++){
-                if(matrix[i][j] == 1){
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 1) {
                     matrix[i][j] = -1;
                 }
             }
         }
-        for(int i = 0 ;i<m;i++){
-            for(int j = 0;j<n;j++){
-                res[i][j] = dfs(matrix,i,j,visited);
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 0) {
+                    res[i][j] = 0;
+                } else {
+                    res[i][j] = 10000;
+                }
             }
         }
-
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i - 1 >= 0) {
+                    res[i][j] = Math.min(res[i][j], res[i - 1][j] + 1);
+                }
+                if (j - 1 >= 0) {
+                    res[i][j] = Math.min(res[i][j], res[i][j - 1] + 1);
+                }
+            }
+        }
+        for (int i = m - 1; i >= 0; i--) {
+            for (int j = n - 1; j >= 0; j--) {
+                if (i + 1 < m) {
+                    res[i][j] = Math.min(res[i][j], res[i + 1][j] + 1);
+                }
+                if (j + 1 < n) {
+                    res[i][j] = Math.min(res[i][j], res[i][j + 1] + 1);
+                }
+            }
+        }
         return res;
+
     }
 
-    private int dfs(int[][] matrix,int m, int n,boolean[][] visited){
-        if(m<0 || n<0 || m>=matrix.length||n>=matrix[0].length){
-            return 200000;
-        }
-        if(visited[m][n] && matrix[m][n] == -1){
-            return 200000;
-        }
-        visited[m][n] = true;
-
-        if(matrix[m][n] == 0){
-            matrix[m][n] = 0;
-            return 0;
-        } else if(matrix[m][n] == -1){
-            int up = dfs(matrix,m,n-1,visited)+1;
-            int down = dfs(matrix,m,n+1,visited)+1;
-
-
-            int left = dfs(matrix,m-1,n,visited)+1;
-
-            int right = dfs(matrix,m+1,n,visited)+1;
-            matrix[m][n] = Math.min(Math.min(up,down),Math.min(left,right));
-            if(matrix[m][n] ==3){
-                matrix[m][n] = Math.min(Math.min(up,down),Math.min(left,right));
-
-            }
-            return Math.min(Math.min(up,down),Math.min(left,right));
-        } else {
-            return matrix[m][n];
-        }
-    }
     /**
      * [
      * [1,0,1,1,0,0,1,0,0,1],
@@ -148,16 +143,18 @@ public class m_542_01_矩阵 {
     public static void main(String[] args) {
         m_542_01_矩阵 m = new m_542_01_矩阵();
         int[][] matrix = new int[10][10];
-        matrix[0] = new int[]{1,0,1,1,0,0,1,0,0,1};
-        matrix[1] = new int[]{0,1,1,0,1,0,1,0,1,1};
-        matrix[2] = new int[]{0,0,1,0,1,0,0,1,0,0};
-        matrix[3] = new int[]{1,0,1,0,1,1,1,1,1,1};
-        matrix[4] = new int[]{0,1,0,1,1,0,0,0,0,1};
-        matrix[5] = new int[]{0,0,1,0,1,1,1,0,1,0};
-        matrix[6] = new int[]{0,1,0,1,0,1,0,0,1,1};
-        matrix[7] = new int[]{1,0,0,0,1,1,1,1,0,1};
-        matrix[8] = new int[]{1,1,1,1,1,1,1,0,1,0};
-        matrix[9] = new int[]{1,1,1,1,0,1,0,0,1,1};
+        matrix[0] = new int[]{1, 0, 1, 1, 0, 0, 1, 0, 0, 1};
+        matrix[1] = new int[]{0, 1, 1, 0, 1, 0, 1, 0, 1, 1};
+        matrix[2] = new int[]{0, 0, 1, 0, 1, 0, 0, 1, 0, 0};
+        matrix[3] = new int[]{1, 0, 1, 0, 1, 1, 1, 1, 1, 1};
+        matrix[4] = new int[]{0, 1, 0, 1, 1, 0, 0, 0, 0, 1};
+        matrix[5] = new int[]{0, 0, 1, 0, 1, 1, 1, 0, 1, 0};
+        matrix[6] = new int[]{0, 1, 0, 1, 0, 1, 0, 0, 1, 1};
+        matrix[7] = new int[]{1, 0, 0, 0, 1, 1, 1, 1, 0, 1};
+        matrix[8] = new int[]{1, 1, 1, 1, 1, 1, 1, 0, 1, 0};
+        matrix[9] = new int[]{1, 1, 1, 1, 0, 1, 0, 0, 1, 1};
         m.updateMatrix1(matrix);
     }
+
+
 }
