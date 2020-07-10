@@ -19,6 +19,7 @@ package org.kly.basicSkills.algorithm.leetcode.easy;
  */
 public class e_121_买卖股票的最佳时机 {
 
+    //通俗理解
     public int maxProfit(int[] prices) {
         int length = prices.length;
         int i = 0, j = 0, profit = 0;
@@ -35,4 +36,46 @@ public class e_121_买卖股票的最佳时机 {
 
         return profit;
     }
+
+    /**
+     * dp[天][买入次数][0未持有 1持有]
+     * dp[i][1][0] = max(dp[i-1][1][0], dp[i-1][1][1] + prices[i])
+     * dp[i][1][1] = max(dp[i-1][1][1], dp[i-1][0][0] - prices[i]) = max(dp[i-1][1][1], -prices[i])
+     * 解释：k = 0 的 base case，所以 dp[i-1][0][0] = 0。
+     * <p>
+     * 现在发现 k 都是 1，不会改变，即 k 对状态转移已经没有影响了。
+     * 可以进行进一步化简去掉所有 k：
+     * dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+     * dp[i][1] = max(dp[i-1][1], -prices[i])
+     */
+    public int maxProfit1(int[] prices) {
+        if (prices.length <= 0) {
+            return 0;
+        }
+        int[][] dp = new int[prices.length][2];
+        dp[0][0] = 0;
+        dp[0][1] = -prices[0];
+
+        for (int i = 1; i < prices.length; i++) {
+            dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + prices[i]);
+            dp[i][1] = Math.max(dp[i - 1][1], -prices[i]);
+        }
+        return dp[prices.length - 1][0];
+    }
+
+    //dp优化
+    public int maxProfit2(int[] prices) {
+        if (prices.length <= 0) {
+            return 0;
+        }
+        int dp_i_0 = 0;
+        int dp_i_1 = -prices[0];
+
+        for (int i = 1; i < prices.length; i++) {
+            dp_i_0 = Math.max(dp_i_0, dp_i_1 + prices[i]);
+            dp_i_1 = Math.max(dp_i_1, -prices[i]);
+        }
+        return dp_i_0;
+    }
+
 }
