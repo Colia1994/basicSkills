@@ -61,7 +61,7 @@ public class m_215_数组中的第K个最大元素 {
 
     public static void main(String[] args) {
         m_215_数组中的第K个最大元素 m = new m_215_数组中的第K个最大元素();
-        int[] nums = new int[]{3, 2, 3, 1, 2, 4, 5, 5, 6};
+        int[] nums = new int[]{3, 2, 5, 70, 20, 4, -10, -2, 6};
         m.findKthLargest(nums, 4);
 
     }
