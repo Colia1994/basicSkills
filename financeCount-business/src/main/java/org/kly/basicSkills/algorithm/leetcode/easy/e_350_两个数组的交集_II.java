@@ -44,7 +44,7 @@ public class e_350_两个数组的交集_II {
             resMap.merge(i, 1, (k, v) -> ++k);
         }
         for (Integer j : nums2) {
-            if (resMap.computeIfPresent(j, (k, v) -> k >= 1 ?  --k: null) != null) {
+            if (resMap.computeIfPresent(j, (k, v) -> v >= 1 ?  --v: null) != null) {
                 res.add(j);
             }
         }
