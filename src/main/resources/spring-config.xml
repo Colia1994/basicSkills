@@ -10,19 +10,19 @@
        default-autowire="byName">
 
     <!-- AOP等自动扫描 -->
-<!--    <context:component-scan base-package="org.kly.basicSkills.aop"/>-->
+<!--    <context:component-scan base-package="org.kly.springCode.aop"/>-->
 <!--    <context:annotation-config/>-->
 
 <!--    &lt;!&ndash; 启用AspectJ自动代理 &ndash;&gt;-->
 <!--    <aop:aspectj-autoproxy/>-->
 
 
-<!--    <bean name="testAop" class="org.kly.basicSkills.aop.TestAop">-->
+<!--    <bean name="testAop" class="org.kly.springCode.aop.TestAop">-->
 <!--        <property name="aopService" ref="aopService"/>-->
 <!--    </bean>-->
 
 
-<!--    <bean name="aopService" class="org.kly.basicSkills.aop.impl.AopServiceImpl"/>-->
+<!--    <bean name="aopService" class="org.kly.springCode.aop.impl.AopServiceImpl"/>-->
 
 
     <!-- 配置切面 -->
