@@ -1,6 +1,5 @@
 package org.kly.tools;
 
-import com.alibaba.fastjson.JSONObject;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.config.CookieSpecs;
@@ -224,12 +223,12 @@ public class ToolsController {
         return result;
     }
 
-    public static void httpPostWithBody(String url, JSONObject jsonBody) {
+    public static void httpPostWithBody(String url, String json) {
         CloseableHttpResponse oResponse = null;
         String sResult;
         try {
             HttpPost oHttpPost = new HttpPost(url);
-            StringEntity oEntity = new StringEntity(jsonBody.toString(), "utf-8");//解决中文乱码问题
+            StringEntity oEntity = new StringEntity(json, "utf-8");//解决中文乱码问题
             oEntity.setContentEncoding("UTF-8");
             oEntity.setContentType("application/json");
             oHttpPost.setEntity(oEntity);
@@ -248,35 +247,7 @@ public class ToolsController {
         }
     }
 
-//    public static String httpUpload(String url, InputStream inputStream, Map<String, String> headers) {
-//        String result = null;
-//        CloseableHttpResponse response = null;
-//        try {
-//            MultipartEntityBuilder mEntityBuilder = MultipartEntityBuilder.create();
-//            mEntityBuilder.addBinaryBody("file", inputStream);
-//            HttpPost httpPost = new HttpPost(url);
-//            if (headers != null && headers.size() > 0) {
-//                for (Map.Entry<String, String> entry : headers.entrySet()) {
-//                    httpPost.setHeader(entry.getKey(), entry.getValue());
-//                }
-//            }
-//            httpPost.setEntity(mEntityBuilder.build());
-//            response = httpClient.execute(httpPost);
-//            result = EntityUtils.toString(response.getEntity());
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        } finally {
-//            if (response != null) {
-//                try {
-//                    response.close();
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//        }
-//
-//        return result;
-//    }
+
 
     public static InputStream httpDownload(String url) {
         CloseableHttpResponse response = null;

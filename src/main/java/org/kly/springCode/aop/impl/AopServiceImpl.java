@@ -1,11 +1,12 @@
 package org.kly.springCode.aop.impl;
 
 
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.JsonParser;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
-import org.codehaus.jackson.type.TypeReference;
+
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.kly.springCode.aop.AopService;
 import org.kly.springCode.aop.annotation.Validate;
 import org.springframework.stereotype.Service;
@@ -23,6 +24,7 @@ import java.util.Map;
 public class AopServiceImpl implements AopService {
 
     private static ObjectMapper mapper = new ObjectMapper();
+
 
     static {
 //        mapper.configure(JsonParser.Feature.ALLOW_COMMENTS, true);
