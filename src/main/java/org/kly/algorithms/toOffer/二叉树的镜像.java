@@ -1,6 +1,6 @@
 package org.kly.algorithms.toOffer;
 
-import org.kly.common.TreeNode;
+import org.kly.infrastructure.common.TreeNode;
 
 /**
  * 操作给定的二叉树，将其变换为源二叉树的镜像。

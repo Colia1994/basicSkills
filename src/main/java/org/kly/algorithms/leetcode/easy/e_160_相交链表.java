@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.easy;
 
-import org.kly.common.ListNode;
+import org.kly.infrastructure.common.ListNode;
 
 /**
  * 编写一个程序，找到两个单链表相交的起始节点。

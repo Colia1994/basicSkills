@@ -1,9 +1,8 @@
-# 随笔
-随笔记录
-最方便打开的无需加载多余pom，想写就写
+# 基本功
 
-1.leetCode
-2.平时偶遇的算法
-3.数据结构
-4.java特性
-5.spring
+一个程序员的基本功锻炼
+
+1.algorithms 算法与数据结构
+2.designPatterns 设计模式
+4.javaCode java相关，spring等
+5.infrastructure 基础设施 

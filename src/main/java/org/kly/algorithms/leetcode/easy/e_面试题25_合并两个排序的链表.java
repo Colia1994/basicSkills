@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.easy;
 
-import org.kly.common.ListNode;
+import org.kly.infrastructure.common.ListNode;
 
 /**
  * 面试题25. 合并两个排序的链表

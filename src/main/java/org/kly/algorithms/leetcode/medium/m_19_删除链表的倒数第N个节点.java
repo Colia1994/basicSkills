@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.medium;
 
-import org.kly.common.ListNode;
+import org.kly.infrastructure.common.ListNode;
 
 /**
  * 19. Remove Nth Node From End of List

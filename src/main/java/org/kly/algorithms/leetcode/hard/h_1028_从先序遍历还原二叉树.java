@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.hard;
 
-import org.kly.common.TreeNode;
+import org.kly.infrastructure.common.TreeNode;
 
 /**
  * 我们从二叉树的根节点 root 开始进行深度优先搜索。

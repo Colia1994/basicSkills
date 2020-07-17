@@ -1,7 +1,7 @@
 package org.kly.algorithms.sort;
 
-import org.kly.utils.ArrayUtils;
-import org.kly.utils.PrintUtils;
+import org.kly.infrastructure.utils.ArrayUtils;
+import org.kly.infrastructure.utils.PrintUtils;
 
 /**
  * 快排

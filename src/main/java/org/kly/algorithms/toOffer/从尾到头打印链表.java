@@ -1,7 +1,7 @@
 package org.kly.algorithms.toOffer;
 
 
-import org.kly.common.ListNode;
+import org.kly.infrastructure.common.ListNode;
 
 import java.util.ArrayList;
 

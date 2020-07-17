@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.easy;
 
-import org.kly.common.ListNode;
+import org.kly.infrastructure.common.ListNode;
 
 /**
  * 单向链表翻转

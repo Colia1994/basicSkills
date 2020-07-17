@@ -1,6 +1,6 @@
 package org.kly.algorithms.sort;
 
-import static org.kly.utils.ArrayUtils.swap;
+import static org.kly.infrastructure.utils.ArrayUtils.swap;
 
 /**
  * 堆排序-二叉树排序

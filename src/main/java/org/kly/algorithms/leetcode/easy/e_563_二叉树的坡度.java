@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.easy;
 
-import org.kly.common.TreeNode;
+import org.kly.infrastructure.common.TreeNode;
 
 /**
  * 给定一个二叉树，计算整个树的坡度。

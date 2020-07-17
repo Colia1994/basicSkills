@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.hard;
 
-import org.kly.common.TreeNode;
+import org.kly.infrastructure.common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Deque;

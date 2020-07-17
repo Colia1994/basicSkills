@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.medium;
 
-import org.kly.common.TreeNode;
+import org.kly.infrastructure.common.TreeNode;
 
 /**
  * 给你一个整数数组 nums，请你将该数组升序排列。

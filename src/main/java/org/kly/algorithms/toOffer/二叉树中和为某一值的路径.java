@@ -1,7 +1,7 @@
 package org.kly.algorithms.toOffer;
 
 
-import org.kly.common.TreeNode;
+import org.kly.infrastructure.common.TreeNode;
 
 import java.util.ArrayList;
 

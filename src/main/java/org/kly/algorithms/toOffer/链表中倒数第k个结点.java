@@ -1,6 +1,6 @@
 package org.kly.algorithms.toOffer;
 
-import org.kly.common.ListNode;
+import org.kly.infrastructure.common.ListNode;
 
 /**
  * 输入一个链表，输出该链表中倒数第k个结点。

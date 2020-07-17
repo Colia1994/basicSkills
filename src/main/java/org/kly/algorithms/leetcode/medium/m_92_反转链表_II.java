@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.medium;
 
-import org.kly.common.ListNode;
+import org.kly.infrastructure.common.ListNode;
 
 /**
  * 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。

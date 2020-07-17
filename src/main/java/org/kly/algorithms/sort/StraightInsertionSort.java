@@ -1,6 +1,6 @@
 package org.kly.algorithms.sort;
 
-import org.kly.utils.PrintUtils;
+import org.kly.infrastructure.utils.PrintUtils;
 
 /**
  * 插入排序-直接插入排序

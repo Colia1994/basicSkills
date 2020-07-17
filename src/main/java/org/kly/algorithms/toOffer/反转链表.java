@@ -1,6 +1,6 @@
 package org.kly.algorithms.toOffer;
 
-import org.kly.common.ListNode;
+import org.kly.infrastructure.common.ListNode;
 
 /**
  * 输入一个链表，反转链表后，输出新链表的表头。

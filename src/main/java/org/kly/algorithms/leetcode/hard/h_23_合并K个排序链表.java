@@ -1,6 +1,6 @@
 package org.kly.algorithms.leetcode.hard;
 
-import org.kly.common.ListNode;
+import org.kly.infrastructure.common.ListNode;
 
 /**
  * @Author Colia
