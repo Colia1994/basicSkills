@@ -1,5 +1,7 @@
 package org.kly;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -9,18 +11,19 @@ import java.util.concurrent.ConcurrentHashMap;
 public class App {
 
     public static void main(String[] args) {
-        String a ="abc";
-        String b = new String("abc");
-        System.out.println(a== b);
-        System.out.println(a.equals(b));
-        int a1 =1;
-        Integer b1 = new Integer(1);
-        System.out.println(a1== b1);
-        System.out.println(b1.equals(a1));
+        System.out.println(StringUtils.rightPad(String.valueOf(10), 19, "0"));
+        String test = "中文";
+        System.out.println(test.length());
+        try {
+            System.out.println(test.getBytes("gbk").length);
 
-        Map<Integer,Integer> imap = new ConcurrentHashMap<>();
+            System.out.println(new String(test.getBytes("gbk"), "gbk"));
+
+        } catch (Exception e) {
+
+        }
+
     }
-
 
 
 }
