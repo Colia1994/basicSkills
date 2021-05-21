@@ -2,26 +2,47 @@ package org.kly;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 /**
  * Hello world!
  */
 public class App {
 
+
+//    public static void main(String[] args) {
+//        System.out.println(StringUtils.rightPad(String.valueOf(10), 19, "0"));
+//        String test = "中文";
+//        System.out.println(test.length());
+//        try {
+//            System.out.println(test.getBytes("gbk").length);
+//
+//            System.out.println(new String(test.getBytes("gbk"), "gbk"));
+//
+//        } catch (Exception e) {
+//
+//        }
+//
+//    }
+
+
     public static void main(String[] args) {
-        System.out.println(StringUtils.rightPad(String.valueOf(10), 19, "0"));
-        String test = "中文";
-        System.out.println(test.length());
-        try {
-            System.out.println(test.getBytes("gbk").length);
+        BigDecimal amt = BigDecimal.ZERO;
 
-            System.out.println(new String(test.getBytes("gbk"), "gbk"));
+        BigDecimal pst = new BigDecimal("216.94");
 
-        } catch (Exception e) {
+        BigDecimal ist = new BigDecimal("0.1825");
+        int i = 0;
+        while (i < 20) {
+            BigDecimal bd = BigDecimal.valueOf(1.0 / 365).setScale(20, RoundingMode.HALF_UP);
+            bd = pst.multiply(ist).multiply(bd);
+            amt = amt.add(bd.setScale(4, RoundingMode.HALF_UP));
+            System.out.println(amt);
+            i++;
 
         }
+
 
     }
 
