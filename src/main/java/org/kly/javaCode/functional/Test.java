@@ -48,6 +48,13 @@ public class Test {
         DoubleSummaryStatistics collect = metricTrendValues.stream().filter(Objects::nonNull)
                 .collect(Collectors.summarizingDouble(value -> value));
         System.out.println(collect.getSum());
+
+        List<Double> metricTrendValues1 = null;
+        for(Double d: metricTrendValues1){
+            System.out.println(1);
+
+        }
+
     }
 
 
