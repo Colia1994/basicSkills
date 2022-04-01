@@ -20,85 +20,10 @@ import java.util.stream.Collectors;
 public class Order {
 
     public static void main(String[] args) {
-
-        List<MetricDimensionTrendValue> ret = new ArrayList<>();
-        ret.add(MetricDimensionTrendValue.builder()
-                .aggregateValue(10d)
-                .dimensionValue("100001")
-                .time(1645718400000L).build());
-        ret.add(MetricDimensionTrendValue.builder()
-                .aggregateValue(10d)
-                .dimensionValue("100002")
-                .time(1645718400000L).build());
-        ret.add(MetricDimensionTrendValue.builder()
-                .aggregateValue(10d)
-                .dimensionValue("100003")
-                .time(1645718400000L).build());
-        ret.add(MetricDimensionTrendValue.builder()
-                .aggregateValue(10d)
-                .dimensionValue("100001")
-                .time(1645804800000L).build());
-        ret.add(MetricDimensionTrendValue.builder()
-                .aggregateValue(10d)
-                .dimensionValue("100002")
-                .time(1645804800000L).build());
-        ret.add(MetricDimensionTrendValue.builder()
-                .aggregateValue(10d)
-                .dimensionValue("100003")
-                .time(1645804800000L).build());
-        ret.add(MetricDimensionTrendValue.builder()
-                .aggregateValue(10d)
-                .dimensionValue("100001")
-                .time(1645891200000L).build());
-        ret.add(MetricDimensionTrendValue.builder()
-                .aggregateValue(10d)
-                .dimensionValue("100002")
-                .time(1645891200000L).build());
-        ret.add(MetricDimensionTrendValue.builder()
-                .aggregateValue(10d)
-                .dimensionValue("100003")
-                .time(1645891200000L).build());
-
-        //维度聚合列表数据
-        Map<String, List<MetricTrendValue>> resultMap = ret.stream()
-                .collect(Collectors.toMap(
-                        //key是维度
-                        MetricDimensionTrendValue::getDimensionValue,
-                        //value是当前维度的趋势数据
-                        item -> Lists.newArrayList(MetricTrendValue.builder()
-                                .baseTrafficGroupId(item.getBaseTrafficGroupId())
-                                .time(item.getTime())
-                                .value(item.getValue())
-                                .trafficCount(item.getTrafficCount()).build()),
-                        //聚合逻辑
-                        (List<MetricTrendValue> newValueList, List<MetricTrendValue> oldValueList) -> {
-//                            oldValueList.addAll(newValueList);
-                            newValueList.addAll(oldValueList);
-                            return newValueList;
-                        }
-                ));
-        //维度聚合列表数据2
-        Map<String, List<MetricDimensionTrendValue>> resultMap2 = ret.stream().collect(Collectors.groupingBy(MetricDimensionTrendValue::getDimensionValue));
-
-        List<MetricTrendValue> list = resultMap.get("100003");
-        List<MetricDimensionTrendValue> list2 = resultMap2.get("100003");
-
-
-        LocalDate start = DateUtils.timestampToLocalDate(list.get(0).getTime());
-        LocalDate end = DateUtils.timestampToLocalDate(list.get(list.size() - 1).getTime());
-        int distance = Math.toIntExact(ChronoUnit.DAYS.between(start, end));
-        if (distance < 1) {
-            System.out.println(distance);
-        }
-        Map<LocalDate, MetricTrendValue> map = list.stream().collect(Collectors.toMap(i -> DateUtils.timestampToLocalDate(i.getTime()), Function.identity()));
-        int size = distance + 1;
-        List<MetricTrendValue> result = new ArrayList<>(size);
-        for (int i = 0; i < size; i++) {
-            LocalDate curDate = start.plusDays(i);
-            MetricTrendValue value = map.get(curDate);
-            result.add(value == null ? MetricTrendValue.builder().time(DateUtils.localDateToTimestamp(curDate)).build() : value);
-        }
-        System.out.println(result);
+        Double i = 0.79898d;
+        System.out.println(i.longValue());
+        System.out.println(i);
+        System.out.println(String.valueOf(i));
     }
 
     @Data
