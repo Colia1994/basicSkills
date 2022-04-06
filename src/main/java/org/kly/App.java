@@ -1,6 +1,8 @@
 package org.kly;
 
+import com.alibaba.fastjson.JSON;
 import org.apache.commons.lang3.StringUtils;
+import org.kly.javaCode.TestDO;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -28,21 +30,24 @@ public class App {
 
 
     public static void main(String[] args) {
-        BigDecimal amt = BigDecimal.ZERO;
-
-        BigDecimal pst = new BigDecimal("216.94");
-
-        BigDecimal ist = new BigDecimal("0.1825");
-        int i = 0;
-        while (i < 20) {
-            BigDecimal bd = BigDecimal.valueOf(1.0 / 365).setScale(20, RoundingMode.HALF_UP);
-            bd = pst.multiply(ist).multiply(bd);
-            amt = amt.add(bd.setScale(4, RoundingMode.HALF_UP));
-            System.out.println(amt);
-            i++;
-
-        }
-
+//        BigDecimal amt = BigDecimal.ZERO;
+//
+//        BigDecimal pst = new BigDecimal("216.94");
+//
+//        BigDecimal ist = new BigDecimal("0.1825");
+//        int i = 0;
+//        while (i < 20) {
+//            BigDecimal bd = BigDecimal.valueOf(1.0 / 365).setScale(20, RoundingMode.HALF_UP);
+//            bd = pst.multiply(ist).multiply(bd);
+//            amt = amt.add(bd.setScale(4, RoundingMode.HALF_UP));
+//            System.out.println(amt);
+//            i++;
+//
+//        }
+        TestDO testDO = new TestDO();
+        testDO.s1 = "1";
+        testDO.s2 = "2";
+        System.out.println(JSON.toJSONString(testDO));
 
     }
 
