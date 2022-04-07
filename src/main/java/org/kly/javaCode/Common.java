@@ -45,7 +45,8 @@ public class Common {
         System.out.println(a1.compareTo(a2) == 0);
 
 
-
+        TestEnum testEnum = TestEnum.valueOf("X");
+        System.out.println(testEnum);
     }
 
     public static Map<String, List<String>> getDiff(Object expected, Object actual, String[] verifyPropertyList) {
