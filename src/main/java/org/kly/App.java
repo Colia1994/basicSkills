@@ -1,8 +1,11 @@
 package org.kly;
 
 import com.alibaba.fastjson.JSON;
+import com.ql.util.express.DefaultContext;
+import com.ql.util.express.ExpressRunner;
 import org.apache.commons.lang3.StringUtils;
 import org.kly.javaCode.TestDO;
+import org.kly.javaCode.TestEnum;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -44,10 +47,33 @@ public class App {
 //            i++;
 //
 //        }
-        TestDO testDO = new TestDO();
-        testDO.s1 = "1";
-        testDO.s2 = "2";
-        System.out.println(JSON.toJSONString(testDO));
+
+        switch (TestEnum.N){
+            case N:
+                System.out.println("N");
+                break;
+
+            case Y:
+                System.out.println("Y");
+                break;
+
+        }
+//        DefaultContext<String,Object> context = new DefaultContext<>();
+//        context.put("d","{\"0\":\"A,B\",\"1\":\"D,C\"}");
+//        ExpressRunner runner = new ExpressRunner();
+//        String jsonRule = "{\"0\":\"C\",\"1\":\"D\"}";
+//
+//        String express = String.format("JSONAntMatch(d,'%s')", jsonRule);
+//        System.out.println(express);
+//
+//        try {
+//            Object result = runner.execute(express,context,null,false,false);
+//            System.out.println(result);
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
 
     }
 

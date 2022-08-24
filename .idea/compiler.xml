@@ -5,7 +5,7 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="basicSkills" target="8" />
+      <module name="basicSkills" target="1.8" />
       <module name="financeCount-business" target="1.5" />
       <module name="financeCount-entity" target="1.5" />
     </bytecodeTargetLevel>
