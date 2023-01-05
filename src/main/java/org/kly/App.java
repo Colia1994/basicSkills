@@ -9,71 +9,45 @@ import org.kly.javaCode.TestEnum;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Hello world!
  */
 public class App {
 
-
-//    public static void main(String[] args) {
-//        System.out.println(StringUtils.rightPad(String.valueOf(10), 19, "0"));
-//        String test = "中文";
-//        System.out.println(test.length());
-//        try {
-//            System.out.println(test.getBytes("gbk").length);
-//
-//            System.out.println(new String(test.getBytes("gbk"), "gbk"));
-//
-//        } catch (Exception e) {
-//
-//        }
-//
-//    }
-
-
     public static void main(String[] args) {
-//        BigDecimal amt = BigDecimal.ZERO;
-//
-//        BigDecimal pst = new BigDecimal("216.94");
-//
-//        BigDecimal ist = new BigDecimal("0.1825");
-//        int i = 0;
-//        while (i < 20) {
-//            BigDecimal bd = BigDecimal.valueOf(1.0 / 365).setScale(20, RoundingMode.HALF_UP);
-//            bd = pst.multiply(ist).multiply(bd);
-//            amt = amt.add(bd.setScale(4, RoundingMode.HALF_UP));
-//            System.out.println(amt);
-//            i++;
-//
-//        }
 
-        switch (TestEnum.N){
-            case N:
-                System.out.println("N");
-                break;
+        List<String> strList = new ArrayList<>();
+        strList.add("test");
+        strList.add("test01");
+        strList.add("test02");
+        strList.add("test03");
+        strList.add("test04");
+        System.out.println(Thread.currentThread().getName() + ":测试开始");
 
-            case Y:
-                System.out.println("Y");
-                break;
+//        strList.stream().parallel().forEach(App::printLog);
+//        strList.parallelStream().forEach(App::printLog);
+        strList.forEach(string -> {
+                   Runnable run = () -> App.printLog(string);
+                   System.out.println(Thread.currentThread());
+                   run.run();
+                }
+        );
 
+
+        System.out.println(Thread.currentThread().getName() + ":测试结束");
+
+    }
+
+    public static void printLog(String str) {
+        if (str.equals("test04")) {
+            System.out.println(Thread.currentThread().getName() + "error" + str);
+            throw new RuntimeException();
         }
-//        DefaultContext<String,Object> context = new DefaultContext<>();
-//        context.put("d","{\"0\":\"A,B\",\"1\":\"D,C\"}");
-//        ExpressRunner runner = new ExpressRunner();
-//        String jsonRule = "{\"0\":\"C\",\"1\":\"D\"}";
-//
-//        String express = String.format("JSONAntMatch(d,'%s')", jsonRule);
-//        System.out.println(express);
-//
-//        try {
-//            Object result = runner.execute(express,context,null,false,false);
-//            System.out.println(result);
-//
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
 
+        System.out.println(Thread.currentThread().getName() + str);
 
     }
 
