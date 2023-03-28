@@ -10,7 +10,8 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * 用了这个CF页面上的算法
  * Murmur哈希sh是一种非加密性的哈希函数 对规律性较强的key 随机分布（离散性）更好，redis sharding使用
- * Murmur哈希是一种非加密散列函数，适用于一般的基于散列的查找。它在2008年由Austin Appleby创建，在Github上托管，名为“SMHasher” 的测试套件。 它也存在许多变种，所有这些变种都已经被公开。 该名称来自两个基本操作，乘法（MU）和旋转（R），在其内部循环中使用。
+ * Murmur哈希是一种非加密散列函数，适用于一般的基于散列的查找。它在2008年由Austin Appleby创建，在Github上托管，
+ * 名为“SMHasher” 的测试套件。 它也存在许多变种，所有这些变种都已经被公开。 该名称来自两个基本操作，乘法（MU）和旋转（R），在其内部循环中使用。
  * 与加密散列函数不同，它不是专门设计为难以被对手逆转，因此不适用于加密目的。
  */
 public class HashUtils {
@@ -41,7 +42,7 @@ public class HashUtils {
     }
 
     /**
-     * murmurHash的32位有符号实现，返回的hash值有符号 seed只支持int
+     * murmurHash 的32位有符号实现，返回的hash值有符号 seed只支持int
      * 不知道摘抄自那个博客了
      */
     private static int hash(byte[] data, int offset, int length, int seed) {
@@ -210,13 +211,30 @@ public class HashUtils {
         return h;
     }
 
+
+    /**
+     * Long转换成无符号长整型
+     * Java的数据类型long与C语言中无符号长整型uint64_t有区别，导致Java输出版本存在负数
+     * @param value long
+     * @return Long
+     */
+    public static Long readUnsignedLong(long value) {
+        if (value >= 0){
+            return value;
+        }
+        return value & Long.MAX_VALUE;
+    }
+
+
     public static void main(String[] args) {
-        String key = "hello world";
-        System.out.println(hash32("1", 123));        // 输出32位哈希值
-        System.out.println(hash32("1", 123));        // 输出32位哈希值
-        System.out.println(hash64("1", 123));      // 输出64位哈希值
-        System.out.println(hash64("1", 123));      // 输出64位哈希值
-        System.out.println(hash64("1", 123L));      // 输出64位哈希值
+        String key = "hello world!1";
+        System.out.println(hash32(key, 123));        // 输出32位哈希值
+        System.out.println(hash32(key, 123));        // 输出32位哈希值
+
+        System.out.println(hash64(key, 123));      // 输出64位哈希值
+        System.out.println(hash64(key, 123));      // 输出64位哈希值
+        System.out.println(readUnsignedLong(hash64(key, 123)));      // 输出64位哈希值
+        System.out.println(hash64(key, 123L));      // 输出64位哈希值
     }
 
 }
