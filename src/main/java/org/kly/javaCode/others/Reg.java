@@ -1,8 +1,7 @@
 package org.kly.javaCode.others;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Map;
+import java.util.HashMap;
 
 /**
  * @Author konglingyao
@@ -11,13 +10,18 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Reg {
 
     public static void main(String[] args) {
-       String str = "<p>文本1<br/><a href= \"https://www.baidu.com\\\" target=\\\"\\\">https://www.baidu.com</a> 文本2<br/>文本3</p>";
+        String str = "{womenName} love {menName}";
 
-       System.out.println(str.replaceAll("<[^a][^>]+>",""));
-
-//        new Uint8Array("");
-
+        Map<String, String> jsonMap = new HashMap<>();
+        jsonMap.put("womenName", "zhanghui");
+        jsonMap.put("menName", "konglingyao");
+        for (Map.Entry<String, String> entry : jsonMap.entrySet()) {
+            str = str.replace("{" + entry.getKey() + "}", entry.getValue());
+        }
+        System.out.println(str);
 
 
     }
+
+
 }

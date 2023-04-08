@@ -236,5 +236,4 @@ public class HashUtils {
         System.out.println(readUnsignedLong(hash64(key, 123)));      // 输出64位哈希值
         System.out.println(hash64(key, 123L));      // 输出64位哈希值
     }
-
 }
