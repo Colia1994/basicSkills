@@ -19,37 +19,18 @@ public class App {
 
     public static void main(String[] args) {
 
-        List<String> strList = new ArrayList<>();
-        strList.add("test");
-        strList.add("test01");
-        strList.add("test02");
-        strList.add("test03");
-        strList.add("test04");
-        System.out.println(Thread.currentThread().getName() + ":测试开始");
-
-//        strList.stream().parallel().forEach(App::printLog);
-//        strList.parallelStream().forEach(App::printLog);
-        strList.forEach(string -> {
-                   Runnable run = () -> App.printLog(string);
-                   System.out.println(Thread.currentThread());
-                   run.run();
-                }
-        );
 
 
-        System.out.println(Thread.currentThread().getName() + ":测试结束");
+
+        String s1 = "i love {name} and {n1}";
+
+        String[] s2 =  s1.split("i");
+
+        System.out.println(s2[0]);
+
 
     }
 
-    public static void printLog(String str) {
-        if (str.equals("test04")) {
-            System.out.println(Thread.currentThread().getName() + "error" + str);
-            throw new RuntimeException();
-        }
-
-        System.out.println(Thread.currentThread().getName() + str);
-
-    }
 
 
 }
