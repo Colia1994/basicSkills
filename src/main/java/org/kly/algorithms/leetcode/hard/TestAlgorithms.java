@@ -1,5 +1,13 @@
 package org.kly.algorithms.leetcode.hard;
 
+import com.alibaba.fastjson.JSON;
+import net.minidev.json.JSONUtil;
+
+import javax.json.Json;
+import java.math.BigDecimal;
+import java.math.MathContext;
+import java.math.RoundingMode;
+
 /**
  * @Author konglingyao
  * @Date 2023/5/8
@@ -127,10 +135,63 @@ public class TestAlgorithms {
         }
     }
 
+//    public static void main(String[] args) {
+//        char[][] gird = new char[][]{{'#', '#', '#', '#', '#', '#'}, {'#', 'T', '.', '.', '#', '#'}, {'#', '.', '#', 'B', '.', '#'}, {'#', '.', '.', '.', '.', '#'}, {'#', '.', '.', '.', 'S', '#'}, {'#', '#', '#', '#', '#', '#'}};
+//        TestAlgorithms testAlgorithms = new TestAlgorithms();
+//        System.out.printf(testAlgorithms.minPushBox(gird) + "");
+//    }
+
+    //示例 1：
+    //
+    //输入：time = "?5:00"
+    //输出：2
+    //解释：我们可以将 ? 替换成 0 或 1 ，得到 "05:00" 或者 "15:00" 。注意我们不能替换成 2 ，因为时间 "25:00" 是无效时间。所以我们有两个选择。
+    //示例 2：
+    //
+    //输入：time = "0?:0?"
+    //输出：100
+    //解释：两个 ? 都可以被 0 到 9 之间的任意数字替换，所以我们总共有 100 种选择。
+    //示例 3：
+    //
+    //输入：time = "??:??"
+    //输出：1440
+    //解释：小时总共有 24 种选择，分钟总共有 60 种选择。所以总共有 24 * 60 = 1440 种选择。
     public static void main(String[] args) {
-        char[][] gird = new char[][]{{'#', '#', '#', '#', '#', '#'}, {'#', 'T', '.', '.', '#', '#'}, {'#', '.', '#', 'B', '.', '#'}, {'#', '.', '.', '.', '.', '#'}, {'#', '.', '.', '.', 'S', '#'}, {'#', '#', '#', '#', '#', '#'}};
         TestAlgorithms testAlgorithms = new TestAlgorithms();
-        System.out.printf(testAlgorithms.minPushBox(gird) + "");
+        System.out.printf(String.valueOf(testAlgorithms.countTime("07:?3")));
+    }
+
+
+    public int countTime(String time) {
+        if (time.length() != 5) {
+            return -1;
+        }
+
+        if (time.charAt(2) != ':') {
+            return -1;
+        }
+        int result = 1;
+        if (time.charAt(0) == '?' && time.charAt(1) == '?') {
+            result *= 24;
+        } else if ((time.charAt(0) == '0' || time.charAt(0) == '1') && time.charAt(1) == '?') {
+            result *= 10;
+        } else if (time.charAt(0) == '2' && time.charAt(1) == '?') {
+            result *= 4;
+        } else if (time.charAt(0) == '?' && time.charAt(1) - '0' > 3) {
+            result *= 2;
+        } else if (time.charAt(0) == '?' && time.charAt(1) - '0' < 4) {
+            result *= 3;
+        }
+
+        if (time.charAt(3) == '?' && time.charAt(4) == '?') {
+            result *= 60;
+        } else if (time.charAt(3) == '?') {
+            result *= 6;
+        } else if (time.charAt(4) == '?') {
+            result *= 10;
+        }
+
+        return result;
     }
     /**
      * {
