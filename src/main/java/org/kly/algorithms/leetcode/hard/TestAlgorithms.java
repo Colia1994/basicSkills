@@ -1,13 +1,5 @@
 package org.kly.algorithms.leetcode.hard;
 
-import com.alibaba.fastjson.JSON;
-import net.minidev.json.JSONUtil;
-
-import javax.json.Json;
-import java.math.BigDecimal;
-import java.math.MathContext;
-import java.math.RoundingMode;
-
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -254,7 +246,6 @@ public class TestAlgorithms {
         }
 
         return result;
-        System.out.printf(String.valueOf(testAlgorithms.minPushBox(gird)));
     }
 
     /**
