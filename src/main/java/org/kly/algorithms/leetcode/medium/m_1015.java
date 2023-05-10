@@ -1,21 +1,10 @@
-package org.kly.algorithms.leetcode.hard;
-
-import java.util.Deque;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Set;
+package org.kly.algorithms.leetcode.medium;
 
 /**
  * @Author konglingyao
- * @Date 2023/5/8
+ * @Date 2023/5/10
  */
-public class TestAlgorithms {
-
-    public static void main(String[] args) {
-        TestAlgorithms testAlgorithms =new TestAlgorithms();
-        System.out.println(testAlgorithms.smallestRepunitDivByK(2));
-    }
-
+public class m_1015 {
 
     public int smallestRepunitDivByK(int k) {
         if (k % 2 == 0 || k % 5 == 0) {
@@ -30,5 +19,4 @@ public class TestAlgorithms {
         }
         return len; // 返回数字长度
     }
-
 }
