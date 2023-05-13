@@ -1,18 +1,9 @@
-package org.kly.algorithms.leetcode.hard;
+package org.kly.algorithms.leetcode.easy;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-/**
- * @Author konglingyao
- * @Date 2023/5/8
- */
-public class TestAlgorithms {
-
-    public static void main(String[] args) {
-        TestAlgorithms testAlgorithms = new TestAlgorithms();
-        System.out.println(testAlgorithms.findMaxK(new int[]{-1, 2, -3, 3}));
-    }
-
+public class e_2441 {
 
     public int findMaxK(int[] nums) {
         int max = -1;
@@ -28,5 +19,4 @@ public class TestAlgorithms {
 
         return max;
     }
-
 }
