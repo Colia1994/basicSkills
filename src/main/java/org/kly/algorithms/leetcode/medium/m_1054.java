@@ -1,19 +1,6 @@
-package org.kly.algorithms.leetcode.hard;
+package org.kly.algorithms.leetcode.medium;
 
-import java.util.*;
-
-/**
- * @Author konglingyao
- * @Date 2023/5/8
- */
-public class TestAlgorithms {
-
-    public static void main(String[] args) {
-        TestAlgorithms testAlgorithms = new TestAlgorithms();
-        int[] res =  testAlgorithms.rearrangeBarcodes(new int[]{7,7,7,8,5,7,5,5,5,8});
-        System.out.println(res);
-    }
-
+public class m_1054 {
 
     public int[] rearrangeBarcodes(int[] barcodes) {
         //找出每个code的频率
@@ -56,5 +43,4 @@ public class TestAlgorithms {
 
         return res;
     }
-
 }
