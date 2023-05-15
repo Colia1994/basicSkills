@@ -38,6 +38,10 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
+  <component name="ExcludeFromValidation">
+    <file url="file://$PROJECT_DIR$/financeCount-business/src/main/java/org/kly/basicSkills/tableCommit/Validation/AbstractCustomerValidatorRule.java" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
