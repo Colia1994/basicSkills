@@ -1,18 +1,15 @@
-package org.kly.algorithms.leetcode.hard;
+package org.kly.algorithms.leetcode.medium;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
 
 /**
  * @Author konglingyao
- * @Date 2023/5/8
+ * @Date 2023/5/15
  */
-public class TestAlgorithms {
-
-    public static void main(String[] args) {
-        TestAlgorithms testAlgorithms = new TestAlgorithms();
-        int res = testAlgorithms.maxEqualRowsAfterFlips(new int[][]{{0, 1}, {1, 0}});
-        System.out.println(res);
-    }
+public class m_1072 {
 
     public int maxEqualRowsAfterFlips(int[][] matrix) {
         //完全相同 和完全相反的计数
@@ -72,5 +69,4 @@ public class TestAlgorithms {
         }
         return Objects.equals(Arrays.toString(a), Arrays.toString(b)) || res;
     }
-
 }
