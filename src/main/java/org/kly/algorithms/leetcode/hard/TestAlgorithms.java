@@ -10,67 +10,118 @@ public class TestAlgorithms {
 
     public static void main(String[] args) {
         TestAlgorithms testAlgorithms = new TestAlgorithms();
-        int res = testAlgorithms.maxEqualRowsAfterFlips(new int[][]{{0, 1}, {1, 0}});
+        int res = testAlgorithms.minDifficulty(new int[]{11, 111, 22, 222, 33, 333,44,444}, 6);
+//        int res = testAlgorithms.minDifficulty(new int[]{7, 1, 7, 1, 7, 1}, 3);
         System.out.println(res);
     }
 
-    public int maxEqualRowsAfterFlips(int[][] matrix) {
-        //完全相同 和完全相反的计数
-        Map<String, Integer> imap = new HashMap<>();
-        int max = 1;
-        for (int[] column : matrix) {
-            String key = convert2String(column);
-            Integer value = imap.get(key);
-            if (null == value) {
-                imap.put(key, 1);
-            } else {
-                value++;
-                max = Math.max(max, value);
-                imap.put(key, value);
+    public int minDifficulty(int[] jobDifficulty, int d) {
+        int length = jobDifficulty.length;
+        if (d > length) {
+            return -1;
+        }
+        int[][] f = new int[d + 1][length];
+        Map<String, Integer> maxRangeMap = new HashMap<>();
+        //初始化数据 辅助状态转移方程成立
+        for (int y = 0; y < length ; y++) {
+            f[1][y] = maxRangeValue(0,y,jobDifficulty,maxRangeMap);
+        }
+        for (int i = 2; i <= d; i++) {
+            for (int j = i - 1; j < length; j++) {
+                f[i][j] = minF(f, i, j, jobDifficulty, maxRangeMap);
             }
         }
-        return max;
+        return f[d][jobDifficulty.length - 1];
     }
 
-    private String convert2String(int[] column) {
-        boolean cv = column[0] == 0;
-
-        StringBuilder sb = new StringBuilder();
-        for (int a : column) {
-            sb.append(cv ? 1 - a : a);
+    private int minF(int[][] f, int i, int j, int[] jobDifficulty, Map<String, Integer> maxRangeMap) {
+        if (j == 0) {
+            return maxRangeValue(j, j, jobDifficulty, maxRangeMap);
         }
-        return sb.toString();
+        int min = Integer.MAX_VALUE;
+        for (int y = i - 1; y <= j; y++) {
+            int value = f[i - 1][y-1] + maxRangeValue(y , j, jobDifficulty, maxRangeMap);
+            min = Math.min(min, value);
+        }
+        return min;
     }
 
+    private int maxRangeValue(int start, int end, int[] jobDifficulty, Map<String, Integer> maxRangeMap) {
+        String key = start + "," + end;
+        if (start == end) {
+            maxRangeMap.put(key, jobDifficulty[end]);
+            return jobDifficulty[end];
+        } else {
+            String preKey = start + "," + (end - 1);
+            Integer preMax = maxRangeMap.get(preKey);
+            if (null != preMax) {
+                maxRangeMap.put(key, Math.max(preMax, jobDifficulty[end]));
+                return Math.max(preMax, jobDifficulty[end]);
+            } else {
+                int max = 0;
+                for (; start <= end; start++) {
+                    max = Math.max(max, jobDifficulty[start]);
+                }
+                maxRangeMap.put(key, max);
+                return max;
+            }
+        }
+    }
 
-    /**
-     * 理论上是对的 有几个case超时了 因为时间复杂度是 ologn 可以借助空间来优化为on
-     *
-     * @param matrix
-     * @return
-     */
-    public int maxEqualRowsAfterFlips_1(int[][] matrix) {
-        //找到不同行存在异或或者完全相同的数量，最多的就是列翻转后的想同列最多数量 这里不考虑翻转次数
-        int max = 1;
-
-        for (int y = 0; y < matrix.length; y++) {
-            int c_max = 0;
-            for (int y_1 = y; y_1 < matrix.length; y_1++) {
-                if (check_1(matrix[y], matrix[y_1])) {
-                    c_max++;
+    //官方默认解法和我一样 区别在于算f(x,y)我是用map节省运算，其实效果不大，官方直接扫描数组
+    //第二个 我的minF 可以优化 简化后就是官方样子
+    public int minDifficulty_gf_1(int[] jobDifficulty, int d) {
+        int n = jobDifficulty.length;
+        if (n < d) {
+            return -1;
+        }
+        int[][] dp = new int[d + 1][n];
+        for (int i = 0; i <= d; ++i) {
+            Arrays.fill(dp[i], 0x3f3f3f3f);
+        }
+        int ma = 0;
+        for (int i = 0; i < n; ++i) {
+            ma = Math.max(ma, jobDifficulty[i]);
+            dp[0][i] = ma;
+        }
+        for (int i = 1; i < d; ++i) {
+            for (int j = i; j < n; ++j) {
+                ma = 0;
+                for (int k = j; k >= i; --k) {
+                    ma = Math.max(ma, jobDifficulty[k]);
+                    dp[i][j] = Math.min(dp[i][j], ma + dp[i - 1][k - 1]);
                 }
             }
-            max = Math.max(max, c_max);
         }
-        return max;
+        return dp[d - 1][n - 1];
     }
 
-    private boolean check_1(int[] a, int[] b) {
-        boolean res = true;
-        for (int i = 0; i < a.length; i++) {
-            res &= a[i] != b[i];
+    public int minDifficulty_gf_2(int[] jobDifficulty, int d) {
+        int n = jobDifficulty.length;
+        if (n < d) {
+            return -1;
         }
-        return Objects.equals(Arrays.toString(a), Arrays.toString(b)) || res;
+        int[] dp = new int[n];
+        for (int i = 0, j = 0; i < n; ++i) {
+            j = Math.max(j, jobDifficulty[i]);
+            dp[i] = j;
+        }
+        for (int i = 1; i < d; ++i) {
+            int[] ndp = new int[n];
+            Arrays.fill(ndp, 0x3f3f3f3f);
+            for (int j = i; j < n; ++j) {
+                int ma = 0;
+                for (int k = j; k >= i; --k) {
+                    ma = Math.max(ma, jobDifficulty[k]);
+                    ndp[j] = Math.min(ndp[j], ma + dp[k - 1]);
+                }
+            }
+            dp = ndp;
+        }
+        return dp[n - 1];
     }
+
+
+
 
 }
