@@ -1,5 +1,6 @@
 package org.kly.algorithms.leetcode.hard;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -60,4 +61,58 @@ public class h_1335 {
             }
         }
     }
+
+    //官方默认解法和我一样 区别在于算f(x,y)我是用map节省运算，其实效果不大，官方直接扫描数组
+    //第二个 我的minF 可以优化 简化后就是官方样子
+    public int minDifficulty_gf_1(int[] jobDifficulty, int d) {
+        int n = jobDifficulty.length;
+        if (n < d) {
+            return -1;
+        }
+        int[][] dp = new int[d + 1][n];
+        for (int i = 0; i <= d; ++i) {
+            Arrays.fill(dp[i], 0x3f3f3f3f);
+        }
+        int ma = 0;
+        for (int i = 0; i < n; ++i) {
+            ma = Math.max(ma, jobDifficulty[i]);
+            dp[0][i] = ma;
+        }
+        for (int i = 1; i < d; ++i) {
+            for (int j = i; j < n; ++j) {
+                ma = 0;
+                for (int k = j; k >= i; --k) {
+                    ma = Math.max(ma, jobDifficulty[k]);
+                    dp[i][j] = Math.min(dp[i][j], ma + dp[i - 1][k - 1]);
+                }
+            }
+        }
+        return dp[d - 1][n - 1];
+    }
+
+    public int minDifficulty_gf_2(int[] jobDifficulty, int d) {
+        int n = jobDifficulty.length;
+        if (n < d) {
+            return -1;
+        }
+        int[] dp = new int[n];
+        for (int i = 0, j = 0; i < n; ++i) {
+            j = Math.max(j, jobDifficulty[i]);
+            dp[i] = j;
+        }
+        for (int i = 1; i < d; ++i) {
+            int[] ndp = new int[n];
+            Arrays.fill(ndp, 0x3f3f3f3f);
+            for (int j = i; j < n; ++j) {
+                int ma = 0;
+                for (int k = j; k >= i; --k) {
+                    ma = Math.max(ma, jobDifficulty[k]);
+                    ndp[j] = Math.min(ndp[j], ma + dp[k - 1]);
+                }
+            }
+            dp = ndp;
+        }
+        return dp[n - 1];
+    }
+
 }
