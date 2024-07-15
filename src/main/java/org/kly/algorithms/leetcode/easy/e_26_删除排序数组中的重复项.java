@@ -89,6 +89,22 @@ public class e_26_删除排序数组中的重复项 {
 
     public static void main(String[] args) {
         e_26_删除排序数组中的重复项 e = new e_26_删除排序数组中的重复项();
-        System.out.println(e.removeDuplicates(new int[]{0 ,0, 1, 1, 1, 2, 2, 3, 3, 4}));
+        System.out.println(e.removeDuplicates(new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}));
+    }
+
+
+    public int removeDuplicates_20240715(int[] nums) {
+        int i = 0, j = 1;
+
+        while (j<nums.length) {
+            if (nums[i] != nums[j]) {
+                nums[i+1] = nums[j];
+                i++;
+            }
+            j++;
+        }
+        return i+1;
+
+
     }
 }

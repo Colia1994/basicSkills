@@ -1,10 +1,12 @@
 package org.kly.javaCode;
 
 import com.alibaba.fastjson.JSON;
-import org.springframework.cglib.beans.BeanMap;
 
 import java.math.BigDecimal;
-import java.util.*;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeMap;
 
 /**
  * @Author konglingyao
@@ -49,24 +51,4 @@ public class Common {
         System.out.println(testEnum);
     }
 
-    public static Map<String, List<String>> getDiff(Object expected, Object actual, String[] verifyPropertyList) {
-        Map<String, List<String>> diff = new HashMap<>();
-        BeanMap expectedMap = BeanMap.create(expected);
-        BeanMap actualMap = BeanMap.create(actual);
-        for (String verifyProperty : verifyPropertyList) {
-
-            Object expectedValue = expectedMap.get(verifyProperty);
-            Object actualValue = actualMap.get(verifyProperty);
-            if (actualValue != null && expectedValue != null) {
-                if (!actualValue.equals(expectedValue)) {
-
-                }
-            }
-        }
-        if (diff.size() == 0) {
-            return null;
-        } else {
-            return diff;
-        }
-    }
 }

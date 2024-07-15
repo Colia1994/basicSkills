@@ -63,4 +63,29 @@ public class e_27_移除元素 {
         }
         return j;
     }
+
+
+    public static void main(String[] args) {
+
+        int[] nums = new int[]{0,1,2,2,3,0,4,2};
+        System.out.println( e_27_移除元素.removeElement_20240715(nums,2));
+    }
+
+
+    public static int removeElement_20240715(int[] nums, int val) {
+        int i = 0, j = nums.length - 1;
+
+        while (i <= j) {
+            if (nums[i] != val) {
+                i++;
+            } else {
+                //相同则和最后一个交换
+                nums[i] = nums[j];
+                j--;
+            }
+        }
+        return j+1;
+    }
+
+
 }
