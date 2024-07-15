@@ -1,18 +1,10 @@
-package org.kly.algorithms.leetcode.hard;
-
-import java.util.*;
+package org.kly.algorithms.leetcode.easy;
 
 /**
  * @Author konglingyao
- * @Date 2023/5/8
+ * @Date 2023/5/17
  */
-public class TestAlgorithms {
-
-    public static void main(String[] args) {
-        TestAlgorithms testAlgorithms = new TestAlgorithms();
-        boolean res = testAlgorithms.haveConflict(new String[]{"01:00", "02:00"}, new String[]{"02:00", "04:00"});
-        System.out.println(res);
-    }
+public class e_2446 {
 
     public boolean haveConflict(String[] event1, String[] event2) {
         int s1 = Integer.parseInt(event1[0].replace(":", ""));
@@ -22,6 +14,4 @@ public class TestAlgorithms {
 
         return !(s1 < s2 && e1 < s2) && !(s1 > e2 && e1 > e2);
     }
-
-
 }
