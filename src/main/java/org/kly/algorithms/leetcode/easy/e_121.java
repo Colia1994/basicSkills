@@ -17,7 +17,7 @@ package org.kly.algorithms.leetcode.easy;
  * @Author Colia
  * @Date 2020/3/9.
  */
-public class e_121_买卖股票的最佳时机 {
+public class e_121 {
 
     //通俗理解
     public int maxProfit(int[] prices) {

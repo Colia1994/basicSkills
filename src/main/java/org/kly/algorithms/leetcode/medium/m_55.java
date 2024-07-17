@@ -25,7 +25,7 @@ package org.kly.algorithms.leetcode.medium;
  * @Author Colia
  * @Date 2020/4/17.
  */
-public class m_55_跳跃游戏 {
+public class m_55 {
 
     public boolean canJump(int[] nums) {
         int n = nums.length;
