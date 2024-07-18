@@ -15,7 +15,7 @@ package org.kly.algorithms.leetcode.hard;
  * @Author Colia
  * @Date 2020/4/4.
  */
-public class h_42_接雨水 {
+public class h_42 {
 
 //    public int trap(int[] height) {
 //        int sum = 0;

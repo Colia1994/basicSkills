@@ -28,7 +28,7 @@ package org.kly.algorithms.leetcode.easy;
  * @Author konglingyao
  * @Date 2020/7/27
  */
-public class e_392_判断子序列 {
+public class e_392 {
 
     /**
      * 双指针

@@ -21,7 +21,7 @@ package org.kly.algorithms.leetcode.easy;
  * @Author konglingyao
  * @Date 2020/6/19
  */
-public class e_125_验证回文串 {
+public class e_125 {
 
     public boolean isPalindrome(String s) {
         s = s.replaceAll("[^0-9a-zA-Z]+","");
@@ -42,7 +42,7 @@ public class e_125_验证回文串 {
 
     public static void main(String[] args){
         String s = "A man, a plan, a canal: Panama";
-        e_125_验证回文串 e = new e_125_验证回文串();
+        e_125 e = new e_125();
         System.out.println(e.isPalindrome(s));
     }
 }

@@ -21,7 +21,7 @@ package org.kly.algorithms.leetcode.medium;
  * @Author konglingyao
  * @Date 2020/6/4 5:54 下午
  */
-public class m_238_除自身以外数组的乘积 {
+public class m_238 {
 
     public int[] productExceptSelf(int[] nums) {
 
@@ -44,7 +44,7 @@ public class m_238_除自身以外数组的乘积 {
 
     public static void main(String[] args) {
         int[] test01 = new int[]{1, 2, 3, 4};
-        m_238_除自身以外数组的乘积 test = new m_238_除自身以外数组的乘积();
+        m_238 test = new m_238();
         int[] test02 = test.productExceptSelf(test01);
         for (int i : test02) {
             System.out.println(i);

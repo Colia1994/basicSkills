@@ -41,12 +41,12 @@ import java.util.LinkedList;
  * @Author konglingyao
  * @Date 2020/7/1
  */
-public class e_20_有效的括号 {
+public class e_20 {
     // Hash table that takes care of the mappings.
     private HashMap<Character, Character> mappings;
 
     // Initialize hash map with mappings. This simply makes the code easier to read.
-    public e_20_有效的括号() {
+    public e_20() {
         this.mappings = new HashMap<>();
         this.mappings.put(')', '(');
         this.mappings.put('}', '{');
@@ -71,7 +71,7 @@ public class e_20_有效的括号 {
     }
 
     public static void main(String[] args){
-        e_20_有效的括号 e = new e_20_有效的括号();
+        e_20 e = new e_20();
         System.out.println(e.isValid("()"));
     }
 
