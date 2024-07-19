@@ -15,7 +15,7 @@ package org.kly.algorithms.leetcode.medium;
  * @Author konglingyao
  * @Date 2020/7/3
  */
-public class m_31_下一个排列 {
+public class m_31 {
 
     //1 从后向前找到存在的第一个 i 使得 nums[i-1] < nums[i]
     //2 如果存在i-end 则 必降序 寻找i-end中存在的第一个k 使得 num[i-1] < num[k] swap

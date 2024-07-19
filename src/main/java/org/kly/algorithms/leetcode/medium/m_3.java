@@ -29,7 +29,7 @@ import java.util.Set;
  * @author colia
  * @date 2018/12/16 0:42
  */
-public class m_3_无重复字符的最长子串 {
+public class m_3 {
 
 
     /**

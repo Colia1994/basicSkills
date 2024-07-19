@@ -20,7 +20,7 @@ import org.kly.infrastructure.common.ListNode;
  * @Author konglingyao
  * @Date 2020/7/1
  */
-public class m_24_两两交换链表中的节点 {
+public class m_24 {
 
 
     public ListNode swapPairs(ListNode head) {
@@ -51,7 +51,7 @@ public class m_24_两两交换链表中的节点 {
     }
 
     public static void main(String[] args) {
-        m_24_两两交换链表中的节点 m = new m_24_两两交换链表中的节点();
+        m_24 m = new m_24();
         ListNode n1 = new ListNode(1);
         n1.next = new ListNode(2);
 //        n1.next.next = new ListNode(3);

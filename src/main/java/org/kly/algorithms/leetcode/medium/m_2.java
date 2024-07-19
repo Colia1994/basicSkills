@@ -14,7 +14,7 @@ import org.kly.infrastructure.common.ListNode;
  * @author colia
  * @date 2018/12/16 0:35
  */
-public class m_2_两数相加 {
+public class m_2 {
 
     /**
      * @param l1 第一个数字链表

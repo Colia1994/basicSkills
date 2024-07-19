@@ -4,7 +4,7 @@ package org.kly.algorithms.leetcode.medium;
  * @Author Colia
  * @Date 2020/4/4.
  */
-public class m_8_字符串转换整数 {
+public class m_8 {
     public int myAtoi(String str) {
         char[] chars = str.toCharArray();
         int n = chars.length;

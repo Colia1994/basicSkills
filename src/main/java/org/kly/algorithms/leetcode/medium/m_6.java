@@ -33,7 +33,7 @@ import java.util.List;
  * @author colia
  * @date 2018/12/17 0:08
  */
-public class m_6_Z字形变换 {
+public class m_6 {
 
     /**
      * my first answer

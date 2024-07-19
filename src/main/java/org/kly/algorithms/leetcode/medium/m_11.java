@@ -11,7 +11,7 @@ import java.util.Map;
  * @Author Colia
  * @Date 2020/3/9.
  */
-public class m_11_盛最多水的容器 {
+public class m_11 {
     Map<String, String> imap = new HashMap<>();
 
     /**

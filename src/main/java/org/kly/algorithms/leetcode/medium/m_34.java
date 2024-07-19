@@ -23,7 +23,7 @@ package org.kly.algorithms.leetcode.medium;
  * @Author konglingyao
  * @Date 2020/5/25 4:01 下午
  */
-public class m_34_在排序数组中查找元素的第一个和最后一个位置 {
+public class m_34 {
 
 
     private int extremeInsertionIndex(int[] nums, int target, boolean left) {

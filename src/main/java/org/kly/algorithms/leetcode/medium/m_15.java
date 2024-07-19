@@ -24,7 +24,7 @@ import java.util.List;
  * @Author konglingyao
  * @Date 2020/6/12
  */
-public class m_15_三数之和 {
+public class m_15 {
 
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
@@ -59,7 +59,7 @@ public class m_15_三数之和 {
     }
 
     public static void main(String[] args) {
-        m_15_三数之和 m = new m_15_三数之和();
+        m_15 m = new m_15();
         m.threeSum(new int[]{-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6});
     }
 

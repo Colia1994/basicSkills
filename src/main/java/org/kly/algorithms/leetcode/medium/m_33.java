@@ -27,7 +27,7 @@ package org.kly.algorithms.leetcode.medium;
  * @Author konglingyao
  * @Date 2020/7/3
  */
-public class m_33_搜索旋转排序数组 {
+public class m_33 {
 
     //二分查找变种
     public int search(int[] nums, int target) {
@@ -63,7 +63,7 @@ public class m_33_搜索旋转排序数组 {
     }
 
     public static void main(String[] args) {
-        m_33_搜索旋转排序数组 m = new m_33_搜索旋转排序数组();
+        m_33 m = new m_33();
         m.search(new int[]{4, 5, 6, 7, 0, 1, 2}, 3);
     }
 }

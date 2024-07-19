@@ -17,7 +17,7 @@ package org.kly.algorithms.leetcode.medium;
  * @author colia
  * @date 2018/12/17 23:35
  */
-public class m_5_最长回文子串 {
+public class m_5 {
 
     /**
      * 第一次解答

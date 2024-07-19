@@ -23,7 +23,7 @@ import java.util.List;
  * @Author Colia
  * @Date 2020/3/31.
  */
-public class m_22_括号生成 {
+public class m_22 {
 
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();

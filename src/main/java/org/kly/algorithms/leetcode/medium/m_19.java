@@ -13,7 +13,7 @@ import org.kly.infrastructure.common.ListNode;
  * @author colia
  * @date 2018/12/26 0:19
  */
-public class m_19_删除链表的倒数第N个节点 {
+public class m_19 {
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         if (n == 0) {
             return head;
