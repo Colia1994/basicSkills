@@ -25,7 +25,7 @@ package org.kly.algorithms.leetcode.easy;
  * @Author konglingyao
  * @Date 2020/5/25 5:24 下午
  */
-public class e_9_回文数 {
+public class e_9 {
 
     public static boolean isPalindrome(int x) {
 
@@ -43,6 +43,6 @@ public class e_9_回文数 {
     }
 
     public static void main(String[] args) {
-        System.out.println(e_9_回文数.isPalindrome(121));
+        System.out.println(e_9.isPalindrome(121));
     }
 }

@@ -22,7 +22,7 @@ package org.kly.algorithms.leetcode.easy;
  * @Author konglingyao
  * @Date 2020/6/15
  */
-public class e_14_最长的公共前缀 {
+public class e_14 {
 
     public String longestCommonPrefix(String[] strs) {
         int minLength = Integer.MAX_VALUE;
@@ -52,7 +52,7 @@ public class e_14_最长的公共前缀 {
 
     public static void main(String[] args) {
         String[] strs = new String[]{"flower", "flow", "flight"};
-        e_14_最长的公共前缀 e = new e_14_最长的公共前缀();
+        e_14 e = new e_14();
         e.longestCommonPrefix(strs);
     }
 }

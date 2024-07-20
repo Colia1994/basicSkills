@@ -15,7 +15,7 @@ package org.kly.algorithms.leetcode.easy;
  * @author colia
  * @date 2018/12/6 0:56
  */
-public class e_1_两数之和 {
+public class e_1 {
 
     /**
      * 第一次答案 时间复杂度On 空间复杂度O1
