@@ -29,7 +29,7 @@ import java.util.HashMap;
  * @Author Colia
  * @Date 2020/3/18.
  */
-public class m_146_LRU缓存机制 {
+public class m_146 {
 
     /**
      * Your LRUCache object will be instantiated and called as such:

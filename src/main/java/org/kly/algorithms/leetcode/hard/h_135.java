@@ -30,7 +30,7 @@ import java.util.Arrays;
  * @Author konglingyao
  * @Date 2020/7/5
  */
-public class h_135_分发糖果 {
+public class h_135 {
 
     /**
      * 双向扫描 单数组
