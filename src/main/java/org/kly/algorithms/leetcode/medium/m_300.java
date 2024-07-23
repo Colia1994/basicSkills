@@ -17,7 +17,7 @@ package org.kly.algorithms.leetcode.medium;
  * @Author Colia
  * @Date 2020/3/14.
  */
-public class m_300_最长上升子序列 {
+public class m_300 {
 
 
     /**
