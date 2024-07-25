@@ -67,6 +67,20 @@ public class m_11 {
     }
 
 
+    public int maxArea_2024(int[] height) {
+        int x = 0, y = height.length-1;
+        int max = 0;
+        while (x < y) {
+            max = Math.max(Math.min(height[x], height[y]) * (y - x), max);
+            if (height[x] < height[y]) {
+                x++;
+            } else {
+                y--;
+            }
+        }
+        return max;
+    }
+
     public static void main(String[] args) {
 
         int[] height = new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7};
