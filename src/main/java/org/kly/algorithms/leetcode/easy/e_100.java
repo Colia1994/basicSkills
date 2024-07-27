@@ -38,7 +38,7 @@ import org.kly.infrastructure.common.TreeNode;
  * @Author Colia
  * @Date 2020/3/18.
  */
-public class e_100_相同的树 {
+public class e_100 {
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q != null) {

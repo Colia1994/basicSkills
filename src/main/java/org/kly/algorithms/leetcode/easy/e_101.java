@@ -23,7 +23,7 @@ import org.kly.infrastructure.common.TreeNode;
  * @author colia
  * @date 2018/12/25 21:34
  */
-public class e_101_对称二叉树 {
+public class e_101 {
 
 
     public boolean isSymmetric(TreeNode root) {
