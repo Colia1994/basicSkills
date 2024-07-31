@@ -39,10 +39,10 @@ public class e_面试题_17_16_按摩师 {
         }
         int num_i0 = 0, num_i1 = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            int t0 = Math.max(num_i0, num_i1);
-            int t1 = num_i0 + nums[i];
-            num_i0 = t0;
-            num_i1 = t1;
+            //第i个不接，则取前一个的最大
+            num_i0 = Math.max(num_i0, num_i1);
+            //第i个接，则前一个一定不能接要休息
+            num_i1 = num_i0 + nums[i];
         }
         return Math.max(num_i0, num_i1);
     }
