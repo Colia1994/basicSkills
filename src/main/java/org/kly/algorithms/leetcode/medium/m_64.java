@@ -23,7 +23,7 @@ package org.kly.algorithms.leetcode.medium;
  * @Author Colia
  * @Date 2020/3/30.
  */
-public class m_64_最小路径和 {
+public class m_64 {
 
     public int minPathSum(int[][] grid) {
         int m = grid.length;
