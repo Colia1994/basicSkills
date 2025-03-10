@@ -60,4 +60,14 @@ public class m_24 {
 
         m.swapPairs(n1);
     }
+
+    public ListNode swapPairs_2024(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode nhead = head.next;
+        head.next = swapPairs_2024(nhead.next);
+        nhead.next = head;
+        return nhead;
+    }
 }

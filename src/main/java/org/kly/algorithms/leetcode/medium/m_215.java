@@ -22,18 +22,24 @@ package org.kly.algorithms.leetcode.medium;
  * @Author konglingyao
  * @Date 2020/6/29
  */
-public class m_215_数组中的第K个最大元素 {
+public class m_215 {
 
     public int findKthLargest(int[] nums, int k) {
-        int p = partition(nums, 0, nums.length - 1);
-        while (p != k - 1) {
-            if (p > k - 1) {
-                p = partition(nums, 0, p - 1);
+        int n = nums.length;
+        int l = 0, r = n - 1;
+        int p = partition(nums, l, r);
+        while (p != n - k) {
+            if (p > n - k) {
+                r = p - 1;
+                p = partition(nums, l, r);
+
             } else {
-                p = partition(nums, p + 1, nums.length - 1);
+
+                l = p + 1;
+                p = partition(nums, l, r);
             }
         }
-        return nums[k];
+        return nums[p];
 
     }
 
@@ -60,7 +66,7 @@ public class m_215_数组中的第K个最大元素 {
     }
 
     public static void main(String[] args) {
-        m_215_数组中的第K个最大元素 m = new m_215_数组中的第K个最大元素();
+        m_215 m = new m_215();
         int[] nums = new int[]{3, 2, 5, 70, 20, 4, -10, -2, 6};
         m.findKthLargest(nums, 4);
 

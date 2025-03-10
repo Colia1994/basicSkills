@@ -20,7 +20,7 @@ import org.kly.infrastructure.common.ListNode;
  * @Author konglingyao
  * @Date 2020/7/8
  */
-public class m_92_反转链表_II {
+public class m_92 {
 
     public ListNode reverseBetween(ListNode head, int m, int n) {
         // Empty list

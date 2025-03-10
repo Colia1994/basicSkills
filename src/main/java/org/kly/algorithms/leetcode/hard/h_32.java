@@ -24,7 +24,7 @@ import java.util.LinkedList;
  * @Author Colia
  * @Date 2020/3/30.
  */
-public class h_32_最长有效括号 {
+public class h_32 {
 
     //动态规划 dp数组记录i位置结尾的最长有效括号
     //推导 当i为左括号（ 则为0
@@ -47,10 +47,26 @@ public class h_32_最长有效括号 {
         return max;
     }
 
-    //栈
+    //栈 "(()"
     public int longestValidParentheses1(String s) {
         Deque<Integer> stack = new LinkedList<>();
-        return 0;
+        stack.push(-1);
+        int max = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                stack.push(i);
+            } else {
+                stack.pop();
+                if(stack.isEmpty()){
+                    stack.push(i);
+                } else {
+                    max = Math.max(max, stack.peek());
+                }
+            }
+
+        }
+
+        return max;
     }
 
     //双向扫描
