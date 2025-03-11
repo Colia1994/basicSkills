@@ -28,7 +28,7 @@ import java.util.List;
  * @Author konglingyao
  * @Date 2020/6/5 10:53 上午
  */
-public class m_54_螺旋矩阵 {
+public class m_54 {
 
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
@@ -73,11 +73,55 @@ public class m_54_螺旋矩阵 {
         return result;
     }
 
+    /**
+     * 2025-03-10 重写
+     */
+    public static List<Integer> spiralOrder20250310(int[][] matrix) {
 
+        List<Integer> res = new ArrayList<>();
 
-    public static void main (String[] args){
-        int[] i = new int[10];
-        System.out.println(i.length);
+        int leftY = 0, topX = 0, rightY = matrix[0].length - 1, underX = matrix.length - 1;
+
+        int x = 0, y = 0;
+        while (res.size() < (matrix.length) * (matrix[0].length)) {
+            //第一行 x不变 移动y
+            for (; y <= rightY && y >= leftY && x <= underX && x >= topX;
+                 y++) {
+                res.add(matrix[x][y]);
+            }
+            topX++;
+            //最后一列
+            y--;
+            x++;
+            for (; y <= rightY && y >= leftY && x <= underX && x >= topX; x++) {
+                res.add(matrix[x][y]);
+            }
+            x--;
+            y--;
+            rightY--;
+            //最后一行 反方向
+            for (; y <= rightY && y >= leftY && x <= underX && x >= topX; y--) {
+                res.add(matrix[x][y]);
+            }
+            y++;
+            x--;
+            underX--;
+            //第一列 反方向
+            for (; y <= rightY && y >= leftY && x <= underX && x >= topX; x--) {
+                res.add(matrix[x][y]);
+            }
+            x++;
+            y++;
+            leftY++;
+        }
+
+        return res;
+
+    }
+
+    public static void main(String[] args) {
+        int[][] intNum = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        m_54.spiralOrder20250310(intNum);
     }
 
 
